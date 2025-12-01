@@ -382,4 +382,6 @@
   (lib (name "UNITED_TRANSISTORS_DATA_BASE")(type "KiCad")(uri "${KIPRJMOD}/KiCAD_Symbols_Generator/symbols/UNITED_TRANSISTORS_DATA_BASE.kicad_sym")(options "")(descr ""))
   (lib (name "UNITED_UFL_CONNECTORS_DATA_BASE")(type "KiCad")(uri "${KIPRJMOD}/KiCAD_Symbols_Generator/symbols/UNITED_UFL_CONNECTORS_DATA_BASE.kicad_sym")(options "")(descr ""))
   (lib (name "UNITED_USB_TYPE_C_CONNECTORS_DATA_BASE")(type "KiCad")(uri "${KIPRJMOD}/KiCAD_Symbols_Generator/symbols/UNITED_USB_TYPE_C_CONNECTORS_DATA_BASE.kicad_sym")(options "")(descr ""))
+  (lib (name "TRANSISTORS_SIS438DN-T1-GE3_DATA_BASE")(type "KiCad")(uri "${KIPRJMOD}/KiCAD_Symbols_Generator/series_kicad_sym/TRANSISTORS_SIS438DN-T1-GE3_DATA_BASE.kicad_sym")(options "")(descr ""))
+  (lib (name "CAPACITORS_GRM185R61E_DATA_BASE")(type "KiCad")(uri "${KIPRJMOD}/KiCAD_Symbols_Generator/series_kicad_sym/CAPACITORS_GRM185R61E_DATA_BASE.kicad_sym")(options "")(descr ""))
 )
