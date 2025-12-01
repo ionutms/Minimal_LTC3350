@@ -1,0 +1,471 @@
+name: Generate KiCad Documentation
+on:
+  push:
+    branches: [ doc_workflow ]
+  workflow_dispatch:
+
+jobs:
+  generate-kicad-outputs:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Find KiCad project files
+        id: find-files
+        run: |
+          PROJECT_FILE=$(find . -name "*.kicad_pro" | head -n 1)
+          
+          if [ -z "$PROJECT_FILE" ]; then
+            echo "No KiCad project files found"
+            echo "project_found=false" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+          
+          PROJECT_DIR=$(dirname "$PROJECT_FILE")
+          PROJECT_NAME=$(basename "$PROJECT_FILE" .kicad_pro)
+          
+          echo "PROJECT_FILE: $PROJECT_FILE"
+          echo "PROJECT_DIR: $PROJECT_DIR"
+          echo "PROJECT_NAME: $PROJECT_NAME"
+          
+          SCHEMATIC_FILE=$(find "$PROJECT_DIR" -name "${PROJECT_NAME}.kicad_sch" | head -n 1)
+          PCB_FILE=$(find "$PROJECT_DIR" -name "${PROJECT_NAME}.kicad_pcb" | head -n 1)
+          
+          echo "project_file=$PROJECT_FILE" >> $GITHUB_OUTPUT
+          echo "project_found=true" >> $GITHUB_OUTPUT
+          echo "project_name=$PROJECT_NAME" >> $GITHUB_OUTPUT
+          echo "project_dir=$PROJECT_DIR" >> $GITHUB_OUTPUT
+          
+          if [ -z "$SCHEMATIC_FILE" ]; then
+            echo "schematic_found=false" >> $GITHUB_OUTPUT
+          else
+            echo "schematic_file=$SCHEMATIC_FILE" >> $GITHUB_OUTPUT
+            echo "schematic_found=true" >> $GITHUB_OUTPUT
+          fi
+          
+          if [ -z "$PCB_FILE" ]; then
+            echo "pcb_found=false" >> $GITHUB_OUTPUT
+          else
+            echo "pcb_file=$PCB_FILE" >> $GITHUB_OUTPUT
+            echo "pcb_found=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Skip if project files not found
+        if: steps.find-files.outputs.project_found != 'true'
+        run: |
+          echo "No KiCad project found. Skipping workflow."
+          exit 0
+
+      - name: Determine default branch
+        id: default-branch
+        if: steps.find-files.outputs.project_found == 'true'
+        run: |
+          DEFAULT_BRANCH=$(git remote show origin | grep 'HEAD branch' | cut -d' ' -f5)
+          echo "default_branch=$DEFAULT_BRANCH" >> $GITHUB_OUTPUT
+          echo "Default branch is: $DEFAULT_BRANCH"
+
+      - name: Checkout default branch
+        if: steps.find-files.outputs.project_found == 'true'
+        run: |
+          DEFAULT_BRANCH="${{ steps.default-branch.outputs.default_branch }}"
+          git fetch origin $DEFAULT_BRANCH
+          git checkout $DEFAULT_BRANCH || git checkout -b $DEFAULT_BRANCH
+
+      - name: Create and set permissions on project-specific output directories
+        if: steps.find-files.outputs.project_found == 'true'
+        run: |
+          PROJECT_NAME="${{ steps.find-files.outputs.project_name }}"
+          rm -rf "${PROJECT_NAME}/docs/schematics" "${PROJECT_NAME}/docs/bom" "${PROJECT_NAME}/docs/pictures" "${PROJECT_NAME}/docs/3d_models"
+          mkdir -p "$PROJECT_NAME/docs/schematics" "$PROJECT_NAME/docs/bom" "$PROJECT_NAME/docs/pictures" "$PROJECT_NAME/docs/3d_models"
+          chmod -R 777 "$PROJECT_NAME/docs"
+          echo "Created project-specific directories at $PROJECT_NAME/docs"
+
+      - name: Install yq for YAML parsing
+        if: steps.find-files.outputs.pcb_found == 'true'
+        run: |
+          sudo wget -qO /usr/local/bin/yq https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64
+          sudo chmod +x /usr/local/bin/yq
+
+      - name: Parse KiCad configuration and generate render commands
+        id: parse-config
+        if: steps.find-files.outputs.pcb_found == 'true'
+        run: |
+          CONFIG_FILE=".github/kicad-config.yml"
+          
+          if [ ! -f "$CONFIG_FILE" ]; then
+            echo "Configuration file not found. Using defaults."
+            echo "render_commands=" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+          
+          PROJECT_NAME="${{ steps.find-files.outputs.project_name }}"
+          PCB_FILE="${{ steps.find-files.outputs.pcb_file }}"
+          
+          # Initialize commands array
+          COMMANDS=""
+          
+          # Get all view names from the config
+          VIEW_NAMES=$(yq eval '.views | keys | .[]' "$CONFIG_FILE")
+          
+          # Generate a command for each view
+          for VIEW in $VIEW_NAMES; do
+            echo "Processing view: $VIEW"
+            
+            # Extract parameters with defaults
+            PREFIX=$(yq eval ".views.$VIEW.prefix // \"\"" "$CONFIG_FILE")
+            SUFFIX=$(yq eval ".views.$VIEW.suffix // \"_$VIEW\"" "$CONFIG_FILE")
+            ZOOM=$(yq eval ".views.$VIEW.zoom_factor // .defaults.zoom_factor // 1.0" "$CONFIG_FILE")
+            ROTATE=$(yq eval ".views.$VIEW.rotate // .defaults.rotate // \"0,0,0\"" "$CONFIG_FILE")
+            PAN=$(yq eval ".views.$VIEW.pan // .defaults.pan // \"0,0,0\"" "$CONFIG_FILE")
+            LIGHT=$(yq eval ".views.$VIEW.light_elevation // .defaults.light_elevation // 60" "$CONFIG_FILE")
+            SIDE=$(yq eval ".views.$VIEW.side // .defaults.side // \"top\"" "$CONFIG_FILE")
+            HIDE_FOOTPRINTS=$(yq eval ".views.$VIEW.hide_footprints // []" "$CONFIG_FILE")
+            SHOW_FOOTPRINTS=$(yq eval ".views.$VIEW.show_footprints // []" "$CONFIG_FILE")
+            OFFSET_FOOTPRINTS=$(yq eval ".views.$VIEW.offset_footprints // []" "$CONFIG_FILE")
+            HIDE_FOOTPRINTS_BY_INDEX=$(yq eval ".views.$VIEW.hide_footprints_by_index // []" "$CONFIG_FILE")
+            SHOW_FOOTPRINTS_BY_INDEX=$(yq eval ".views.$VIEW.show_footprints_by_index // []" "$CONFIG_FILE")
+            OFFSET_FOOTPRINTS_BY_INDEX=$(yq eval ".views.$VIEW.offset_footprints_by_index // []" "$CONFIG_FILE")
+            
+            # Store footprints that need to be restored after rendering
+            RESTORE_HIDE_FOOTPRINTS=""
+            RESTORE_SHOW_FOOTPRINTS=""
+            RESTORE_OFFSET_FOOTPRINTS=""
+            
+            # Handle footprint hiding for this view
+            if [ "$HIDE_FOOTPRINTS" != "[]" ] && [ "$HIDE_FOOTPRINTS" != "null" ]; then
+              FOOTPRINTS=$(echo "$HIDE_FOOTPRINTS" | yq eval '.[]' -)
+              for FOOTPRINT in $FOOTPRINTS; do
+                HIDE_CMD="python3 /kicad_project/.github/kicad_footprint_manager.py /kicad_project/$PCB_FILE $FOOTPRINT --hide"
+                if [ -z "$COMMANDS" ]; then
+                  COMMANDS="$HIDE_CMD"
+                else
+                  COMMANDS="$COMMANDS && $HIDE_CMD"
+                fi
+                # Mark for restoration (show after render)
+                if [ -z "$RESTORE_HIDE_FOOTPRINTS" ]; then
+                  RESTORE_HIDE_FOOTPRINTS="$FOOTPRINT"
+                else
+                  RESTORE_HIDE_FOOTPRINTS="$RESTORE_HIDE_FOOTPRINTS $FOOTPRINT"
+                fi
+              done
+            fi
+            
+            # Handle footprint showing for this view
+            if [ "$SHOW_FOOTPRINTS" != "[]" ] && [ "$SHOW_FOOTPRINTS" != "null" ]; then
+              FOOTPRINTS=$(echo "$SHOW_FOOTPRINTS" | yq eval '.[]' -)
+              for FOOTPRINT in $FOOTPRINTS; do
+                SHOW_CMD="python3 /kicad_project/.github/kicad_footprint_manager.py /kicad_project/$PCB_FILE $FOOTPRINT --show"
+                if [ -z "$COMMANDS" ]; then
+                  COMMANDS="$SHOW_CMD"
+                else
+                  COMMANDS="$COMMANDS && $SHOW_CMD"
+                fi
+                # Mark for restoration (hide after render)
+                if [ -z "$RESTORE_SHOW_FOOTPRINTS" ]; then
+                  RESTORE_SHOW_FOOTPRINTS="$FOOTPRINT"
+                else
+                  RESTORE_SHOW_FOOTPRINTS="$RESTORE_SHOW_FOOTPRINTS $FOOTPRINT"
+                fi
+              done
+            fi
+            
+            # Handle footprint hiding by index for this view
+            if [ "$HIDE_FOOTPRINTS_BY_INDEX" != "[]" ] && [ "$HIDE_FOOTPRINTS_BY_INDEX" != "null" ]; then
+              # Get the number of hide entries
+              HIDE_COUNT=$(echo "$HIDE_FOOTPRINTS_BY_INDEX" | yq eval 'length' -)
+              for i in $(seq 0 $((HIDE_COUNT - 1))); do
+                FOOTPRINT=$(yq eval ".views.$VIEW.hide_footprints_by_index[$i].reference" "$CONFIG_FILE")
+                INDEX=$(yq eval ".views.$VIEW.hide_footprints_by_index[$i].index" "$CONFIG_FILE")
+                
+                if [ "$FOOTPRINT" != "null" ] && [ "$INDEX" != "null" ]; then
+                  HIDE_BY_INDEX_CMD="python3 /kicad_project/.github/kicad_footprint_manager.py /kicad_project/$PCB_FILE $FOOTPRINT --hide --idx $INDEX"
+                  if [ -z "$COMMANDS" ]; then
+                    COMMANDS="$HIDE_BY_INDEX_CMD"
+                  else
+                    COMMANDS="$COMMANDS && $HIDE_BY_INDEX_CMD"
+                  fi
+                  # Mark for restoration (show after render) - this is more complex for index-based operations
+                fi
+              done
+            fi
+            
+            # Handle footprint showing by index for this view
+            if [ "$SHOW_FOOTPRINTS_BY_INDEX" != "[]" ] && [ "$SHOW_FOOTPRINTS_BY_INDEX" != "null" ]; then
+              # Get the number of show entries
+              SHOW_COUNT=$(echo "$SHOW_FOOTPRINTS_BY_INDEX" | yq eval 'length' -)
+              for i in $(seq 0 $((SHOW_COUNT - 1))); do
+                FOOTPRINT=$(yq eval ".views.$VIEW.show_footprints_by_index[$i].reference" "$CONFIG_FILE")
+                INDEX=$(yq eval ".views.$VIEW.show_footprints_by_index[$i].index" "$CONFIG_FILE")
+                
+                if [ "$FOOTPRINT" != "null" ] && [ "$INDEX" != "null" ]; then
+                  SHOW_BY_INDEX_CMD="python3 /kicad_project/.github/kicad_footprint_manager.py /kicad_project/$PCB_FILE $FOOTPRINT --show --idx $INDEX"
+                  if [ -z "$COMMANDS" ]; then
+                    COMMANDS="$SHOW_BY_INDEX_CMD"
+                  else
+                    COMMANDS="$COMMANDS && $SHOW_BY_INDEX_CMD"
+                  fi
+                fi
+              done
+            fi
+            
+            # Handle footprint offset by index for this view
+            if [ "$OFFSET_FOOTPRINTS_BY_INDEX" != "[]" ] && [ "$OFFSET_FOOTPRINTS_BY_INDEX" != "null" ]; then
+              # Get the number of offset entries
+              OFFSET_BY_INDEX_COUNT=$(echo "$OFFSET_FOOTPRINTS_BY_INDEX" | yq eval 'length' -)
+              for i in $(seq 0 $((OFFSET_BY_INDEX_COUNT - 1))); do
+                FOOTPRINT=$(yq eval ".views.$VIEW.offset_footprints_by_index[$i].reference" "$CONFIG_FILE")
+                INDEX=$(yq eval ".views.$VIEW.offset_footprints_by_index[$i].index" "$CONFIG_FILE")
+                OFFSET_X=$(yq eval ".views.$VIEW.offset_footprints_by_index[$i].x // 0" "$CONFIG_FILE")
+                OFFSET_Y=$(yq eval ".views.$VIEW.offset_footprints_by_index[$i].y // 0" "$CONFIG_FILE")
+                OFFSET_Z=$(yq eval ".views.$VIEW.offset_footprints_by_index[$i].z // 0" "$CONFIG_FILE")
+                
+                if [ "$FOOTPRINT" != "null" ] && [ "$INDEX" != "null" ]; then
+                  OFFSET_BY_INDEX_CMD="python3 /kicad_project/.github/kicad_footprint_manager.py /kicad_project/$PCB_FILE $FOOTPRINT --offset $OFFSET_X $OFFSET_Y $OFFSET_Z --idx $INDEX"
+                  if [ -z "$COMMANDS" ]; then
+                    COMMANDS="$OFFSET_BY_INDEX_CMD"
+                  else
+                    COMMANDS="$COMMANDS && $OFFSET_BY_INDEX_CMD"
+                  fi
+                fi
+              done
+            fi
+            
+            # Handle footprint offset for this view (existing functionality)
+            if [ "$OFFSET_FOOTPRINTS" != "[]" ] && [ "$OFFSET_FOOTPRINTS" != "null" ]; then
+              # Get the number of offset entries
+              OFFSET_COUNT=$(echo "$OFFSET_FOOTPRINTS" | yq eval 'length' -)
+              for i in $(seq 0 $((OFFSET_COUNT - 1))); do
+                FOOTPRINT=$(yq eval ".views.$VIEW.offset_footprints[$i].reference" "$CONFIG_FILE")
+                OFFSET_X=$(yq eval ".views.$VIEW.offset_footprints[$i].x // 0" "$CONFIG_FILE")
+                OFFSET_Y=$(yq eval ".views.$VIEW.offset_footprints[$i].y // 0" "$CONFIG_FILE")
+                OFFSET_Z=$(yq eval ".views.$VIEW.offset_footprints[$i].z // 0" "$CONFIG_FILE")
+                
+                if [ "$FOOTPRINT" != "null" ]; then
+                  OFFSET_CMD="python3 /kicad_project/.github/kicad_footprint_manager.py /kicad_project/$PCB_FILE $FOOTPRINT --offset $OFFSET_X $OFFSET_Y $OFFSET_Z"
+                  if [ -z "$COMMANDS" ]; then
+                    COMMANDS="$OFFSET_CMD"
+                  else
+                    COMMANDS="$COMMANDS && $OFFSET_CMD"
+                  fi
+                  # Mark for restoration (reverse offset after render) - use python for negation
+                  NEG_X=$(python3 -c "print(-1 * $OFFSET_X)")
+                  NEG_Y=$(python3 -c "print(-1 * $OFFSET_Y)")
+                  NEG_Z=$(python3 -c "print(-1 * $OFFSET_Z)")
+                  if [ -z "$RESTORE_OFFSET_FOOTPRINTS" ]; then
+                    RESTORE_OFFSET_FOOTPRINTS="$FOOTPRINT:$NEG_X:$NEG_Y:$NEG_Z"
+                  else
+                    RESTORE_OFFSET_FOOTPRINTS="$RESTORE_OFFSET_FOOTPRINTS|$FOOTPRINT:$NEG_X:$NEG_Y:$NEG_Z"
+                  fi
+                fi
+              done
+            fi
+            
+            # Build the render command
+            CMD="kicad-cli pcb render /kicad_project/$PCB_FILE"
+            CMD="$CMD -o \"/kicad_project/$PROJECT_NAME/docs/pictures/${PREFIX}${PROJECT_NAME}${SUFFIX}.png\""
+            CMD="$CMD --background transparent"
+            CMD="$CMD --quality high"
+            CMD="$CMD --light-side-elevation $LIGHT"
+            CMD="$CMD --side $SIDE"
+            CMD="$CMD --rotate $ROTATE"
+            CMD="$CMD --pan $PAN"
+            CMD="$CMD --zoom $ZOOM"
+            
+            # Add to commands list
+            if [ -z "$COMMANDS" ]; then
+              COMMANDS="$CMD"
+            else
+              COMMANDS="$COMMANDS && $CMD"
+            fi
+            
+
+          done
+          
+          # Save commands to output (properly escaped for multi-line)
+          echo "render_commands<<EOF" >> $GITHUB_OUTPUT
+          echo "$COMMANDS" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+          
+          echo "Generated render commands for views: $VIEW_NAMES"
+          echo "=== Full command chain ==="
+          echo "$COMMANDS"
+
+      - name: Pull KiCad Docker image
+        if: steps.find-files.outputs.project_found == 'true'
+        run: docker pull ionutms/kicad_9:V1.1
+
+      - name: Generate KiCad outputs
+        if: steps.find-files.outputs.project_found == 'true'
+        run: |
+          PROJECT_NAME="${{ steps.find-files.outputs.project_name }}"
+          RENDER_COMMANDS="${{ steps.parse-config.outputs.render_commands }}"
+          
+          docker run --rm -u $(id -u):$(id -g) \
+            -v ${{ github.workspace }}:/kicad_project \
+            -e HOME=/tmp/home \
+            ionutms/kicad_9:V1.1 \
+            bash -c "set -e && \
+              mkdir -p /tmp/3D_Models_Vault && \
+              git clone https://github.com/ionutms/3D_Models_Vault.git /tmp/3D_Models_Vault && \
+              mkdir -p /tmp/home/.config/kicad/9.0/colors /tmp/home/.local/share/kicad/9.0/3rdparty/colors && \
+              export HOME=/tmp/home && \
+              echo '{\"environment\":{\"vars\":{\"KICAD9_3D_MODELS_VAULT\":\"/tmp/3D_Models_Vault/\"}}}' > /tmp/home/.config/kicad/9.0/kicad_common.json && \
+              
+              if [ '${{ steps.find-files.outputs.schematic_found }}' == 'true' ]; then
+                git clone --depth 1 https://github.com/AlexanderBrevig/kicad-gruvbox-theme.git /tmp/kicad-gruvbox-theme && \
+                cp /tmp/kicad-gruvbox-theme/colors/Gruvbox.json /tmp/home/.local/share/kicad/9.0/3rdparty/colors/ && \
+                kicad-cli sch export pdf \
+                  --output '/tmp/schematic.pdf' \
+                  '/kicad_project/${{ steps.find-files.outputs.schematic_file }}' \
+                  -t gruvbox && \
+                cp /tmp/schematic.pdf \"/kicad_project/$PROJECT_NAME/docs/schematics/${PROJECT_NAME}_schematics.pdf\"
+              fi && \
+              
+              if [ '${{ steps.find-files.outputs.pcb_found }}' == 'true' ] && [ -n '$RENDER_COMMANDS' ]; then
+                $RENDER_COMMANDS
+              fi && \
+              
+              if [ '${{ steps.find-files.outputs.pcb_found }}' == 'true' ]; then
+                cd /tmp && \
+                generate_ibom \
+                  --show-fields=Reference,Value,Footprint \
+                  --group-fields=Value,Footprint \
+                  --name-format=\"${PROJECT_NAME}_ibom\" \
+                  --no-browser \
+                  --dest-dir=/tmp \
+                  '/kicad_project/${{ steps.find-files.outputs.pcb_file }}' && \
+                if [ -f \"/tmp/${PROJECT_NAME}_ibom.html\" ]; then
+                  mv \"/tmp/${PROJECT_NAME}_ibom.html\" \"/kicad_project/$PROJECT_NAME/docs/bom/\"
+                else
+                  echo 'Generated BOM file not found in expected location'
+                  find /tmp -name '*ibom*.html' 2>/dev/null || true
+                fi
+              fi"
+
+      - name: Check for generated files
+        id: check-files
+        if: steps.find-files.outputs.project_found == 'true'
+        run: |
+          PROJECT_NAME="${{ steps.find-files.outputs.project_name }}"
+          
+          PDF_COUNT=$(find "${PROJECT_NAME}/docs/schematics" -type f -name "*.pdf" | wc -l || echo "0")
+          PNG_COUNT=$(find "${PROJECT_NAME}/docs/pictures" -type f -name "*.png" | wc -l || echo "0")
+          HTML_COUNT=$(find "${PROJECT_NAME}/docs/bom" -type f -name "*.html" | wc -l || echo "0")
+          TOTAL_COUNT=$((PDF_COUNT + PNG_COUNT + HTML_COUNT))
+
+          echo "Found $PDF_COUNT PDF files, $PNG_COUNT PNG files, and $HTML_COUNT HTML files in ${PROJECT_NAME}/docs"
+          
+          if [ "$TOTAL_COUNT" -gt 0 ]; then
+            echo "files_generated=true" >> $GITHUB_OUTPUT
+            echo "Files generated successfully"
+          else
+            echo "files_generated=false" >> $GITHUB_OUTPUT
+            echo "No files were generated, checking for errors..."
+          fi
+
+      - name: Upload outputs as artifacts
+        if: steps.find-files.outputs.project_found == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: kicad-outputs-${{ steps.find-files.outputs.project_name }}
+          path: |
+            ${{ steps.find-files.outputs.project_name }}/docs/schematics/
+            ${{ steps.find-files.outputs.project_name }}/docs/bom/
+            ${{ steps.find-files.outputs.project_name }}/docs/pictures/
+          retention-days: 1
+          if-no-files-found: warn
+
+      - name: Configure Git
+        if: steps.check-files.outputs.files_generated == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+
+      - name: Commit and push changes
+        if: steps.check-files.outputs.files_generated == 'true'
+        run: |
+          PROJECT_NAME="${{ steps.find-files.outputs.project_name }}"
+          git add "${PROJECT_NAME}/docs/schematics" "${PROJECT_NAME}/docs/bom" "${PROJECT_NAME}/docs/pictures"
+          
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            echo "Committing changes"
+            git commit -m "Update KiCad documentation for ${PROJECT_NAME} (schematics and PCB renders)"
+            git push origin HEAD || git push -u origin HEAD
+          fi
+
+      - name: Trigger 3D Models Generation Workflow
+        if: steps.check-files.outputs.files_generated == 'true'
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.REPO_DISPATCH_TOKEN }}
+          event-type: generate-3d-models
+          client-payload: |
+            {
+              "source_repo": "${{ github.repository }}",
+              "project_name": "${{ steps.find-files.outputs.project_name }}",
+              "ref": "${{ github.ref }}",
+              "sha": "${{ github.sha }}"
+            }
+
+      - name: Run Symbol Check
+        if: steps.check-files.outputs.files_generated == 'true'
+        run: |
+          SOURCE_REPO="${{ github.repository }}"
+          SOURCE_REF="${{ github.sha }}"
+          PROJECT_NAME="${{ steps.find-files.outputs.project_name }}"
+          PICTURES_PATH="$PROJECT_NAME/docs/pictures"
+          
+          echo "Running symbol check for repository: $SOURCE_REPO"
+          echo "Source ref: $SOURCE_REF"
+          echo "Pictures path: $PICTURES_PATH"
+          
+          MAX_RETRIES=3
+          RETRY_COUNT=0
+          
+          while [ $RETRY_COUNT -lt $MAX_RETRIES ]; do
+            HTTP_RESPONSE=$(curl -s -w "\n%{http_code}" -X POST \
+              -H "Accept: application/vnd.github.v3+json" \
+              -H "Authorization: token ${{ secrets.REPO_DISPATCH_TOKEN }}" \
+              https://api.github.com/repos/ionutms/KiCAD_Symbols_Generator/dispatches \
+              -d "{
+                \"event_type\": \"check_pictures\",
+                \"client_payload\": {
+                  \"source_repo\": \"$SOURCE_REPO\",
+                  \"source_ref\": \"$SOURCE_REF\",
+                  \"pictures_path\": \"$PICTURES_PATH\"
+                }
+              }")
+            
+            HTTP_STATUS=$(echo "$HTTP_RESPONSE" | tail -n1)
+            RESPONSE_BODY=$(echo "$HTTP_RESPONSE" | sed '$d')
+            
+            if [ "$HTTP_STATUS" -eq 204 ] || [ "$HTTP_STATUS" -eq 200 ]; then
+              echo "✅ Symbol check triggered successfully"
+              echo "Response: $RESPONSE_BODY"
+              break
+            else
+              echo "⚠️ Attempt $((RETRY_COUNT + 1)) failed with HTTP status: $HTTP_STATUS"
+              echo "Response: $RESPONSE_BODY"
+              RETRY_COUNT=$((RETRY_COUNT + 1))
+              
+              if [ $RETRY_COUNT -lt $MAX_RETRIES ]; then
+                WAIT_TIME=$((RETRY_COUNT * 30))
+                echo "Waiting $WAIT_TIME seconds before retry..."
+                sleep $WAIT_TIME
+              fi
+            fi
+          done
+          
+          if [ $RETRY_COUNT -ge $MAX_RETRIES ]; then
+            echo "❌ Failed to trigger symbol check after $MAX_RETRIES attempts"
+            echo "This may be due to GitHub API rate limits or other issues."
+            exit 1
+          fi
