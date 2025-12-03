@@ -492,6 +492,8 @@
       "version": 4
     },
     "net_colors": {
+      "/VIN": "rgb(0, 132, 0)",
+      "/VOUT": "rgb(0, 132, 132)",
       "GND": "rgb(132, 132, 132)"
     },
     "netclass_assignments": null,

@@ -1230,6 +1230,240 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "INDUCTORS_XAL7030_DATA_BASE:L_XAL7030-332ME"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "3.3 µH"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "inductor_footprints:XAL7030"
+				(at 0 -5.08 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf"
+				(at 0 -7.62 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "INDUCTOR SMD 3.3 µH ±20%"
+				(at 0 -10.16 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN" "XAL7030-332ME"
+				(at 0 -12.7 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Coilcraft"
+				(at 0 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Maximum DC Current (A)" "10.0"
+				(at 0 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Maximum DC Resistance (mΩ)" "21.45"
+				(at 0 -20.32 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Series" "XAL7030"
+				(at 0 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Symbol Name" "L_XAL7030-332ME"
+				(at 0 -25.4 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "±20%"
+				(at 0 -27.94 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Trustedparts Search" "https://www.trustedparts.com/en/search/XAL7030-332ME"
+				(at 0 -30.48 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "L_XAL7030-332ME_1_1"
+				(arc
+					(start -5.08 0.0056)
+					(mid -3.81 1.27)
+					(end -2.54 0.0056)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 0.0056)
+					(mid -1.27 1.27)
+					(end 0 0.0056)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0.0056)
+					(mid 1.27 1.27)
+					(end 2.54 0.0056)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 0.0056)
+					(mid 3.81 1.27)
+					(end 5.08 0.0056)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "RESISTORS_ERJ-2RKF_DATA_BASE:R_ERJ-2RKF1003X"
 			(pin_names
 				(offset 0.254)
@@ -2635,6 +2869,287 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "RESISTORS_PRL1632-_DATA_BASE:R_PRL1632-R006-F-T1"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "0.006 Ω"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "resistor_footprints:R_0612_1632Metric"
+				(at 0 -5.08 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.susumu.co.jp/common/pdf/n_catalog_partition07_en.pdf"
+				(at 0 -7.62 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "RES SMD 0.006 Ω 1% 0612"
+				(at 0 -10.16 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Case Code - in" "0612"
+				(at 0 -12.7 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Case Code - mm" "1632"
+				(at 0 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Component Type" "Resistor"
+				(at 0 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN" "PRL1632-R006-F-T1"
+				(at 0 -20.32 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Susumu"
+				(at 0 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Series" "PRL1632-"
+				(at 0 -25.4 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Symbol Name" "R_PRL1632-R006-F-T1"
+				(at 0 -27.94 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Temperature Coefficient" ""
+				(at 0 -30.48 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "1%"
+				(at 0 -33.02 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Trustedparts Search" "https://www.trustedparts.com/en/search/PRL1632-R006-F-T1"
+				(at 0 -35.56 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Voltage Rating" ""
+				(at 0 -38.1 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "R_PRL1632-R006-F-T1_0_1"
+				(polyline
+					(pts
+						(xy -2.286 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 0) (xy -1.905 1.016) (xy -1.524 0) (xy -1.143 -1.016) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 0) (xy -0.381 1.016) (xy 0 0) (xy 0.381 -1.016) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0) (xy 1.143 1.016) (xy 1.524 0) (xy 1.905 -1.016) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_PRL1632-R006-F-T1_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "RESISTORS_PRL1632-_DATA_BASE:R_PRL1632-R016-F-T1"
 			(pin_names
 				(offset 0.254)
@@ -3228,7 +3743,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 38.1 81.28 0)
+				(at 33.02 81.28 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -3237,7 +3752,7 @@
 				)
 			)
 			(property "Value" "LTC3350EUHF-PBF"
-				(at 38.1 78.74 0)
+				(at 33.02 78.74 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -3246,7 +3761,7 @@
 				)
 			)
 			(property "Footprint" "analog_devices_footprints:QFN-38_UHF_LIT"
-				(at 38.1 -83.82 0)
+				(at 33.02 -83.82 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3257,7 +3772,7 @@
 				)
 			)
 			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ltc3350.pdf"
-				(at 38.1 -78.74 0)
+				(at 33.02 -78.74 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3268,7 +3783,7 @@
 				)
 			)
 			(property "Description" "High Current Supercapacitor Backup Controller and System Monitor"
-				(at 38.1 -81.28 0)
+				(at 33.02 -81.28 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3278,7 +3793,7 @@
 				)
 			)
 			(property "MPN" "LTC3350EUHF#PBF"
-				(at 38.1 -86.36 0)
+				(at 33.02 -86.36 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3289,8 +3804,8 @@
 			)
 			(symbol "U_LTC3350EUHF-PBF_0_1"
 				(rectangle
-					(start -38.1 76.2)
-					(end 38.1 -76.2)
+					(start -33.02 76.2)
+					(end 33.02 -76.2)
 					(stroke
 						(width 0)
 						(type default)
@@ -3300,7 +3815,7 @@
 					)
 				)
 				(pin input line
-					(at -40.64 71.12 0)
+					(at -35.56 71.12 0)
 					(length 2.54)
 					(name "PFI"
 						(effects
@@ -3318,7 +3833,7 @@
 					)
 				)
 				(pin output line
-					(at -40.64 66.04 0)
+					(at -35.56 66.04 0)
 					(length 2.54)
 					(name "VCC2P5"
 						(effects
@@ -3336,7 +3851,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -40.64 43.18 0)
+					(at -35.56 43.18 0)
 					(length 2.54)
 					(name "CAP_SLCT1"
 						(effects
@@ -3354,7 +3869,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -40.64 27.94 0)
+					(at -35.56 27.94 0)
 					(length 2.54)
 					(name "CAP_SLCT0"
 						(effects
@@ -3372,7 +3887,7 @@
 					)
 				)
 				(pin input line
-					(at -40.64 22.86 0)
+					(at -35.56 22.86 0)
 					(length 2.54)
 					(name "GPI"
 						(effects
@@ -3390,7 +3905,7 @@
 					)
 				)
 				(pin input line
-					(at -40.64 17.78 0)
+					(at -35.56 17.78 0)
 					(length 2.54)
 					(name "VC"
 						(effects
@@ -3408,7 +3923,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -40.64 15.24 0)
+					(at -35.56 15.24 0)
 					(length 2.54)
 					(name "ITST"
 						(effects
@@ -3426,7 +3941,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -40.64 12.7 0)
+					(at -35.56 12.7 0)
 					(length 2.54)
 					(name "RT"
 						(effects
@@ -3444,7 +3959,7 @@
 					)
 				)
 				(pin power_in line
-					(at -40.64 0 0)
+					(at -35.56 0 0)
 					(length 2.54)
 					(name "SGND"
 						(effects
@@ -3462,7 +3977,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -40.64 -66.04 0)
+					(at -35.56 -66.04 0)
 					(length 2.54)
 					(name "SCL"
 						(effects
@@ -3480,7 +3995,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -40.64 -68.58 0)
+					(at -35.56 -68.58 0)
 					(length 2.54)
 					(name "SDA"
 						(effects
@@ -3498,7 +4013,7 @@
 					)
 				)
 				(pin input line
-					(at -30.48 78.74 270)
+					(at -25.4 78.74 270)
 					(length 2.54)
 					(name "VIN"
 						(effects
@@ -3516,7 +4031,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -22.86 78.74 270)
+					(at -17.78 78.74 270)
 					(length 2.54)
 					(name "INFET"
 						(effects
@@ -3534,7 +4049,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -12.7 78.74 270)
+					(at -7.62 78.74 270)
 					(length 2.54)
 					(name "VOUTM5"
 						(effects
@@ -3552,7 +4067,7 @@
 					)
 				)
 				(pin input line
-					(at -2.54 78.74 270)
+					(at 2.54 78.74 270)
 					(length 2.54)
 					(name "VOUTSP"
 						(effects
@@ -3570,7 +4085,7 @@
 					)
 				)
 				(pin power_in line
-					(at -2.54 -78.74 90)
+					(at 2.54 -78.74 90)
 					(length 2.54)
 					(name "PGND"
 						(effects
@@ -3588,7 +4103,7 @@
 					)
 				)
 				(pin input line
-					(at 2.54 78.74 270)
+					(at 7.62 78.74 270)
 					(length 2.54)
 					(name "VOUTSN"
 						(effects
@@ -3606,7 +4121,7 @@
 					)
 				)
 				(pin output line
-					(at 17.78 78.74 270)
+					(at 12.7 78.74 270)
 					(length 2.54)
 					(name "OUTFB"
 						(effects
@@ -3624,7 +4139,7 @@
 					)
 				)
 				(pin output line
-					(at 27.94 78.74 270)
+					(at 25.4 78.74 270)
 					(length 2.54)
 					(name "OUTFET"
 						(effects
@@ -3642,7 +4157,7 @@
 					)
 				)
 				(pin output line
-					(at 40.64 71.12 180)
+					(at 35.56 71.12 180)
 					(length 2.54)
 					(name "TGATE"
 						(effects
@@ -3660,7 +4175,7 @@
 					)
 				)
 				(pin output line
-					(at 40.64 66.04 180)
+					(at 35.56 66.04 180)
 					(length 2.54)
 					(name "INTVCC"
 						(effects
@@ -3678,7 +4193,7 @@
 					)
 				)
 				(pin power_in line
-					(at 40.64 60.96 180)
+					(at 35.56 60.96 180)
 					(length 2.54)
 					(name "DRVCC"
 						(effects
@@ -3696,7 +4211,7 @@
 					)
 				)
 				(pin input line
-					(at 40.64 40.64 180)
+					(at 35.56 40.64 180)
 					(length 2.54)
 					(name "BST"
 						(effects
@@ -3714,7 +4229,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 40.64 27.94 180)
+					(at 35.56 27.94 180)
 					(length 2.54)
 					(name "SW"
 						(effects
@@ -3732,7 +4247,7 @@
 					)
 				)
 				(pin output line
-					(at 40.64 22.86 180)
+					(at 35.56 17.78 180)
 					(length 2.54)
 					(name "BGATE"
 						(effects
@@ -3750,7 +4265,7 @@
 					)
 				)
 				(pin input line
-					(at 40.64 10.16 180)
+					(at 35.56 2.54 180)
 					(length 2.54)
 					(name "ICAP"
 						(effects
@@ -3768,7 +4283,7 @@
 					)
 				)
 				(pin input line
-					(at 40.64 -2.54 180)
+					(at 35.56 -2.54 180)
 					(length 2.54)
 					(name "VCAP"
 						(effects
@@ -3786,7 +4301,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 40.64 -7.62 180)
+					(at 35.56 -7.62 180)
 					(length 2.54)
 					(name "CFP"
 						(effects
@@ -3804,7 +4319,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 40.64 -17.78 180)
+					(at 35.56 -17.78 180)
 					(length 2.54)
 					(name "CFN"
 						(effects
@@ -3822,7 +4337,7 @@
 					)
 				)
 				(pin output line
-					(at 40.64 -22.86 180)
+					(at 35.56 -22.86 180)
 					(length 2.54)
 					(name "VCAPP5"
 						(effects
@@ -3840,7 +4355,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 40.64 -27.94 180)
+					(at 35.56 -27.94 180)
 					(length 2.54)
 					(name "CAP4"
 						(effects
@@ -3858,7 +4373,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 40.64 -33.02 180)
+					(at 35.56 -33.02 180)
 					(length 2.54)
 					(name "CAP3"
 						(effects
@@ -3876,7 +4391,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 40.64 -38.1 180)
+					(at 35.56 -38.1 180)
 					(length 2.54)
 					(name "CAP2"
 						(effects
@@ -3894,7 +4409,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 40.64 -43.18 180)
+					(at 35.56 -43.18 180)
 					(length 2.54)
 					(name "CAP1"
 						(effects
@@ -3912,7 +4427,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 40.64 -48.26 180)
+					(at 35.56 -48.26 180)
 					(length 2.54)
 					(name "CAPRTN"
 						(effects
@@ -3930,7 +4445,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 40.64 -53.34 180)
+					(at 35.56 -53.34 180)
 					(length 2.54)
 					(name "CAPFB"
 						(effects
@@ -3947,26 +4462,8 @@
 						)
 					)
 				)
-				(pin output line
-					(at 40.64 -58.42 180)
-					(length 2.54)
-					(name "*SMBALERT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_in line
-					(at 40.64 -63.5 180)
+					(at 35.56 -63.5 180)
 					(length 2.54)
 					(name "CAPGD"
 						(effects
@@ -3983,10 +4480,30 @@
 						)
 					)
 				)
+			)
+			(symbol "U_LTC3350EUHF-PBF_1_1"
 				(pin output line
-					(at 40.64 -68.58 180)
+					(at 35.56 -58.42 180)
 					(length 2.54)
-					(name "*PFO"
+					(name "~{SMBALERT}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 35.56 -68.58 180)
+					(length 2.54)
+					(name "~{PFO}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4084,6 +4601,310 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "UNITED_TRANSISTORS_DATA_BASE:Q_BSZ060NE2LS"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "20 V"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "transistor_footprints:TSDSON-8FL"
+				(at 0 -10.16 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/24/49/infineon-bsz060ne2ls-datasheet-en.pdf?fileId=db3a30432ea425a4012ec927cb360e1f"
+				(at 0 -12.7 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Transistor 20 V"
+				(at 0 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Collector Current (A)" "-"
+				(at 0 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Drain Current (A)" "51.0"
+				(at 0 -20.32 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN" "BSZ060NE2LS"
+				(at 0 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Infineon Technologies"
+				(at 0 -25.4 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Series" "BSZ060NE2LS"
+				(at 0 -27.94 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Symbol Name" "Q_BSZ060NE2LS"
+				(at 0 -30.48 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Transistor Type" "N-Channel"
+				(at 0 -33.02 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Trustedparts Search" "https://www.trustedparts.com/en/search/BSZ060NE2LS"
+				(at 0 -35.56 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "Q_BSZ060NE2LS_1_0"
+				(circle
+					(center -2.54 0)
+					(radius 0.0254)
+					(stroke
+						(width 0.381)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -6.35) (xy 0 -2.54) (xy -2.54 -2.54) (xy 2.54 -2.54) (xy 0 -2.54) (xy 0 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.0254)
+					(stroke
+						(width 0.381)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 0)
+					(radius 0.0254)
+					(stroke
+						(width 0.381)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 1.27) (xy 5.08 0) (xy 2.54 0) (xy 2.54 1.27) (xy 0.508 1.27) (xy 0.508 1.778) (xy -0.508 1.27)
+						(xy -0.508 1.778) (xy -0.508 1.27) (xy -2.54 1.27) (xy -2.54 0) (xy -5.08 0) (xy -5.08 1.27) (xy -5.08 0)
+						(xy -2.032 0) (xy -2.032 -2.032) (xy -2.54 -2.032) (xy -1.524 -2.032) (xy -2.032 -2.032) (xy -2.032 0)
+						(xy -2.54 0) (xy -2.54 1.27) (xy -0.508 1.27) (xy -0.508 0.762) (xy -0.508 1.27) (xy 0.508 0.762)
+						(xy 0.508 1.27) (xy 2.54 1.27) (xy 2.54 0) (xy 0 0) (xy 0 -1.016) (xy -0.508 -1.016) (xy 0 -2.032)
+						(xy -0.508 -2.032) (xy 0.508 -2.032) (xy 0 -2.032) (xy 0.508 -1.016) (xy 0 -1.016) (xy 0 0) (xy 2.032 0)
+						(xy 2.032 -2.032) (xy 1.524 -2.032) (xy 2.54 -2.032) (xy 2.032 -2.032) (xy 2.032 0) (xy 5.08 0)
+						(xy 5.08 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -7.62 1.27 0)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -6.35 180)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 1.27 180)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -1.27 180)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -3.81 180)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -4192,16 +5013,28 @@
 		)
 	)
 	(junction
-		(at 274.32 58.42)
+		(at 327.66 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "066313df-e9b4-46dd-8be7-6444f20f0824")
 	)
 	(junction
-		(at 172.72 35.56)
+		(at 327.66 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a264034-aa7d-44f8-ab3a-06f8072a765e")
+	)
+	(junction
+		(at 172.72 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0a747ad3-86ac-4b7b-8b70-23b39ecac28c")
+	)
+	(junction
+		(at 215.9 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19052bea-4b82-48ce-9dd0-007277478aea")
 	)
 	(junction
 		(at 200.66 66.04)
@@ -4210,16 +5043,28 @@
 		(uuid "1f881db5-b779-4ac2-938f-afb8d6e1fa8c")
 	)
 	(junction
-		(at 172.72 30.48)
+		(at 330.2 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "242353ff-2555-4869-b83b-9bc5e7445baa")
+	)
+	(junction
+		(at 215.9 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f171581-f4f7-4e63-8f21-7c65965f5c8b")
+	)
+	(junction
+		(at 172.72 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3fb6b00f-7f9e-489f-8531-053644290299")
 	)
 	(junction
-		(at 231.14 30.48)
+		(at 297.18 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "451d608f-c854-4ee9-b3fe-b76132009934")
+		(uuid "48f86817-8df3-4b2c-aca9-9b6367cd3f0e")
 	)
 	(junction
 		(at 172.72 66.04)
@@ -4228,40 +5073,52 @@
 		(uuid "531765c9-7137-4d78-8729-4c77210cbb04")
 	)
 	(junction
-		(at 274.32 30.48)
+		(at 299.72 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7063167d-e403-43ec-9894-26a63581c54e")
+		(uuid "593d1026-06b4-426e-893b-a4ede5df3e6b")
 	)
 	(junction
-		(at 231.14 55.88)
+		(at 320.04 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "735cf7d1-8596-4a7b-9c2e-7080881e3d8d")
-	)
-	(junction
-		(at 259.08 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "78285c11-d050-4a4f-8fa2-84c0cdefa50c")
-	)
-	(junction
-		(at 198.12 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8772a7b2-7c87-4666-aded-7bac6421dd4d")
+		(uuid "679c52a1-d61c-44f9-b9d2-eb53a1a38f13")
 	)
 	(junction
 		(at 248.92 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
+		(uuid "78285c11-d050-4a4f-8fa2-84c0cdefa50c")
+	)
+	(junction
+		(at 215.9 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d2124ed-c2b7-47a5-ab07-21504eb87309")
+	)
+	(junction
+		(at 198.12 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8772a7b2-7c87-4666-aded-7bac6421dd4d")
+	)
+	(junction
+		(at 238.76 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
 		(uuid "93ce89ce-4a2d-47e2-b1fc-92ca0325da6f")
 	)
 	(junction
-		(at 208.28 30.48)
+		(at 208.28 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b67d8d3a-ddca-4301-bc46-bfb3483013af")
+	)
+	(junction
+		(at 299.72 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b877b1fd-c5fd-4c20-a52c-9f67a86b86d3")
 	)
 	(junction
 		(at 149.86 81.28)
@@ -4270,26 +5127,36 @@
 		(uuid "c1231a3d-4fb2-42c1-87c2-f348154b60de")
 	)
 	(junction
-		(at 172.72 33.02)
+		(at 294.64 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6049119-4a1f-419f-aecd-2a4bfaf5f28f")
+	)
+	(junction
+		(at 297.18 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7a1fac1-2a1c-46ce-9319-a158cdd70b74")
+	)
+	(junction
+		(at 172.72 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c81a2bff-c939-441f-80c6-5d1c0d1273b2")
 	)
-	(junction
-		(at 231.14 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d69c80ca-d09d-449f-8aa2-5abfea6fe3db")
-	)
-	(junction
-		(at 220.98 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fde16761-e533-4a18-8f41-d922f8925917")
+	(wire
+		(pts
+			(xy 289.56 81.28) (xy 289.56 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01121c9d-776e-4f92-b885-be9d16246e79")
 	)
 	(wire
 		(pts
-			(xy 172.72 33.02) (xy 175.26 33.02)
+			(xy 172.72 27.94) (xy 175.26 27.94)
 		)
 		(stroke
 			(width 0)
@@ -4309,7 +5176,37 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 86.36) (xy 248.92 91.44)
+			(xy 297.18 124.46) (xy 299.72 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e07185c-fe33-4b1f-bbf4-a90d10cf9ae3")
+	)
+	(wire
+		(pts
+			(xy 228.6 50.8) (xy 215.9 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1217a871-49e0-4c23-a3e6-1773c30d2089")
+	)
+	(wire
+		(pts
+			(xy 294.64 140.97) (xy 297.18 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "137d0dc8-51bc-4b70-a8ec-eddec784f3eb")
+	)
+	(wire
+		(pts
+			(xy 238.76 86.36) (xy 238.76 91.44)
 		)
 		(stroke
 			(width 0)
@@ -4319,7 +5216,27 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 33.02) (xy 205.74 73.66)
+			(xy 233.68 134.62) (xy 292.1 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a159fdf-d7b2-4569-aed5-8e1a4a20ce58")
+	)
+	(wire
+		(pts
+			(xy 322.58 127) (xy 322.58 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b021584-3bad-46b5-bd92-87bcf39f4197")
+	)
+	(wire
+		(pts
+			(xy 205.74 27.94) (xy 205.74 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4329,17 +5246,17 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 66.04) (xy 172.72 73.66)
+			(xy 233.68 124.46) (xy 294.64 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1c70c056-1b84-48d3-92ff-2f95326a652d")
+		(uuid "1c93c944-3598-49a3-a5cb-c4363c147f10")
 	)
 	(wire
 		(pts
-			(xy 231.14 73.66) (xy 231.14 66.04)
+			(xy 223.52 60.96) (xy 223.52 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4359,7 +5276,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 35.56) (xy 172.72 66.04)
+			(xy 172.72 30.48) (xy 172.72 66.04)
 		)
 		(stroke
 			(width 0)
@@ -4369,7 +5286,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 30.48) (xy 172.72 33.02)
+			(xy 172.72 25.4) (xy 172.72 27.94)
 		)
 		(stroke
 			(width 0)
@@ -4379,7 +5296,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 101.6) (xy 259.08 104.14)
+			(xy 248.92 101.6) (xy 248.92 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4389,7 +5306,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 30.48) (xy 231.14 30.48)
+			(xy 208.28 25.4) (xy 215.9 25.4)
 		)
 		(stroke
 			(width 0)
@@ -4399,7 +5316,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 53.34) (xy 220.98 55.88)
+			(xy 228.6 46.99) (xy 228.6 50.8)
 		)
 		(stroke
 			(width 0)
@@ -4409,23 +5326,13 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 30.48) (xy 190.5 30.48)
+			(xy 198.12 25.4) (xy 190.5 25.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2ec16215-e99b-406b-a278-3081069244d8")
-	)
-	(wire
-		(pts
-			(xy 274.32 30.48) (xy 325.12 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "302d1544-c400-4438-948d-58b5d7b66236")
 	)
 	(wire
 		(pts
@@ -4449,17 +5356,17 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 55.88) (xy 232.41 55.88)
+			(xy 200.66 66.04) (xy 200.66 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3a24a6e8-e595-4076-8acd-d8e4ee48f8a6")
+		(uuid "3ab7fdef-ea3e-4aac-b4ea-4bceb4c1ad3c")
 	)
 	(wire
 		(pts
-			(xy 175.26 35.56) (xy 172.72 35.56)
+			(xy 175.26 30.48) (xy 172.72 30.48)
 		)
 		(stroke
 			(width 0)
@@ -4469,7 +5376,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 57.15) (xy 243.84 55.88)
+			(xy 215.9 63.5) (xy 215.9 62.23)
 		)
 		(stroke
 			(width 0)
@@ -4479,13 +5386,33 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 30.48) (xy 231.14 31.75)
+			(xy 215.9 50.8) (xy 210.82 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f71668c-9e3b-4a04-acef-930f3c1fb4e9")
+	)
+	(wire
+		(pts
+			(xy 215.9 25.4) (xy 215.9 26.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "479d397c-a711-4714-8027-5ba08f5239d3")
+	)
+	(wire
+		(pts
+			(xy 215.9 25.4) (xy 299.72 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47a458f8-4c2d-4f13-ba79-09b7096d92d9")
 	)
 	(wire
 		(pts
@@ -4519,7 +5446,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 60.96) (xy 271.78 58.42)
+			(xy 325.12 55.88) (xy 325.12 53.34)
 		)
 		(stroke
 			(width 0)
@@ -4529,7 +5456,17 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 43.18) (xy 231.14 44.45)
+			(xy 320.04 124.46) (xy 322.58 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "521e1f62-47cf-48c0-9d57-424384b282eb")
+	)
+	(wire
+		(pts
+			(xy 215.9 38.1) (xy 215.9 39.37)
 		)
 		(stroke
 			(width 0)
@@ -4539,13 +5476,53 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 35.56) (xy 172.72 33.02)
+			(xy 172.72 30.48) (xy 172.72 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "58a129cb-62c8-4de6-b2f2-28257138b491")
+	)
+	(wire
+		(pts
+			(xy 294.64 139.7) (xy 294.64 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5deb782d-0067-413e-b95c-32f7ced53a55")
+	)
+	(wire
+		(pts
+			(xy 327.66 127) (xy 330.2 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62f0edb3-dfc5-41e4-9181-26d89fa6239f")
+	)
+	(wire
+		(pts
+			(xy 233.68 149.86) (xy 322.58 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64b1b38c-2f61-4723-9c17-d5c603c664d2")
+	)
+	(wire
+		(pts
+			(xy 299.72 25.4) (xy 299.72 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "659fb624-aeb4-4116-bac1-024d44735342")
 	)
 	(wire
 		(pts
@@ -4559,7 +5536,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 66.04) (xy 200.66 33.02)
+			(xy 200.66 66.04) (xy 200.66 27.94)
 		)
 		(stroke
 			(width 0)
@@ -4569,7 +5546,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 60.96) (xy 276.86 58.42)
+			(xy 330.2 55.88) (xy 330.2 53.34)
 		)
 		(stroke
 			(width 0)
@@ -4579,17 +5556,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 55.88) (xy 242.57 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71025a12-00aa-407b-b19c-d8ebf813d579")
-	)
-	(wire
-		(pts
-			(xy 271.78 58.42) (xy 274.32 58.42)
+			(xy 325.12 53.34) (xy 327.66 53.34)
 		)
 		(stroke
 			(width 0)
@@ -4599,13 +5566,53 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 66.04) (xy 200.66 73.66)
+			(xy 327.66 127) (xy 327.66 154.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8861f0d1-6c5b-4130-ad5e-897677476d63")
+		(uuid "7bdd0a34-1693-4ea9-b908-0dce16f70e30")
+	)
+	(wire
+		(pts
+			(xy 233.68 154.94) (xy 327.66 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c3ecd23-4645-4180-a870-788a7aacdd4a")
+	)
+	(wire
+		(pts
+			(xy 210.82 50.8) (xy 210.82 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d63c6bf-88af-45d7-9230-476c50f99f49")
+	)
+	(wire
+		(pts
+			(xy 299.72 124.46) (xy 302.26 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "896c1d5b-71a6-48a3-828b-922fb908e13d")
+	)
+	(wire
+		(pts
+			(xy 297.18 140.97) (xy 299.72 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c24ea1f-1143-409b-bd89-d68c2e363054")
 	)
 	(wire
 		(pts
@@ -4619,7 +5626,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 45.72) (xy 220.98 43.18)
+			(xy 228.6 39.37) (xy 228.6 38.1)
 		)
 		(stroke
 			(width 0)
@@ -4629,7 +5636,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 68.58) (xy 149.86 30.48)
+			(xy 149.86 25.4) (xy 149.86 68.58)
 		)
 		(stroke
 			(width 0)
@@ -4649,7 +5656,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 41.91) (xy 231.14 43.18)
+			(xy 215.9 36.83) (xy 215.9 38.1)
 		)
 		(stroke
 			(width 0)
@@ -4659,7 +5666,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 30.48) (xy 172.72 30.48)
+			(xy 149.86 25.4) (xy 172.72 25.4)
 		)
 		(stroke
 			(width 0)
@@ -4679,13 +5686,53 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 30.48) (xy 205.74 33.02)
+			(xy 327.66 25.4) (xy 373.38 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f515cd8-7afa-4761-85ae-958854ab290b")
+	)
+	(wire
+		(pts
+			(xy 208.28 25.4) (xy 205.74 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a48fd7d6-f40e-4e63-8958-173c5d6c96d9")
+	)
+	(wire
+		(pts
+			(xy 317.5 124.46) (xy 320.04 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa03327d-63ad-40b4-b17d-65a35691e1ad")
+	)
+	(wire
+		(pts
+			(xy 172.72 66.04) (xy 172.72 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acb07b94-2888-4553-8af8-8891fda3eb45")
+	)
+	(wire
+		(pts
+			(xy 297.18 139.7) (xy 297.18 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adfe0fed-315a-435c-a965-947928b42079")
 	)
 	(wire
 		(pts
@@ -4709,7 +5756,17 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 101.6) (xy 274.32 104.14)
+			(xy 180.34 33.02) (xy 180.34 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b836cde4-b9db-4159-82d3-65dfdb142694")
+	)
+	(wire
+		(pts
+			(xy 264.16 101.6) (xy 264.16 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4719,7 +5776,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 58.42) (xy 274.32 58.42)
+			(xy 330.2 53.34) (xy 327.66 53.34)
 		)
 		(stroke
 			(width 0)
@@ -4729,23 +5786,13 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 33.02) (xy 198.12 30.48)
+			(xy 200.66 27.94) (xy 198.12 25.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "beed19b9-e887-4e90-b7cd-af6e67b16a4d")
-	)
-	(wire
-		(pts
-			(xy 231.14 30.48) (xy 274.32 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfc5cbed-eb4a-4681-912d-043e1ad2c9c2")
 	)
 	(wire
 		(pts
@@ -4759,7 +5806,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 91.44) (xy 259.08 91.44)
+			(xy 238.76 91.44) (xy 248.92 91.44)
 		)
 		(stroke
 			(width 0)
@@ -4779,7 +5826,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 58.42) (xy 274.32 30.48)
+			(xy 327.66 53.34) (xy 327.66 25.4)
 		)
 		(stroke
 			(width 0)
@@ -4789,17 +5836,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 55.88) (xy 220.98 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cfbb8b77-fed4-4aea-825a-97548f9a73a5")
-	)
-	(wire
-		(pts
-			(xy 175.26 30.48) (xy 172.72 30.48)
+			(xy 175.26 25.4) (xy 172.72 25.4)
 		)
 		(stroke
 			(width 0)
@@ -4819,7 +5856,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 91.44) (xy 248.92 91.44)
+			(xy 233.68 91.44) (xy 238.76 91.44)
 		)
 		(stroke
 			(width 0)
@@ -4849,13 +5886,43 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 86.36) (xy 248.92 86.36)
+			(xy 215.9 52.07) (xy 215.9 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d75e3e31-32b0-4bcc-a091-7a6c9a2d497a")
+	)
+	(wire
+		(pts
+			(xy 299.72 139.7) (xy 299.72 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7f97b71-3e25-4d0e-96aa-0f16bdd84ba7")
+	)
+	(wire
+		(pts
+			(xy 233.68 86.36) (xy 238.76 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d87c14e5-6c63-4e82-a710-13a7ec3890e8")
+	)
+	(wire
+		(pts
+			(xy 294.64 124.46) (xy 297.18 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9269e8e-b79d-4072-8f33-31470cb96ed4")
 	)
 	(wire
 		(pts
@@ -4869,17 +5936,27 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 38.1) (xy 180.34 73.66)
+			(xy 289.56 119.38) (xy 292.1 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e43cfdc9-0e12-44f6-8e43-fa83e70124f1")
+		(uuid "e177338e-deae-429a-b13c-d96d3e43d1b4")
 	)
 	(wire
 		(pts
-			(xy 259.08 91.44) (xy 259.08 93.98)
+			(xy 190.5 66.04) (xy 190.5 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e352402e-53e0-46f9-a769-0068f30b6198")
+	)
+	(wire
+		(pts
+			(xy 248.92 91.44) (xy 248.92 93.98)
 		)
 		(stroke
 			(width 0)
@@ -4889,7 +5966,17 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 91.44) (xy 259.08 91.44)
+			(xy 297.18 140.97) (xy 297.18 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6e2bb8a-f317-463c-a14f-5f839f45f5c4")
+	)
+	(wire
+		(pts
+			(xy 264.16 91.44) (xy 248.92 91.44)
 		)
 		(stroke
 			(width 0)
@@ -4909,7 +5996,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 66.04) (xy 269.24 66.04)
+			(xy 223.52 60.96) (xy 322.58 60.96)
 		)
 		(stroke
 			(width 0)
@@ -4919,7 +6006,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 93.98) (xy 274.32 91.44)
+			(xy 264.16 93.98) (xy 264.16 91.44)
 		)
 		(stroke
 			(width 0)
@@ -4929,7 +6016,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 58.42) (xy 274.32 60.96)
+			(xy 327.66 53.34) (xy 327.66 55.88)
 		)
 		(stroke
 			(width 0)
@@ -4939,7 +6026,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 43.18) (xy 231.14 43.18)
+			(xy 228.6 38.1) (xy 215.9 38.1)
 		)
 		(stroke
 			(width 0)
@@ -4949,17 +6036,27 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 55.88) (xy 220.98 73.66)
+			(xy 299.72 25.4) (xy 327.66 25.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fd22ab97-c33c-45be-a1df-4260990f6159")
+		(uuid "f9928aa7-9da4-433f-9c3e-5a6e94637b37")
 	)
 	(wire
 		(pts
-			(xy 231.14 54.61) (xy 231.14 55.88)
+			(xy 233.68 81.28) (xy 289.56 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd2aeb1d-749b-48d4-9a77-63eb655ffbeb")
+	)
+	(wire
+		(pts
+			(xy 215.9 49.53) (xy 215.9 50.8)
 		)
 		(stroke
 			(width 0)
@@ -4969,13 +6066,23 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 66.04) (xy 190.5 73.66)
+			(xy 330.2 71.12) (xy 330.2 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ff274dc8-ba32-45a3-8f33-c55cb397013a")
+		(uuid "fea2446d-13db-4205-b180-b31807849d4c")
+	)
+	(label "TGATE"
+		(at 236.22 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0cd46ac0-a6de-4a7d-8c29-ed24842f5af5")
 	)
 	(label "INFET"
 		(at 180.34 66.04 0)
@@ -4997,6 +6104,16 @@
 		)
 		(uuid "233953d9-9e72-407a-bafa-07a193757d15")
 	)
+	(label "BGATE"
+		(at 236.22 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "377022c4-f97b-43a5-9cd9-80db8f9d1962")
+	)
 	(label "VOUTM5"
 		(at 190.5 73.66 180)
 		(effects
@@ -5006,6 +6123,16 @@
 			(justify right bottom)
 		)
 		(uuid "424ee8ec-d3c0-4072-be06-7a2b6d93cebd")
+	)
+	(label "SW"
+		(at 236.22 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5cc4eddc-f79d-4c83-b260-58fceaf3afde")
 	)
 	(label "VIN"
 		(at 172.72 66.04 0)
@@ -5018,7 +6145,7 @@
 		(uuid "6e4c4242-16e5-4500-aec6-8e19d58641af")
 	)
 	(label "OUTFET"
-		(at 231.14 73.66 0)
+		(at 223.52 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5028,7 +6155,7 @@
 		(uuid "72e70659-338a-4ddd-85d6-18b688a97e7a")
 	)
 	(label "VOUT"
-		(at 325.12 30.48 0)
+		(at 373.38 25.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5068,7 +6195,7 @@
 		(uuid "a9a50f26-86ce-4fe6-b288-ad2f8393f259")
 	)
 	(label "INTVCC"
-		(at 248.92 86.36 0)
+		(at 238.76 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5098,12 +6225,12 @@
 		(uuid "c866b73f-7aa1-4adf-b32f-0e0a493d9ba8")
 	)
 	(label "OUTFB"
-		(at 220.98 73.66 180)
+		(at 210.82 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "e1385b4d-46d1-4341-954d-e281a5650cab")
 	)
@@ -5314,7 +6441,7 @@
 	)
 	(symbol
 		(lib_id "RESISTORS_ERJ-2RKF_DATA_BASE:R_ERJ-2RKF20R0X")
-		(at 231.14 36.83 270)
+		(at 215.9 31.75 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5323,7 +6450,7 @@
 		(fields_autoplaced yes)
 		(uuid "06abf4bc-998b-49a4-a808-649be0e3e339")
 		(property "Reference" "R2"
-			(at 233.68 35.5599 90)
+			(at 218.44 30.4799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5332,7 +6459,7 @@
 			)
 		)
 		(property "Value" "20 Ω"
-			(at 233.68 38.0999 90)
+			(at 218.44 33.0199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5341,7 +6468,7 @@
 			)
 		)
 		(property "Footprint" "resistor_footprints:R_0402_1005Metric"
-			(at 226.06 36.83 0)
+			(at 210.82 31.75 0)
 			(show_name yes)
 			(effects
 				(font
@@ -5352,7 +6479,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
-			(at 223.52 36.83 0)
+			(at 208.28 31.75 0)
 			(show_name yes)
 			(effects
 				(font
@@ -5363,7 +6490,7 @@
 			)
 		)
 		(property "Description" "RES SMD 20 Ω 1% 0402 50V"
-			(at 220.98 36.83 0)
+			(at 205.74 31.75 0)
 			(show_name yes)
 			(effects
 				(font
@@ -5374,7 +6501,7 @@
 			)
 		)
 		(property "Case Code - in" "0402"
-			(at 218.44 36.83 0)
+			(at 203.2 31.75 0)
 			(show_name yes)
 			(effects
 				(font
@@ -5385,7 +6512,7 @@
 			)
 		)
 		(property "Case Code - mm" "1005"
-			(at 215.9 36.83 0)
+			(at 200.66 31.75 0)
 			(show_name yes)
 			(effects
 				(font
@@ -5396,7 +6523,7 @@
 			)
 		)
 		(property "Component Type" "Resistor"
-			(at 213.36 36.83 0)
+			(at 198.12 31.75 0)
 			(show_name yes)
 			(effects
 				(font
@@ -5407,7 +6534,7 @@
 			)
 		)
 		(property "MPN" "ERJ-2RKF20R0X"
-			(at 210.82 36.83 0)
+			(at 195.58 31.75 0)
 			(show_name yes)
 			(effects
 				(font
@@ -5418,7 +6545,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic"
-			(at 208.28 36.83 0)
+			(at 193.04 31.75 0)
 			(show_name yes)
 			(effects
 				(font
@@ -5429,7 +6556,7 @@
 			)
 		)
 		(property "Series" "ERJ-2RKF"
-			(at 205.74 36.83 0)
+			(at 190.5 31.75 0)
 			(show_name yes)
 			(effects
 				(font
@@ -5440,7 +6567,7 @@
 			)
 		)
 		(property "Symbol Name" "R_ERJ-2RKF20R0X"
-			(at 203.2 36.83 0)
+			(at 187.96 31.75 0)
 			(show_name yes)
 			(effects
 				(font
@@ -5451,7 +6578,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "100 ppm/°C"
-			(at 200.66 36.83 0)
+			(at 185.42 31.75 0)
 			(show_name yes)
 			(effects
 				(font
@@ -5462,7 +6589,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 198.12 36.83 0)
+			(at 182.88 31.75 0)
 			(show_name yes)
 			(effects
 				(font
@@ -5473,7 +6600,7 @@
 			)
 		)
 		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/ERJ-2RKF20R0X"
-			(at 195.58 36.83 0)
+			(at 180.34 31.75 0)
 			(show_name yes)
 			(effects
 				(font
@@ -5484,7 +6611,7 @@
 			)
 		)
 		(property "Voltage Rating" "50V"
-			(at 193.04 36.83 0)
+			(at 177.8 31.75 0)
 			(show_name yes)
 			(effects
 				(font
@@ -5511,7 +6638,7 @@
 	)
 	(symbol
 		(lib_id "UNITED_IC_ADI:U_LTC3350EUHF-PBF")
-		(at 203.2 152.4 0)
+		(at 198.12 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5520,7 +6647,7 @@
 		(fields_autoplaced yes)
 		(uuid "0d6a9e78-eb7c-46a3-b417-48c481c05f11")
 		(property "Reference" "U1"
-			(at 202.8033 231.14 0)
+			(at 197.7233 231.14 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5529,7 +6656,7 @@
 			)
 		)
 		(property "Value" "LTC3350EUHF-PBF"
-			(at 202.8033 233.68 0)
+			(at 197.7233 233.68 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5538,7 +6665,7 @@
 			)
 		)
 		(property "Footprint" "analog_devices_footprints:QFN-38_UHF_LIT"
-			(at 243.84 236.22 0)
+			(at 238.76 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5549,7 +6676,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ltc3350.pdf"
-			(at 243.84 231.14 0)
+			(at 238.76 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5560,7 +6687,7 @@
 			)
 		)
 		(property "Description" "High Current Supercapacitor Backup Controller and System Monitor"
-			(at 243.84 233.68 0)
+			(at 238.76 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5570,7 +6697,7 @@
 			)
 		)
 		(property "MPN" "LTC3350EUHF#PBF"
-			(at 243.84 238.76 0)
+			(at 238.76 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5707,7 +6834,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 274.32 104.14 0)
+		(at 264.16 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5716,7 +6843,7 @@
 		(fields_autoplaced yes)
 		(uuid "1fcf567e-a3b7-4e90-a5be-ce4e913398b4")
 		(property "Reference" "#PWR07"
-			(at 274.32 110.49 0)
+			(at 264.16 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5725,7 +6852,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 274.32 109.22 0)
+			(at 264.16 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5733,7 +6860,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 274.32 104.14 0)
+			(at 264.16 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5742,7 +6869,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 274.32 104.14 0)
+			(at 264.16 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5751,7 +6878,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 274.32 104.14 0)
+			(at 264.16 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6166,7 +7293,7 @@
 	)
 	(symbol
 		(lib_id "RESISTORS_PRL1632-_DATA_BASE:R_PRL1632-R016-F-T1")
-		(at 203.2 30.48 0)
+		(at 203.2 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6175,7 +7302,7 @@
 		(fields_autoplaced yes)
 		(uuid "32be78c1-e1e2-4059-ad1c-f496baf378c4")
 		(property "Reference" "R1"
-			(at 203.2 24.13 0)
+			(at 203.2 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6183,7 +7310,7 @@
 			)
 		)
 		(property "Value" "0.016 Ω"
-			(at 203.2 26.67 0)
+			(at 203.2 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6191,7 +7318,7 @@
 			)
 		)
 		(property "Footprint" "resistor_footprints:R_0612_1632Metric"
-			(at 203.2 35.56 0)
+			(at 203.2 30.48 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6202,7 +7329,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.susumu.co.jp/common/pdf/n_catalog_partition07_en.pdf"
-			(at 203.2 38.1 0)
+			(at 203.2 33.02 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6213,7 +7340,7 @@
 			)
 		)
 		(property "Description" "RES SMD 0.016 Ω 1% 0612"
-			(at 203.2 40.64 0)
+			(at 203.2 35.56 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6224,7 +7351,7 @@
 			)
 		)
 		(property "Case Code - in" "0612"
-			(at 203.2 43.18 0)
+			(at 203.2 38.1 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6235,7 +7362,7 @@
 			)
 		)
 		(property "Case Code - mm" "1632"
-			(at 203.2 45.72 0)
+			(at 203.2 40.64 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6246,7 +7373,7 @@
 			)
 		)
 		(property "Component Type" "Resistor"
-			(at 203.2 48.26 0)
+			(at 203.2 43.18 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6257,7 +7384,7 @@
 			)
 		)
 		(property "MPN" "PRL1632-R016-F-T1"
-			(at 203.2 50.8 0)
+			(at 203.2 45.72 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6268,7 +7395,7 @@
 			)
 		)
 		(property "Manufacturer" "Susumu"
-			(at 203.2 53.34 0)
+			(at 203.2 48.26 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6279,7 +7406,7 @@
 			)
 		)
 		(property "Series" "PRL1632-"
-			(at 203.2 55.88 0)
+			(at 203.2 50.8 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6290,7 +7417,7 @@
 			)
 		)
 		(property "Symbol Name" "R_PRL1632-R016-F-T1"
-			(at 203.2 58.42 0)
+			(at 203.2 53.34 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6301,7 +7428,7 @@
 			)
 		)
 		(property "Temperature Coefficient" ""
-			(at 203.2 60.96 0)
+			(at 203.2 55.88 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6312,7 +7439,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 203.2 63.5 0)
+			(at 203.2 58.42 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6323,7 +7450,7 @@
 			)
 		)
 		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/PRL1632-R016-F-T1"
-			(at 203.2 66.04 0)
+			(at 203.2 60.96 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6334,7 +7461,7 @@
 			)
 		)
 		(property "Voltage Rating" ""
-			(at 203.2 68.58 0)
+			(at 203.2 63.5 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6361,7 +7488,7 @@
 	)
 	(symbol
 		(lib_id "TRANSISTORS_SIS438DN-T1-GE3_DATA_BASE:Q_SIS438DN-T1-GE3")
-		(at 182.88 31.75 0)
+		(at 182.88 26.67 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6370,7 +7497,7 @@
 		(dnp no)
 		(uuid "388a89b6-131c-4384-bf71-6ba5b25c156d")
 		(property "Reference" "Q1"
-			(at 182.88 25.4 0)
+			(at 182.88 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6378,7 +7505,7 @@
 			)
 		)
 		(property "Value" "20.0 V"
-			(at 182.88 27.94 0)
+			(at 182.88 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6386,7 +7513,7 @@
 			)
 		)
 		(property "Footprint" "transistor_footprints:PowerPAK 1212-8"
-			(at 182.88 41.91 0)
+			(at 182.88 36.83 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6397,7 +7524,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/64826/sis438dn.pdf"
-			(at 182.88 44.45 0)
+			(at 182.88 39.37 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6408,7 +7535,7 @@
 			)
 		)
 		(property "Description" "Transistor 20.0 V"
-			(at 182.88 46.99 0)
+			(at 182.88 41.91 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6419,7 +7546,7 @@
 			)
 		)
 		(property "Collector Current (A)" "-"
-			(at 182.88 49.53 0)
+			(at 182.88 44.45 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6430,7 +7557,7 @@
 			)
 		)
 		(property "Drain Current (A)" "16.0"
-			(at 182.88 52.07 0)
+			(at 182.88 46.99 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6441,7 +7568,7 @@
 			)
 		)
 		(property "MPN" "SIS438DN-T1-GE3"
-			(at 182.88 54.61 0)
+			(at 182.88 49.53 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6452,7 +7579,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay Semiconductors"
-			(at 182.88 57.15 0)
+			(at 182.88 52.07 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6463,7 +7590,7 @@
 			)
 		)
 		(property "Series" "SIS438DN-T1-GE3"
-			(at 182.88 59.69 0)
+			(at 182.88 54.61 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6474,7 +7601,7 @@
 			)
 		)
 		(property "Symbol Name" "Q_SIS438DN-T1-GE3"
-			(at 182.88 62.23 0)
+			(at 182.88 57.15 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6485,7 +7612,7 @@
 			)
 		)
 		(property "Transistor Type" "N-Channel"
-			(at 182.88 64.77 0)
+			(at 182.88 59.69 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6496,7 +7623,7 @@
 			)
 		)
 		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/SIS438DN-T1-GE3"
-			(at 182.88 67.31 0)
+			(at 182.88 62.23 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6795,32 +7922,33 @@
 	)
 	(symbol
 		(lib_id "RESISTORS_ERJ-2RKF_DATA_BASE:R_ERJ-2RKF1623X")
-		(at 237.49 55.88 0)
+		(at 215.9 57.15 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "518f1ca8-770b-4f6f-89b7-8d1722f29c15")
 		(property "Reference" "R4"
-			(at 237.49 59.69 0)
+			(at 218.44 55.8799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "162 kΩ"
-			(at 237.49 62.23 0)
+			(at 218.44 58.4199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "resistor_footprints:R_0402_1005Metric"
-			(at 237.49 60.96 0)
+			(at 210.82 57.15 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6831,7 +7959,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
-			(at 237.49 63.5 0)
+			(at 208.28 57.15 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6842,7 +7970,7 @@
 			)
 		)
 		(property "Description" "RES SMD 162 kΩ 1% 0402 50V"
-			(at 237.49 66.04 0)
+			(at 205.74 57.15 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6853,7 +7981,7 @@
 			)
 		)
 		(property "Case Code - in" "0402"
-			(at 237.49 68.58 0)
+			(at 203.2 57.15 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6864,7 +7992,7 @@
 			)
 		)
 		(property "Case Code - mm" "1005"
-			(at 237.49 71.12 0)
+			(at 200.66 57.15 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6875,7 +8003,7 @@
 			)
 		)
 		(property "Component Type" "Resistor"
-			(at 237.49 73.66 0)
+			(at 198.12 57.15 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6886,7 +8014,7 @@
 			)
 		)
 		(property "MPN" "ERJ-2RKF1623X"
-			(at 237.49 76.2 0)
+			(at 195.58 57.15 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6897,7 +8025,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic"
-			(at 237.49 78.74 0)
+			(at 193.04 57.15 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6908,7 +8036,7 @@
 			)
 		)
 		(property "Series" "ERJ-2RKF"
-			(at 237.49 81.28 0)
+			(at 190.5 57.15 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6919,7 +8047,7 @@
 			)
 		)
 		(property "Symbol Name" "R_ERJ-2RKF1623X"
-			(at 237.49 83.82 0)
+			(at 187.96 57.15 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6930,7 +8058,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "100 ppm/°C"
-			(at 237.49 86.36 0)
+			(at 185.42 57.15 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6941,7 +8069,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 237.49 88.9 0)
+			(at 182.88 57.15 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6952,7 +8080,7 @@
 			)
 		)
 		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/ERJ-2RKF1623X"
-			(at 237.49 91.44 0)
+			(at 180.34 57.15 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6963,7 +8091,7 @@
 			)
 		)
 		(property "Voltage Rating" "50V"
-			(at 237.49 93.98 0)
+			(at 177.8 57.15 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6990,7 +8118,7 @@
 	)
 	(symbol
 		(lib_id "CAPACITORS_GCM155R71H_DATA_BASE:C_GCM155R71H104KE02D")
-		(at 259.08 97.79 90)
+		(at 248.92 97.79 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7000,7 +8128,7 @@
 		(fields_autoplaced yes)
 		(uuid "58503115-f77e-4d35-999f-5b1259ca6263")
 		(property "Reference" "C5"
-			(at 262.89 96.5199 90)
+			(at 252.73 96.5199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7009,7 +8137,7 @@
 			)
 		)
 		(property "Value" "100 nF"
-			(at 262.89 99.0599 90)
+			(at 252.73 99.0599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7018,7 +8146,7 @@
 			)
 		)
 		(property "Footprint" "capacitor_footprints:C_0402_1005Metric"
-			(at 266.7 97.79 0)
+			(at 256.54 97.79 0)
 			(show_name yes)
 			(effects
 				(font
@@ -7029,7 +8157,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf"
-			(at 269.24 97.79 0)
+			(at 259.08 97.79 0)
 			(show_name yes)
 			(effects
 				(font
@@ -7040,7 +8168,7 @@
 			)
 		)
 		(property "Description" "CAP SMD 100 nF X7R 10% 0402 50V"
-			(at 271.78 97.79 0)
+			(at 261.62 97.79 0)
 			(show_name yes)
 			(effects
 				(font
@@ -7051,7 +8179,7 @@
 			)
 		)
 		(property "Capacitor Type" "Ceramic"
-			(at 274.32 97.79 0)
+			(at 264.16 97.79 0)
 			(show_name yes)
 			(effects
 				(font
@@ -7062,7 +8190,7 @@
 			)
 		)
 		(property "Case Code - in" "0402"
-			(at 276.86 97.79 0)
+			(at 266.7 97.79 0)
 			(show_name yes)
 			(effects
 				(font
@@ -7073,7 +8201,7 @@
 			)
 		)
 		(property "Case Code - mm" "1005"
-			(at 279.4 97.79 0)
+			(at 269.24 97.79 0)
 			(show_name yes)
 			(effects
 				(font
@@ -7084,7 +8212,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 281.94 97.79 0)
+			(at 271.78 97.79 0)
 			(show_name yes)
 			(effects
 				(font
@@ -7095,7 +8223,7 @@
 			)
 		)
 		(property "MPN" "GCM155R71H104KE02D"
-			(at 284.48 97.79 0)
+			(at 274.32 97.79 0)
 			(show_name yes)
 			(effects
 				(font
@@ -7106,7 +8234,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 287.02 97.79 0)
+			(at 276.86 97.79 0)
 			(show_name yes)
 			(effects
 				(font
@@ -7117,7 +8245,7 @@
 			)
 		)
 		(property "Series" "GCM155R71H"
-			(at 289.56 97.79 0)
+			(at 279.4 97.79 0)
 			(show_name yes)
 			(effects
 				(font
@@ -7128,7 +8256,7 @@
 			)
 		)
 		(property "Symbol Name" "C_GCM155R71H104KE02D"
-			(at 292.1 97.79 0)
+			(at 281.94 97.79 0)
 			(show_name yes)
 			(effects
 				(font
@@ -7139,7 +8267,7 @@
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 294.64 97.79 0)
+			(at 284.48 97.79 0)
 			(show_name yes)
 			(effects
 				(font
@@ -7150,7 +8278,7 @@
 			)
 		)
 		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/GCM155R71H104KE02D"
-			(at 297.18 97.79 0)
+			(at 287.02 97.79 0)
 			(show_name yes)
 			(effects
 				(font
@@ -7161,7 +8289,7 @@
 			)
 		)
 		(property "Voltage Rating" "50V"
-			(at 299.72 97.79 0)
+			(at 289.56 97.79 0)
 			(show_name yes)
 			(effects
 				(font
@@ -7181,6 +8309,201 @@
 			(project "minimal_ltc3350"
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RESISTORS_PRL1632-_DATA_BASE:R_PRL1632-R006-F-T1")
+		(at 325.12 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "593a1faa-4c79-4a29-a63c-102926e766f5")
+		(property "Reference" "R9"
+			(at 325.12 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.006 Ω"
+			(at 325.12 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "resistor_footprints:R_0612_1632Metric"
+			(at 325.12 129.54 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.susumu.co.jp/common/pdf/n_catalog_partition07_en.pdf"
+			(at 325.12 132.08 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 0.006 Ω 1% 0612"
+			(at 325.12 134.62 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - in" "0612"
+			(at 325.12 137.16 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - mm" "1632"
+			(at 325.12 139.7 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Type" "Resistor"
+			(at 325.12 142.24 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PRL1632-R006-F-T1"
+			(at 325.12 144.78 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Susumu"
+			(at 325.12 147.32 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "PRL1632-"
+			(at 325.12 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "R_PRL1632-R006-F-T1"
+			(at 325.12 152.4 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" ""
+			(at 325.12 154.94 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 325.12 157.48 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/PRL1632-R006-F-T1"
+			(at 325.12 160.02 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
+			(at 325.12 162.56 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "864ae662-b002-4e64-8390-2ddb8c05570c")
+		)
+		(pin "1"
+			(uuid "25f65565-2dc7-42a6-b990-370a955aa496")
+		)
+		(instances
+			(project ""
+				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -7320,7 +8643,8 @@
 	)
 	(symbol
 		(lib_id "CAPACITORS_GCM1555C1H_DATA_BASE:C_GCM1555C1H121FA16D")
-		(at 220.98 49.53 270)
+		(at 228.6 43.18 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7328,7 +8652,7 @@
 		(dnp no)
 		(uuid "614b18b0-6d8d-4000-b3dc-4971a081f3f0")
 		(property "Reference" "C3"
-			(at 217.17 48.2599 90)
+			(at 232.41 41.9099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7337,7 +8661,7 @@
 			)
 		)
 		(property "Value" "120 pF"
-			(at 217.17 50.7999 90)
+			(at 232.41 44.4499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7346,7 +8670,7 @@
 			)
 		)
 		(property "Footprint" "capacitor_footprints:C_0402_1005Metric"
-			(at 213.36 49.53 0)
+			(at 236.22 43.18 0)
 			(show_name yes)
 			(effects
 				(font
@@ -7357,7 +8681,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM1555C1H121FA16-01.pdf"
-			(at 210.82 49.53 0)
+			(at 238.76 43.18 0)
 			(show_name yes)
 			(effects
 				(font
@@ -7368,7 +8692,7 @@
 			)
 		)
 		(property "Description" "CAP SMD 120 pF C0G (NP0) 1% 0402 50V"
-			(at 208.28 49.53 0)
+			(at 241.3 43.18 0)
 			(show_name yes)
 			(effects
 				(font
@@ -7379,7 +8703,7 @@
 			)
 		)
 		(property "Capacitor Type" "Ceramic"
-			(at 205.74 49.53 0)
+			(at 243.84 43.18 0)
 			(show_name yes)
 			(effects
 				(font
@@ -7390,7 +8714,7 @@
 			)
 		)
 		(property "Case Code - in" "0402"
-			(at 203.2 49.53 0)
+			(at 246.38 43.18 0)
 			(show_name yes)
 			(effects
 				(font
@@ -7401,7 +8725,7 @@
 			)
 		)
 		(property "Case Code - mm" "1005"
-			(at 200.66 49.53 0)
+			(at 248.92 43.18 0)
 			(show_name yes)
 			(effects
 				(font
@@ -7412,7 +8736,7 @@
 			)
 		)
 		(property "Dielectric" "C0G (NP0)"
-			(at 198.12 49.53 0)
+			(at 251.46 43.18 0)
 			(show_name yes)
 			(effects
 				(font
@@ -7423,7 +8747,7 @@
 			)
 		)
 		(property "MPN" "GCM1555C1H121FA16D"
-			(at 195.58 49.53 0)
+			(at 254 43.18 0)
 			(show_name yes)
 			(effects
 				(font
@@ -7434,7 +8758,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 193.04 49.53 0)
+			(at 256.54 43.18 0)
 			(show_name yes)
 			(effects
 				(font
@@ -7445,7 +8769,7 @@
 			)
 		)
 		(property "Series" "GCM1555C1H"
-			(at 190.5 49.53 0)
+			(at 259.08 43.18 0)
 			(show_name yes)
 			(effects
 				(font
@@ -7456,7 +8780,7 @@
 			)
 		)
 		(property "Symbol Name" "C_GCM1555C1H121FA16D"
-			(at 187.96 49.53 0)
+			(at 261.62 43.18 0)
 			(show_name yes)
 			(effects
 				(font
@@ -7467,7 +8791,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 185.42 49.53 0)
+			(at 264.16 43.18 0)
 			(show_name yes)
 			(effects
 				(font
@@ -7478,7 +8802,7 @@
 			)
 		)
 		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/GCM1555C1H121FA16D"
-			(at 182.88 49.53 0)
+			(at 266.7 43.18 0)
 			(show_name yes)
 			(effects
 				(font
@@ -7489,7 +8813,7 @@
 			)
 		)
 		(property "Voltage Rating" "50V"
-			(at 180.34 49.53 0)
+			(at 269.24 43.18 0)
 			(show_name yes)
 			(effects
 				(font
@@ -7515,33 +8839,102 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 297.18 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "759c4c59-b034-4d43-be6e-870c798c3fbc")
+		(property "Reference" "#PWR08"
+			(at 297.18 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 297.18 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 297.18 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 297.18 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 297.18 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b3ce927-e548-45da-840b-04416ca532a6")
+		)
+		(instances
+			(project "minimal_ltc3350"
+				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "TRANSISTORS_SIS438DN-T1-GE3_DATA_BASE:Q_SIS438DN-T1-GE3")
-		(at 275.59 68.58 270)
+		(at 328.93 63.5 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "787cc548-9e09-4d18-8532-2ca9c4c12531")
 		(property "Reference" "Q2"
-			(at 281.94 68.58 0)
+			(at 331.47 62.2299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "20.0 V"
-			(at 279.4 68.58 0)
+			(at 331.47 64.7699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "transistor_footprints:PowerPAK 1212-8"
-			(at 265.43 68.58 0)
+			(at 318.77 63.5 0)
 			(show_name yes)
 			(effects
 				(font
@@ -7552,7 +8945,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/64826/sis438dn.pdf"
-			(at 262.89 68.58 0)
+			(at 316.23 63.5 0)
 			(show_name yes)
 			(effects
 				(font
@@ -7563,7 +8956,7 @@
 			)
 		)
 		(property "Description" "Transistor 20.0 V"
-			(at 260.35 68.58 0)
+			(at 313.69 63.5 0)
 			(show_name yes)
 			(effects
 				(font
@@ -7574,7 +8967,7 @@
 			)
 		)
 		(property "Collector Current (A)" "-"
-			(at 257.81 68.58 0)
+			(at 311.15 63.5 0)
 			(show_name yes)
 			(effects
 				(font
@@ -7585,7 +8978,7 @@
 			)
 		)
 		(property "Drain Current (A)" "16.0"
-			(at 255.27 68.58 0)
+			(at 308.61 63.5 0)
 			(show_name yes)
 			(effects
 				(font
@@ -7596,7 +8989,7 @@
 			)
 		)
 		(property "MPN" "SIS438DN-T1-GE3"
-			(at 252.73 68.58 0)
+			(at 306.07 63.5 0)
 			(show_name yes)
 			(effects
 				(font
@@ -7607,7 +9000,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay Semiconductors"
-			(at 250.19 68.58 0)
+			(at 303.53 63.5 0)
 			(show_name yes)
 			(effects
 				(font
@@ -7618,7 +9011,7 @@
 			)
 		)
 		(property "Series" "SIS438DN-T1-GE3"
-			(at 247.65 68.58 0)
+			(at 300.99 63.5 0)
 			(show_name yes)
 			(effects
 				(font
@@ -7629,7 +9022,7 @@
 			)
 		)
 		(property "Symbol Name" "Q_SIS438DN-T1-GE3"
-			(at 245.11 68.58 0)
+			(at 298.45 63.5 0)
 			(show_name yes)
 			(effects
 				(font
@@ -7640,7 +9033,7 @@
 			)
 		)
 		(property "Transistor Type" "N-Channel"
-			(at 242.57 68.58 0)
+			(at 295.91 63.5 0)
 			(show_name yes)
 			(effects
 				(font
@@ -7651,7 +9044,7 @@
 			)
 		)
 		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/SIS438DN-T1-GE3"
-			(at 240.03 68.58 0)
+			(at 293.37 63.5 0)
 			(show_name yes)
 			(effects
 				(font
@@ -7686,8 +9079,180 @@
 		)
 	)
 	(symbol
+		(lib_id "UNITED_TRANSISTORS_DATA_BASE:Q_BSZ060NE2LS")
+		(at 298.45 116.84 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7a81d3e4-936b-45ce-8077-2e65fb764542")
+		(property "Reference" "Q4"
+			(at 300.99 115.5699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "20 V"
+			(at 300.99 118.1099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "transistor_footprints:TSDSON-8FL"
+			(at 288.29 116.84 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/24/49/infineon-bsz060ne2ls-datasheet-en.pdf?fileId=db3a30432ea425a4012ec927cb360e1f"
+			(at 285.75 116.84 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Transistor 20 V"
+			(at 283.21 116.84 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Collector Current (A)" "-"
+			(at 280.67 116.84 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Drain Current (A)" "51.0"
+			(at 278.13 116.84 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BSZ060NE2LS"
+			(at 275.59 116.84 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Infineon Technologies"
+			(at 273.05 116.84 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "BSZ060NE2LS"
+			(at 270.51 116.84 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "Q_BSZ060NE2LS"
+			(at 267.97 116.84 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Transistor Type" "N-Channel"
+			(at 265.43 116.84 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/BSZ060NE2LS"
+			(at 262.89 116.84 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "bcfe13dc-363f-41ff-a74e-903b80ef74f1")
+		)
+		(pin "2"
+			(uuid "5cd14d46-1b42-4d94-86f9-800e0b988877")
+		)
+		(pin "1"
+			(uuid "3671c5c5-256e-4201-ad2a-e4b86aad1574")
+		)
+		(pin "5"
+			(uuid "5cc25bf4-14ed-4559-ad2c-f6a25de2e7bc")
+		)
+		(pin "4"
+			(uuid "a3bbecb4-78ab-4293-b1d4-60fa3af91b56")
+		)
+		(instances
+			(project "minimal_ltc3350"
+				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "RESISTORS_ERJ-2RKF_DATA_BASE:R_ERJ-2RKF6493X")
-		(at 231.14 49.53 270)
+		(at 215.9 44.45 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7696,7 +9261,7 @@
 		(fields_autoplaced yes)
 		(uuid "7b711673-490b-4d0a-9f88-0703762b42f4")
 		(property "Reference" "R3"
-			(at 233.68 48.2599 90)
+			(at 218.44 43.1799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7705,7 +9270,7 @@
 			)
 		)
 		(property "Value" "649 kΩ"
-			(at 233.68 50.7999 90)
+			(at 218.44 45.7199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7714,7 +9279,7 @@
 			)
 		)
 		(property "Footprint" "resistor_footprints:R_0402_1005Metric"
-			(at 226.06 49.53 0)
+			(at 210.82 44.45 0)
 			(show_name yes)
 			(effects
 				(font
@@ -7725,7 +9290,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
-			(at 223.52 49.53 0)
+			(at 208.28 44.45 0)
 			(show_name yes)
 			(effects
 				(font
@@ -7736,7 +9301,7 @@
 			)
 		)
 		(property "Description" "RES SMD 649 kΩ 1% 0402 50V"
-			(at 220.98 49.53 0)
+			(at 205.74 44.45 0)
 			(show_name yes)
 			(effects
 				(font
@@ -7747,7 +9312,7 @@
 			)
 		)
 		(property "Case Code - in" "0402"
-			(at 218.44 49.53 0)
+			(at 203.2 44.45 0)
 			(show_name yes)
 			(effects
 				(font
@@ -7758,7 +9323,7 @@
 			)
 		)
 		(property "Case Code - mm" "1005"
-			(at 215.9 49.53 0)
+			(at 200.66 44.45 0)
 			(show_name yes)
 			(effects
 				(font
@@ -7769,7 +9334,7 @@
 			)
 		)
 		(property "Component Type" "Resistor"
-			(at 213.36 49.53 0)
+			(at 198.12 44.45 0)
 			(show_name yes)
 			(effects
 				(font
@@ -7780,7 +9345,7 @@
 			)
 		)
 		(property "MPN" "ERJ-2RKF6493X"
-			(at 210.82 49.53 0)
+			(at 195.58 44.45 0)
 			(show_name yes)
 			(effects
 				(font
@@ -7791,7 +9356,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic"
-			(at 208.28 49.53 0)
+			(at 193.04 44.45 0)
 			(show_name yes)
 			(effects
 				(font
@@ -7802,7 +9367,7 @@
 			)
 		)
 		(property "Series" "ERJ-2RKF"
-			(at 205.74 49.53 0)
+			(at 190.5 44.45 0)
 			(show_name yes)
 			(effects
 				(font
@@ -7813,7 +9378,7 @@
 			)
 		)
 		(property "Symbol Name" "R_ERJ-2RKF6493X"
-			(at 203.2 49.53 0)
+			(at 187.96 44.45 0)
 			(show_name yes)
 			(effects
 				(font
@@ -7824,7 +9389,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "100 ppm/°C"
-			(at 200.66 49.53 0)
+			(at 185.42 44.45 0)
 			(show_name yes)
 			(effects
 				(font
@@ -7835,7 +9400,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 198.12 49.53 0)
+			(at 182.88 44.45 0)
 			(show_name yes)
 			(effects
 				(font
@@ -7846,7 +9411,7 @@
 			)
 		)
 		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/ERJ-2RKF6493X"
-			(at 195.58 49.53 0)
+			(at 180.34 44.45 0)
 			(show_name yes)
 			(effects
 				(font
@@ -7857,7 +9422,7 @@
 			)
 		)
 		(property "Voltage Rating" "50V"
-			(at 193.04 49.53 0)
+			(at 177.8 44.45 0)
 			(show_name yes)
 			(effects
 				(font
@@ -8080,8 +9645,181 @@
 		)
 	)
 	(symbol
+		(lib_id "UNITED_TRANSISTORS_DATA_BASE:Q_BSZ060NE2LS")
+		(at 298.45 132.08 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8cb6c67a-7de1-466b-ab7c-463604ac5885")
+		(property "Reference" "Q3"
+			(at 300.99 130.8099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "20 V"
+			(at 300.99 133.3499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "transistor_footprints:TSDSON-8FL"
+			(at 288.29 132.08 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/24/49/infineon-bsz060ne2ls-datasheet-en.pdf?fileId=db3a30432ea425a4012ec927cb360e1f"
+			(at 285.75 132.08 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Transistor 20 V"
+			(at 283.21 132.08 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Collector Current (A)" "-"
+			(at 280.67 132.08 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Drain Current (A)" "51.0"
+			(at 278.13 132.08 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BSZ060NE2LS"
+			(at 275.59 132.08 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Infineon Technologies"
+			(at 273.05 132.08 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "BSZ060NE2LS"
+			(at 270.51 132.08 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "Q_BSZ060NE2LS"
+			(at 267.97 132.08 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Transistor Type" "N-Channel"
+			(at 265.43 132.08 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/BSZ060NE2LS"
+			(at 262.89 132.08 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e4113b8f-4ce8-443c-8cc2-6255880463b7")
+		)
+		(pin "2"
+			(uuid "e0379252-25cb-403d-a6da-555c6ce816fd")
+		)
+		(pin "1"
+			(uuid "9b69c28b-4037-4cff-9708-a11113d39e3e")
+		)
+		(pin "5"
+			(uuid "193ade8e-8058-4a9f-9d83-18bbcceb8960")
+		)
+		(pin "4"
+			(uuid "884639a0-8ca5-4315-a635-4625ca377cd8")
+		)
+		(instances
+			(project ""
+				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CAPACITORS_GRM188C71A_DATA_BASE:C_GRM188C71A475KE11D")
-		(at 274.32 97.79 270)
+		(at 264.16 97.79 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8090,7 +9828,7 @@
 		(fields_autoplaced yes)
 		(uuid "ab1b6e4f-ae1e-4aec-b52d-91e0c9b9ff01")
 		(property "Reference" "C6"
-			(at 278.13 96.5199 90)
+			(at 267.97 96.5199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8099,7 +9837,7 @@
 			)
 		)
 		(property "Value" "4.7 µF"
-			(at 278.13 99.0599 90)
+			(at 267.97 99.0599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8108,50 +9846,6 @@
 			)
 		)
 		(property "Footprint" "capacitor_footprints:C_0603_1608Metric"
-			(at 266.7 97.79 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188C71A475KE11-01.pdf"
-			(at 264.16 97.79 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP SMD 4.7 µF X7S 10% 0603 10V"
-			(at 261.62 97.79 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Capacitor Type" "Ceramic"
-			(at 259.08 97.79 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Case Code - in" "0603"
 			(at 256.54 97.79 0)
 			(show_name yes)
 			(effects
@@ -8162,7 +9856,7 @@
 				(hide yes)
 			)
 		)
-		(property "Case Code - mm" "1608"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188C71A475KE11-01.pdf"
 			(at 254 97.79 0)
 			(show_name yes)
 			(effects
@@ -8173,7 +9867,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" "X7S"
+		(property "Description" "CAP SMD 4.7 µF X7S 10% 0603 10V"
 			(at 251.46 97.79 0)
 			(show_name yes)
 			(effects
@@ -8184,7 +9878,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM188C71A475KE11D"
+		(property "Capacitor Type" "Ceramic"
 			(at 248.92 97.79 0)
 			(show_name yes)
 			(effects
@@ -8195,7 +9889,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Case Code - in" "0603"
 			(at 246.38 97.79 0)
 			(show_name yes)
 			(effects
@@ -8206,7 +9900,7 @@
 				(hide yes)
 			)
 		)
-		(property "Series" "GRM188C71A"
+		(property "Case Code - mm" "1608"
 			(at 243.84 97.79 0)
 			(show_name yes)
 			(effects
@@ -8217,7 +9911,7 @@
 				(hide yes)
 			)
 		)
-		(property "Symbol Name" "C_GRM188C71A475KE11D"
+		(property "Dielectric" "X7S"
 			(at 241.3 97.79 0)
 			(show_name yes)
 			(effects
@@ -8228,7 +9922,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "10%"
+		(property "MPN" "GRM188C71A475KE11D"
 			(at 238.76 97.79 0)
 			(show_name yes)
 			(effects
@@ -8239,7 +9933,7 @@
 				(hide yes)
 			)
 		)
-		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/GRM188C71A475KE11D"
+		(property "Manufacturer" "Murata Electronics"
 			(at 236.22 97.79 0)
 			(show_name yes)
 			(effects
@@ -8250,8 +9944,52 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage Rating" "10V"
+		(property "Series" "GRM188C71A"
 			(at 233.68 97.79 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "C_GRM188C71A475KE11D"
+			(at 231.14 97.79 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 228.6 97.79 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/GRM188C71A475KE11D"
+			(at 226.06 97.79 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "10V"
+			(at 223.52 97.79 0)
 			(show_name yes)
 			(effects
 				(font
@@ -8344,7 +10082,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 243.84 57.15 0)
+		(at 215.9 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8353,7 +10091,7 @@
 		(fields_autoplaced yes)
 		(uuid "b5032bd9-0d68-439f-aeea-49b640978df5")
 		(property "Reference" "#PWR03"
-			(at 243.84 63.5 0)
+			(at 215.9 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8362,7 +10100,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 243.84 62.23 0)
+			(at 215.9 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8370,7 +10108,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 243.84 57.15 0)
+			(at 215.9 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8379,7 +10117,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 243.84 57.15 0)
+			(at 215.9 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8388,7 +10126,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 243.84 57.15 0)
+			(at 215.9 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8802,6 +10540,167 @@
 		)
 	)
 	(symbol
+		(lib_id "INDUCTORS_XAL7030_DATA_BASE:L_XAL7030-332ME")
+		(at 309.88 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e9b982d2-a1c1-42e8-8f7f-fd41e05e1b69")
+		(property "Reference" "L1"
+			(at 309.88 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3 µH"
+			(at 309.88 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "inductor_footprints:XAL7030"
+			(at 309.88 129.54 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf"
+			(at 309.88 132.08 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "INDUCTOR SMD 3.3 µH ±20%"
+			(at 309.88 134.62 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "XAL7030-332ME"
+			(at 309.88 137.16 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Coilcraft"
+			(at 309.88 139.7 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Maximum DC Current (A)" "10.0"
+			(at 309.88 142.24 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Maximum DC Resistance (mΩ)" "21.45"
+			(at 309.88 144.78 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "XAL7030"
+			(at 309.88 147.32 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "L_XAL7030-332ME"
+			(at 309.88 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±20%"
+			(at 309.88 152.4 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/XAL7030-332ME"
+			(at 309.88 154.94 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a548dd2-fc2e-45b9-8973-549deb770191")
+		)
+		(pin "2"
+			(uuid "d9fd2371-0edb-42e9-a7e3-6c044ec45090")
+		)
+		(instances
+			(project ""
+				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "UNITED_NO_COMPONENTS_DATA_BASE:Fiducial")
 		(at 190.5 254 0)
 		(unit 1)
@@ -8870,7 +10769,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 259.08 104.14 0)
+		(at 248.92 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8879,7 +10778,7 @@
 		(fields_autoplaced yes)
 		(uuid "f5401335-153e-41dd-9094-6f9173eb9577")
 		(property "Reference" "#PWR06"
-			(at 259.08 110.49 0)
+			(at 248.92 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8888,7 +10787,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 259.08 109.22 0)
+			(at 248.92 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8896,7 +10795,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 259.08 104.14 0)
+			(at 248.92 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8905,7 +10804,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 104.14 0)
+			(at 248.92 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8914,7 +10813,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 259.08 104.14 0)
+			(at 248.92 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
