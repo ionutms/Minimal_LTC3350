@@ -3229,6 +3229,287 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "RESISTORS_ERJ-2RKF_DATA_BASE:R_ERJ-2RKF1183X"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "118 kΩ"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "resistor_footprints:R_0402_1005Metric"
+				(at 0 -5.08 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+				(at 0 -7.62 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "RES SMD 118 kΩ 1% 0402 50V"
+				(at 0 -10.16 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Case Code - in" "0402"
+				(at 0 -12.7 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Case Code - mm" "1005"
+				(at 0 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Component Type" "Resistor"
+				(at 0 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN" "ERJ-2RKF1183X"
+				(at 0 -20.32 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Panasonic"
+				(at 0 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Series" "ERJ-2RKF"
+				(at 0 -25.4 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Symbol Name" "R_ERJ-2RKF1183X"
+				(at 0 -27.94 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Temperature Coefficient" "100 ppm/°C"
+				(at 0 -30.48 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "1%"
+				(at 0 -33.02 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Trustedparts Search" "https://www.trustedparts.com/en/search/ERJ-2RKF1183X"
+				(at 0 -35.56 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Voltage Rating" "50V"
+				(at 0 -38.1 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "R_ERJ-2RKF1183X_0_1"
+				(polyline
+					(pts
+						(xy -2.286 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 0) (xy -1.905 1.016) (xy -1.524 0) (xy -1.143 -1.016) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 0) (xy -0.381 1.016) (xy 0 0) (xy 0.381 -1.016) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0) (xy 1.143 1.016) (xy 1.524 0) (xy 1.905 -1.016) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_ERJ-2RKF1183X_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "RESISTORS_ERJ-2RKF_DATA_BASE:R_ERJ-2RKF1210X"
 			(pin_names
 				(offset 0.254)
@@ -4876,6 +5157,287 @@
 				)
 			)
 			(symbol "R_ERJ-2RKF7873X_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "RESISTORS_ERJ-2RKF_DATA_BASE:R_ERJ-2RKF8663X"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "866 kΩ"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "resistor_footprints:R_0402_1005Metric"
+				(at 0 -5.08 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+				(at 0 -7.62 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "RES SMD 866 kΩ 1% 0402 50V"
+				(at 0 -10.16 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Case Code - in" "0402"
+				(at 0 -12.7 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Case Code - mm" "1005"
+				(at 0 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Component Type" "Resistor"
+				(at 0 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN" "ERJ-2RKF8663X"
+				(at 0 -20.32 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Panasonic"
+				(at 0 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Series" "ERJ-2RKF"
+				(at 0 -25.4 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Symbol Name" "R_ERJ-2RKF8663X"
+				(at 0 -27.94 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Temperature Coefficient" "100 ppm/°C"
+				(at 0 -30.48 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "1%"
+				(at 0 -33.02 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Trustedparts Search" "https://www.trustedparts.com/en/search/ERJ-2RKF8663X"
+				(at 0 -35.56 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Voltage Rating" "50V"
+				(at 0 -38.1 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "R_ERJ-2RKF8663X_0_1"
+				(polyline
+					(pts
+						(xy -2.286 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 0) (xy -1.905 1.016) (xy -1.524 0) (xy -1.143 -1.016) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 0) (xy -0.381 1.016) (xy 0 0) (xy 0.381 -1.016) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0) (xy 1.143 1.016) (xy 1.524 0) (xy 1.905 -1.016) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_ERJ-2RKF8663X_1_1"
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -7233,6 +7795,12 @@
 		(uuid "d3aa18a5-fc6f-4377-87b5-c9e04d71652f")
 	)
 	(junction
+		(at 330.2 205.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d9f899ab-c1be-4bdf-9c64-7a61da835c71")
+	)
+	(junction
 		(at 132.08 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7274,6 +7842,26 @@
 	)
 	(wire
 		(pts
+			(xy 330.2 205.74) (xy 330.2 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "068ad0f0-dd53-4ad0-af9a-fde741cbfa52")
+	)
+	(wire
+		(pts
+			(xy 330.2 217.17) (xy 330.2 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "071b9747-afed-4400-9e3c-5c92de2be790")
+	)
+	(wire
+		(pts
 			(xy 191.77 66.04) (xy 190.5 66.04)
 		)
 		(stroke
@@ -7311,6 +7899,16 @@
 			(type default)
 		)
 		(uuid "10e5ce4c-e741-4c93-b460-6827a43dfbfb")
+	)
+	(wire
+		(pts
+			(xy 330.2 204.47) (xy 330.2 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11141efe-240a-40a9-9802-d3b4716a7872")
 	)
 	(wire
 		(pts
@@ -7594,6 +8192,16 @@
 	)
 	(wire
 		(pts
+			(xy 330.2 111.76) (xy 330.2 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45895384-0a06-4139-86e9-fdc93a50f1a4")
+	)
+	(wire
+		(pts
 			(xy 215.9 25.4) (xy 215.9 26.67)
 		)
 		(stroke
@@ -7811,6 +8419,16 @@
 			(type default)
 		)
 		(uuid "6ce380d5-939c-486b-9e38-31cb6371e895")
+	)
+	(wire
+		(pts
+			(xy 330.2 191.77) (xy 330.2 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e969924-eeb5-4c04-8e72-44a90a2b5951")
 	)
 	(wire
 		(pts
@@ -8704,6 +9322,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 205.74) (xy 330.2 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb2b2206-cd4a-4174-ba67-e3e0b359a9ad")
+	)
+	(wire
+		(pts
 			(xy 233.68 91.44) (xy 292.1 91.44)
 		)
 		(stroke
@@ -8731,6 +9359,16 @@
 			(type default)
 		)
 		(uuid "fea2446d-13db-4205-b180-b31807849d4c")
+	)
+	(label "CAPFB"
+		(at 236.22 205.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0327fa14-27ab-4060-b5ad-2e0851fda3c5")
 	)
 	(label "ICAP"
 		(at 234.95 149.86 0)
@@ -10112,6 +10750,203 @@
 			(project "minimal_ltc3350"
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RESISTORS_ERJ-2RKF_DATA_BASE:R_ERJ-2RKF8663X")
+		(at 330.2 199.39 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22ddcac5-6da0-4168-bfaa-ed7ca4858698")
+		(property "Reference" "R17"
+			(at 332.74 198.1199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "866 kΩ"
+			(at 332.74 200.6599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "resistor_footprints:R_0402_1005Metric"
+			(at 325.12 199.39 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+			(at 322.58 199.39 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 866 kΩ 1% 0402 50V"
+			(at 320.04 199.39 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - in" "0402"
+			(at 317.5 199.39 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - mm" "1005"
+			(at 314.96 199.39 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Type" "Resistor"
+			(at 312.42 199.39 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ-2RKF8663X"
+			(at 309.88 199.39 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 307.34 199.39 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "ERJ-2RKF"
+			(at 304.8 199.39 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "R_ERJ-2RKF8663X"
+			(at 302.26 199.39 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "100 ppm/°C"
+			(at 299.72 199.39 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 297.18 199.39 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/ERJ-2RKF8663X"
+			(at 294.64 199.39 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 292.1 199.39 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ceb3d38c-3f60-4d8d-901f-41c1d33e18a3")
+		)
+		(pin "1"
+			(uuid "4318dff3-8dbc-4992-b5a8-7cada62485f4")
+		)
+		(instances
+			(project ""
+				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -15025,6 +15860,203 @@
 		)
 	)
 	(symbol
+		(lib_id "RESISTORS_ERJ-2RKF_DATA_BASE:R_ERJ-2RKF20R0X")
+		(at 330.2 186.69 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "997d26c8-e473-4ad9-b4cf-4b6074670d9b")
+		(property "Reference" "R16"
+			(at 332.74 185.4199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "20 Ω"
+			(at 332.74 187.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "resistor_footprints:R_0402_1005Metric"
+			(at 325.12 186.69 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+			(at 322.58 186.69 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 20 Ω 1% 0402 50V"
+			(at 320.04 186.69 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - in" "0402"
+			(at 317.5 186.69 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - mm" "1005"
+			(at 314.96 186.69 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Type" "Resistor"
+			(at 312.42 186.69 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ-2RKF20R0X"
+			(at 309.88 186.69 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 307.34 186.69 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "ERJ-2RKF"
+			(at 304.8 186.69 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "R_ERJ-2RKF20R0X"
+			(at 302.26 186.69 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "100 ppm/°C"
+			(at 299.72 186.69 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 297.18 186.69 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/ERJ-2RKF20R0X"
+			(at 294.64 186.69 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 292.1 186.69 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d6ee94bd-ed56-4248-9c1c-4d0ced845699")
+		)
+		(pin "1"
+			(uuid "83254a59-1d86-4ad2-95d4-4679c4333041")
+		)
+		(instances
+			(project "minimal_ltc3350"
+				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CAPACITORS_GRM188C71A_DATA_BASE:C_GRM188C71A475KE11D")
 		(at 271.78 107.95 270)
 		(unit 1)
@@ -16071,6 +17103,72 @@
 			(project "minimal_ltc3350"
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 330.2 218.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb1cd9d4-3b0a-4d96-b067-47e1053f9923")
+		(property "Reference" "#PWR020"
+			(at 330.2 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 330.2 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 330.2 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 330.2 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 330.2 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7aa3a7a-c4b5-47f4-a697-05eaf4c1e3ba")
+		)
+		(instances
+			(project "minimal_ltc3350"
+				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -17481,6 +18579,203 @@
 			(project "minimal_ltc3350"
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
 					(reference "FID3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RESISTORS_ERJ-2RKF_DATA_BASE:R_ERJ-2RKF1183X")
+		(at 330.2 212.09 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6b6fa39-be43-458d-af49-0522643361dc")
+		(property "Reference" "R18"
+			(at 332.74 210.8199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "118 kΩ"
+			(at 332.74 213.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "resistor_footprints:R_0402_1005Metric"
+			(at 325.12 212.09 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+			(at 322.58 212.09 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 118 kΩ 1% 0402 50V"
+			(at 320.04 212.09 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - in" "0402"
+			(at 317.5 212.09 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - mm" "1005"
+			(at 314.96 212.09 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Type" "Resistor"
+			(at 312.42 212.09 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ-2RKF1183X"
+			(at 309.88 212.09 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 307.34 212.09 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "ERJ-2RKF"
+			(at 304.8 212.09 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "R_ERJ-2RKF1183X"
+			(at 302.26 212.09 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "100 ppm/°C"
+			(at 299.72 212.09 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 297.18 212.09 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/ERJ-2RKF1183X"
+			(at 294.64 212.09 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 292.1 212.09 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b2bc6546-21c5-471c-bf88-0e7579907892")
+		)
+		(pin "1"
+			(uuid "d95f89ce-5e90-4448-8499-df9aef2a931e")
+		)
+		(instances
+			(project ""
+				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
+					(reference "R18")
 					(unit 1)
 				)
 			)
