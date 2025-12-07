@@ -390,4 +390,5 @@
   (lib (name "TRANSISTORS_BSZ060NE2LS_DATA_BASE")(type "KiCad")(uri "${KIPRJMOD}/KiCAD_Symbols_Generator/series_kicad_sym/TRANSISTORS_BSZ060NE2LS_DATA_BASE.kicad_sym")(options "")(descr ""))
   (lib (name "CAPACITORS_C3216X5R1E_DATA_BASE")(type "KiCad")(uri "${KIPRJMOD}/KiCAD_Symbols_Generator/series_kicad_sym/CAPACITORS_C3216X5R1E_DATA_BASE.kicad_sym")(options "")(descr ""))
   (lib (name "CAPACITORS_C1005X5R1E_DATA_BASE")(type "KiCad")(uri "${KIPRJMOD}/KiCAD_Symbols_Generator/series_kicad_sym/CAPACITORS_C1005X5R1E_DATA_BASE.kicad_sym")(options "")(descr ""))
+  (lib (name "RESISTORS_ERJ-6DQF_DATA_BASE")(type "KiCad")(uri "${KIPRJMOD}/KiCAD_Symbols_Generator/series_kicad_sym/RESISTORS_ERJ-6DQF_DATA_BASE.kicad_sym")(options "")(descr ""))
 )
