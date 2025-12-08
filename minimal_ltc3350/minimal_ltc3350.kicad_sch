@@ -2397,6 +2397,218 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "DIODES_APHHS1005LSECK-J3-PF_DATA_BASE:D_APHHS1005LSECK-J3-PF"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "1.8 V"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "diode_footprints:LED_RED_0402_1005Metric"
+				(at 0 -7.62 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.kingbrightusa.com/product.asp?catalog_name=LED&product_id=APHHS1005LSECK/J3-PF"
+				(at 0 -10.16 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Red LED SMD 1.8 V"
+				(at 0 -12.7 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Diode Type" "Red LED"
+				(at 0 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN" "APHHS1005LSECK/J3-PF"
+				(at 0 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Kingbright"
+				(at 0 -20.32 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Maximum DC Current (A)" "0.03"
+				(at 0 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Series" "APHHS1005LSECK-J3-PF"
+				(at 0 -25.4 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Symbol Name" "D_APHHS1005LSECK-J3-PF"
+				(at 0 -27.94 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Trustedparts Search" "https://www.trustedparts.com/en/search/APHHS1005LSECK/J3-PF"
+				(at 0 -30.48 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "D_APHHS1005LSECK-J3-PF_1_0"
+				(polyline
+					(pts
+						(xy 1.27 1.905) (xy 1.27 0) (xy -1.27 1.905) (xy -1.27 -1.905) (xy 1.27 0) (xy 1.27 -1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 255 0 0 1)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 2.54) (xy 3.302 4.064) (xy 2.54 4.064) (xy 3.302 4.064) (xy 3.302 3.302)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 2.54) (xy 4.572 4.064) (xy 3.81 4.064) (xy 4.572 4.064) (xy 4.572 3.302)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "INDUCTORS_XAL7030_DATA_BASE:L_XAL7030-332ME"
 			(pin_names
 				(offset 0.254)
@@ -2873,6 +3085,287 @@
 				)
 			)
 			(symbol "R_ERJ-2GE0R00X_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "RESISTORS_ERJ-2RKF_DATA_BASE:R_ERJ-2RKF1001X"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "1 kΩ"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "resistor_footprints:R_0402_1005Metric"
+				(at 0 -5.08 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+				(at 0 -7.62 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "RES SMD 1 kΩ 1% 0402 50V"
+				(at 0 -10.16 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Case Code - in" "0402"
+				(at 0 -12.7 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Case Code - mm" "1005"
+				(at 0 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Component Type" "Resistor"
+				(at 0 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN" "ERJ-2RKF1001X"
+				(at 0 -20.32 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Panasonic"
+				(at 0 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Series" "ERJ-2RKF"
+				(at 0 -25.4 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Symbol Name" "R_ERJ-2RKF1001X"
+				(at 0 -27.94 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Temperature Coefficient" "100 ppm/°C"
+				(at 0 -30.48 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "1%"
+				(at 0 -33.02 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Trustedparts Search" "https://www.trustedparts.com/en/search/ERJ-2RKF1001X"
+				(at 0 -35.56 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Voltage Rating" "50V"
+				(at 0 -38.1 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "R_ERJ-2RKF1001X_0_1"
+				(polyline
+					(pts
+						(xy -2.286 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 0) (xy -1.905 1.016) (xy -1.524 0) (xy -1.143 -1.016) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 0) (xy -0.381 1.016) (xy 0 0) (xy 0.381 -1.016) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0) (xy 1.143 1.016) (xy 1.524 0) (xy 1.905 -1.016) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_ERJ-2RKF1001X_1_1"
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -7597,7 +8090,7 @@
 					)
 				)
 				(pin power_in line
-					(at 35.56 -73.66 180)
+					(at 35.56 -86.36 180)
 					(length 2.54)
 					(name "CAPGD"
 						(effects
@@ -7617,7 +8110,7 @@
 			)
 			(symbol "U_LTC3350EUHF-PBF_1_1"
 				(pin output line
-					(at 35.56 -68.58 180)
+					(at 35.56 -76.2 180)
 					(length 2.54)
 					(name "~{SMBALERT}"
 						(effects
@@ -7635,7 +8128,7 @@
 					)
 				)
 				(pin output line
-					(at 35.56 -78.74 180)
+					(at 35.56 -96.52 180)
 					(length 2.54)
 					(name "~{PFO}"
 						(effects
@@ -8388,6 +8881,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 248.92) (xy 259.08 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0055ccd0-0d8d-44c9-a264-2d85261ffa37")
+	)
+	(wire
+		(pts
 			(xy 172.72 22.86) (xy 175.26 22.86)
 		)
 		(stroke
@@ -8518,6 +9021,16 @@
 	)
 	(wire
 		(pts
+			(xy 289.56 236.22) (xy 289.56 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14b7007d-9ea2-4e09-9b17-34fc1e51b84f")
+	)
+	(wire
+		(pts
 			(xy 132.08 154.94) (xy 132.08 165.1)
 		)
 		(stroke
@@ -8555,6 +9068,16 @@
 			(type default)
 		)
 		(uuid "1a159fdf-d7b2-4569-aed5-8e1a4a20ce58")
+	)
+	(wire
+		(pts
+			(xy 233.68 248.92) (xy 246.38 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1abef1d8-9223-441d-b6bd-511d5b13c18b")
 	)
 	(wire
 		(pts
@@ -8668,6 +9191,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 236.22) (xy 274.32 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28408be5-b763-4d65-b1ac-e8fdb6beaaa0")
+	)
+	(wire
+		(pts
 			(xy 208.28 20.32) (xy 215.9 20.32)
 		)
 		(stroke
@@ -8768,6 +9301,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 259.08) (xy 256.54 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c1801e0-f58e-47bc-87f3-73ab82ac4a2c")
+	)
+	(wire
+		(pts
 			(xy 215.9 58.42) (xy 215.9 57.15)
 		)
 		(stroke
@@ -8805,6 +9348,16 @@
 			(type default)
 		)
 		(uuid "47a458f8-4c2d-4f13-ba79-09b7096d92d9")
+	)
+	(wire
+		(pts
+			(xy 259.08 248.92) (xy 259.08 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47c13fcb-b894-4411-b3fb-62619dfd4fd8")
 	)
 	(wire
 		(pts
@@ -8938,6 +9491,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 247.65) (xy 274.32 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58c0932e-e662-4a27-aeda-99eebfe3481e")
+	)
+	(wire
+		(pts
 			(xy 241.3 163.83) (xy 241.3 165.1)
 		)
 		(stroke
@@ -8995,6 +9558,16 @@
 			(type default)
 		)
 		(uuid "64b1b38c-2f61-4723-9c17-d5c603c664d2")
+	)
+	(wire
+		(pts
+			(xy 233.68 269.24) (xy 246.38 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6509ccd2-5660-4316-9ae3-d49ec7ccb9bc")
 	)
 	(wire
 		(pts
@@ -9508,6 +10081,16 @@
 	)
 	(wire
 		(pts
+			(xy 289.56 247.65) (xy 289.56 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "addc44b7-1fe3-4d67-aca9-a1199be7555f")
+	)
+	(wire
+		(pts
 			(xy 297.18 134.62) (xy 297.18 135.89)
 		)
 		(stroke
@@ -9535,6 +10118,16 @@
 			(type default)
 		)
 		(uuid "afbabb5d-657e-4c5b-a98a-507abc713b9e")
+	)
+	(wire
+		(pts
+			(xy 233.68 259.08) (xy 246.38 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0f41f4c-258a-4536-b5d7-fb4549cf1c2e")
 	)
 	(wire
 		(pts
@@ -9585,6 +10178,16 @@
 			(type default)
 		)
 		(uuid "b6468643-5209-4aa1-a3d9-717c102ec04c")
+	)
+	(wire
+		(pts
+			(xy 256.54 269.24) (xy 289.56 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6d4f234-7fea-44c3-bf9c-56884e8a4e72")
 	)
 	(wire
 		(pts
@@ -9805,6 +10408,16 @@
 			(type default)
 		)
 		(uuid "d05d1e92-2842-4801-adc8-cf4bc20af60b")
+	)
+	(wire
+		(pts
+			(xy 259.08 236.22) (xy 259.08 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d06777c6-cd34-4708-b330-228bc7c4a197")
 	)
 	(wire
 		(pts
@@ -10136,6 +10749,16 @@
 		)
 		(uuid "fea2446d-13db-4205-b180-b31807849d4c")
 	)
+	(label "~{PFO}"
+		(at 234.95 269.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "01279446-68e7-45e5-b56c-315e9aee5f60")
+	)
 	(label "CAPFB"
 		(at 234.95 231.14 0)
 		(effects
@@ -10155,6 +10778,16 @@
 			(justify left bottom)
 		)
 		(uuid "0bbbe0e8-5f3e-4920-8efd-e5fea9e1133c")
+	)
+	(label "INTVCC"
+		(at 259.08 236.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0c992411-27f6-4b79-843a-a939d8d1bb85")
 	)
 	(label "TGATE"
 		(at 236.22 86.36 0)
@@ -10246,6 +10879,16 @@
 		)
 		(uuid "377022c4-f97b-43a5-9cd9-80db8f9d1962")
 	)
+	(label "INTVCC"
+		(at 274.32 236.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3ffb946b-be11-473d-857c-17add95a0ec9")
+	)
 	(label "VOUTM5"
 		(at 190.5 68.58 180)
 		(effects
@@ -10265,6 +10908,16 @@
 			(justify left bottom)
 		)
 		(uuid "44d7bd92-b12d-46e7-aed5-8b5bdc51ee73")
+	)
+	(label "CAPGD"
+		(at 234.95 259.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5277a16b-2c5b-4052-9e48-b7db82b818c7")
 	)
 	(label "SW"
 		(at 234.95 119.38 0)
@@ -10356,6 +11009,16 @@
 		)
 		(uuid "80e79b47-2312-4425-a170-2b6b53d9600c")
 	)
+	(label "~{SMBALERT}"
+		(at 234.95 248.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8f47018b-0dd4-4f2e-bda2-42a898a13f09")
+	)
 	(label "CAP_SLCT0"
 		(at 161.29 129.54 180)
 		(effects
@@ -10415,6 +11078,16 @@
 			(justify left bottom)
 		)
 		(uuid "b0bf432d-40af-41cf-a894-0b821ec5ae0a")
+	)
+	(label "INTVCC"
+		(at 289.56 236.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b7b164b6-b146-42cf-a7c8-a2fc37cbd9ed")
 	)
 	(label "ITST"
 		(at 152.4 175.26 0)
@@ -13029,6 +13702,201 @@
 		)
 	)
 	(symbol
+		(lib_id "RESISTORS_ERJ-2RKF_DATA_BASE:R_ERJ-2RKF1001X")
+		(at 251.46 259.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31c6ef5a-2245-4704-8721-bf434c8f8f3a")
+		(property "Reference" "R24"
+			(at 251.46 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1 kΩ"
+			(at 251.46 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "resistor_footprints:R_0402_1005Metric"
+			(at 251.46 264.16 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+			(at 251.46 266.7 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 1 kΩ 1% 0402 50V"
+			(at 251.46 269.24 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - in" "0402"
+			(at 251.46 271.78 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - mm" "1005"
+			(at 251.46 274.32 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Type" "Resistor"
+			(at 251.46 276.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ-2RKF1001X"
+			(at 251.46 279.4 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 251.46 281.94 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "ERJ-2RKF"
+			(at 251.46 284.48 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "R_ERJ-2RKF1001X"
+			(at 251.46 287.02 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "100 ppm/°C"
+			(at 251.46 289.56 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 251.46 292.1 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/ERJ-2RKF1001X"
+			(at 251.46 294.64 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 251.46 297.18 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1ef9c8e-fea7-4e97-9f3b-fd9ab86e1a12")
+		)
+		(pin "2"
+			(uuid "de42cf0b-7203-4276-8bca-9e5a23b69a26")
+		)
+		(instances
+			(project ""
+				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "RESISTORS_PRL1632-_DATA_BASE:R_PRL1632-R016-F-T1")
 		(at 203.2 20.32 0)
 		(unit 1)
@@ -13462,7 +14330,7 @@
 	)
 	(symbol
 		(lib_id "UNITED_NO_COMPONENTS_DATA_BASE:Fiducial")
-		(at 254 271.78 0)
+		(at 139.7 274.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13471,7 +14339,7 @@
 		(fields_autoplaced yes)
 		(uuid "4015ad95-ec35-46f3-b4ef-ceced06c406d")
 		(property "Reference" "FID2"
-			(at 256.54 270.5099 0)
+			(at 142.24 273.0499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13480,7 +14348,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 256.54 273.0499 0)
+			(at 142.24 275.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13489,7 +14357,7 @@
 			)
 		)
 		(property "Footprint" "no_components_footprints:Fiducial_0.5mm_Mask1mm"
-			(at 254 279.4 0)
+			(at 139.7 281.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13499,7 +14367,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 254 274.32 0)
+			(at 139.7 276.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13509,7 +14377,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 254 276.86 0)
+			(at 139.7 279.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13522,6 +14390,159 @@
 			(project "minimal_ltc3350"
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
 					(reference "FID2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DIODES_APHHS1005LSECK-J3-PF_DATA_BASE:D_APHHS1005LSECK-J3-PF")
+		(at 274.32 242.57 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "429a2725-5565-49b4-ab38-67291b3a97ed")
+		(property "Reference" "D2"
+			(at 279.4 242.9509 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.8 V"
+			(at 279.4 245.4909 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "diode_footprints:LED_RED_0402_1005Metric"
+			(at 266.7 242.57 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kingbrightusa.com/product.asp?catalog_name=LED&product_id=APHHS1005LSECK/J3-PF"
+			(at 264.16 242.57 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Red LED SMD 1.8 V"
+			(at 261.62 242.57 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Diode Type" "Red LED"
+			(at 259.08 242.57 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "APHHS1005LSECK/J3-PF"
+			(at 256.54 242.57 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kingbright"
+			(at 254 242.57 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Maximum DC Current (A)" "0.03"
+			(at 251.46 242.57 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "APHHS1005LSECK-J3-PF"
+			(at 248.92 242.57 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "D_APHHS1005LSECK-J3-PF"
+			(at 246.38 242.57 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/APHHS1005LSECK/J3-PF"
+			(at 243.84 242.57 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fcf323a1-930e-48de-bdff-3b5d440257ca")
+		)
+		(pin "1"
+			(uuid "ba120f78-4b98-4ef9-a607-f92107036d3f")
+		)
+		(instances
+			(project ""
+				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -16827,6 +17848,159 @@
 		)
 	)
 	(symbol
+		(lib_id "DIODES_APHHS1005LSECK-J3-PF_DATA_BASE:D_APHHS1005LSECK-J3-PF")
+		(at 259.08 242.57 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82e036a3-01a7-4515-9af6-845431e69ed1")
+		(property "Reference" "D4"
+			(at 264.16 242.9509 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.8 V"
+			(at 264.16 245.4909 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "diode_footprints:LED_RED_0402_1005Metric"
+			(at 251.46 242.57 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kingbrightusa.com/product.asp?catalog_name=LED&product_id=APHHS1005LSECK/J3-PF"
+			(at 248.92 242.57 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Red LED SMD 1.8 V"
+			(at 246.38 242.57 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Diode Type" "Red LED"
+			(at 243.84 242.57 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "APHHS1005LSECK/J3-PF"
+			(at 241.3 242.57 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kingbright"
+			(at 238.76 242.57 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Maximum DC Current (A)" "0.03"
+			(at 236.22 242.57 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "APHHS1005LSECK-J3-PF"
+			(at 233.68 242.57 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "D_APHHS1005LSECK-J3-PF"
+			(at 231.14 242.57 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/APHHS1005LSECK/J3-PF"
+			(at 228.6 242.57 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0ce04563-2af9-44a1-bd37-ea49580a58e7")
+		)
+		(pin "1"
+			(uuid "c57973d5-339f-4243-8e66-4ecb41128925")
+		)
+		(instances
+			(project "minimal_ltc3350"
+				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CAPACITORS_C3216X5R1E_DATA_BASE:C_C3216X5R1E476M160AC")
 		(at 353.06 26.67 270)
 		(unit 1)
@@ -17999,6 +19173,396 @@
 			(project "minimal_ltc3350"
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RESISTORS_ERJ-2RKF_DATA_BASE:R_ERJ-2RKF1001X")
+		(at 251.46 269.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2d0b6ac-03a6-41e0-af3d-c973dd0d6984")
+		(property "Reference" "R25"
+			(at 251.46 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1 kΩ"
+			(at 251.46 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "resistor_footprints:R_0402_1005Metric"
+			(at 251.46 274.32 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+			(at 251.46 276.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 1 kΩ 1% 0402 50V"
+			(at 251.46 279.4 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - in" "0402"
+			(at 251.46 281.94 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - mm" "1005"
+			(at 251.46 284.48 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Type" "Resistor"
+			(at 251.46 287.02 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ-2RKF1001X"
+			(at 251.46 289.56 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 251.46 292.1 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "ERJ-2RKF"
+			(at 251.46 294.64 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "R_ERJ-2RKF1001X"
+			(at 251.46 297.18 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "100 ppm/°C"
+			(at 251.46 299.72 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 251.46 302.26 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/ERJ-2RKF1001X"
+			(at 251.46 304.8 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 251.46 307.34 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3dfd25d6-f278-4a58-b4cc-d46decf8a380")
+		)
+		(pin "2"
+			(uuid "345173ae-ae4b-4161-b435-919d38679a7d")
+		)
+		(instances
+			(project "minimal_ltc3350"
+				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RESISTORS_ERJ-2RKF_DATA_BASE:R_ERJ-2RKF1001X")
+		(at 251.46 248.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4047a36-6fc7-4d99-8b62-903a81c6c8cf")
+		(property "Reference" "R26"
+			(at 251.46 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1 kΩ"
+			(at 251.46 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "resistor_footprints:R_0402_1005Metric"
+			(at 251.46 254 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+			(at 251.46 256.54 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 1 kΩ 1% 0402 50V"
+			(at 251.46 259.08 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - in" "0402"
+			(at 251.46 261.62 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - mm" "1005"
+			(at 251.46 264.16 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Type" "Resistor"
+			(at 251.46 266.7 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ-2RKF1001X"
+			(at 251.46 269.24 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 251.46 271.78 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "ERJ-2RKF"
+			(at 251.46 274.32 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "R_ERJ-2RKF1001X"
+			(at 251.46 276.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "100 ppm/°C"
+			(at 251.46 279.4 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 251.46 281.94 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/ERJ-2RKF1001X"
+			(at 251.46 284.48 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 251.46 287.02 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba17d13b-7b72-42a1-b88a-cb6e229608a0")
+		)
+		(pin "2"
+			(uuid "8d790a77-63dd-44cf-a034-b68c177f8fcc")
+		)
+		(instances
+			(project "minimal_ltc3350"
+				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -21120,7 +22684,7 @@
 	)
 	(symbol
 		(lib_id "UNITED_NO_COMPONENTS_DATA_BASE:Fiducial")
-		(at 241.3 271.78 0)
+		(at 127 274.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21129,7 +22693,7 @@
 		(fields_autoplaced yes)
 		(uuid "f4b4ae33-5297-4aed-af34-4586f6b4f56e")
 		(property "Reference" "FID1"
-			(at 243.84 270.5099 0)
+			(at 129.54 273.0499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21138,7 +22702,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 243.84 273.0499 0)
+			(at 129.54 275.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21147,7 +22711,7 @@
 			)
 		)
 		(property "Footprint" "no_components_footprints:Fiducial_0.5mm_Mask1mm"
-			(at 241.3 279.4 0)
+			(at 127 281.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21157,7 +22721,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 241.3 274.32 0)
+			(at 127 276.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21167,7 +22731,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 241.3 276.86 0)
+			(at 127 279.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21253,7 +22817,7 @@
 	)
 	(symbol
 		(lib_id "UNITED_NO_COMPONENTS_DATA_BASE:Fiducial")
-		(at 266.7 271.78 0)
+		(at 152.4 274.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21262,7 +22826,7 @@
 		(fields_autoplaced yes)
 		(uuid "f5a49831-a4a2-4f9c-8808-6d4d2ceee41c")
 		(property "Reference" "FID3"
-			(at 269.24 270.5099 0)
+			(at 154.94 273.0499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21271,7 +22835,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 269.24 273.0499 0)
+			(at 154.94 275.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21280,7 +22844,7 @@
 			)
 		)
 		(property "Footprint" "no_components_footprints:Fiducial_0.5mm_Mask1mm"
-			(at 266.7 279.4 0)
+			(at 152.4 281.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21290,7 +22854,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 266.7 274.32 0)
+			(at 152.4 276.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21300,7 +22864,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 266.7 276.86 0)
+			(at 152.4 279.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21510,6 +23074,159 @@
 			(project ""
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
 					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DIODES_APHHS1005LSECK-J3-PF_DATA_BASE:D_APHHS1005LSECK-J3-PF")
+		(at 289.56 242.57 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9cc6513-6592-4c84-badb-47445b3ccf78")
+		(property "Reference" "D3"
+			(at 294.64 242.9509 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.8 V"
+			(at 294.64 245.4909 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "diode_footprints:LED_RED_0402_1005Metric"
+			(at 281.94 242.57 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kingbrightusa.com/product.asp?catalog_name=LED&product_id=APHHS1005LSECK/J3-PF"
+			(at 279.4 242.57 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Red LED SMD 1.8 V"
+			(at 276.86 242.57 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Diode Type" "Red LED"
+			(at 274.32 242.57 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "APHHS1005LSECK/J3-PF"
+			(at 271.78 242.57 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kingbright"
+			(at 269.24 242.57 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Maximum DC Current (A)" "0.03"
+			(at 266.7 242.57 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "APHHS1005LSECK-J3-PF"
+			(at 264.16 242.57 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "D_APHHS1005LSECK-J3-PF"
+			(at 261.62 242.57 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/APHHS1005LSECK/J3-PF"
+			(at 259.08 242.57 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "675edf77-26cb-4464-a30e-c1dea82d69f4")
+		)
+		(pin "1"
+			(uuid "076d009a-2c49-4003-bbc9-7743c83bde41")
+		)
+		(instances
+			(project "minimal_ltc3350"
+				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
+					(reference "D3")
 					(unit 1)
 				)
 			)
