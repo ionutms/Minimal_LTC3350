@@ -9991,6 +9991,12 @@
 		(uuid "1f881db5-b779-4ac2-938f-afb8d6e1fa8c")
 	)
 	(junction
+		(at 213.36 228.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f8f5249-b793-4233-84e3-c3a101e8e942")
+	)
+	(junction
 		(at 271.78 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10025,6 +10031,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3a8ea91b-d889-4461-95ad-26c32761bbf9")
+	)
+	(junction
+		(at 210.82 254)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c35ebc4-396b-42a4-bfe3-db110f54590e")
 	)
 	(junction
 		(at 121.92 22.86)
@@ -10267,6 +10279,12 @@
 		(uuid "ca657ee8-a7e3-4d02-a8fd-1fcd30bc410c")
 	)
 	(junction
+		(at 213.36 203.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cba73408-445d-48f0-9760-0c5be94514f6")
+	)
+	(junction
 		(at 251.46 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10307,6 +10325,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e31dad0f-271f-4a34-b56f-b0faf7c9ad71")
+	)
+	(junction
+		(at 213.36 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e5d53f79-98a8-48fc-957a-26c8d497dc2a")
 	)
 	(junction
 		(at 208.28 187.96)
@@ -10826,6 +10850,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 228.6) (xy 228.6 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "350408d4-ac9f-4b25-84a0-9faecbc760c9")
+	)
+	(wire
+		(pts
 			(xy 241.3 165.1) (xy 241.3 167.64)
 		)
 		(stroke
@@ -10853,6 +10887,16 @@
 			(type default)
 		)
 		(uuid "37953652-91f5-4fd7-8eec-dcc276e95c40")
+	)
+	(wire
+		(pts
+			(xy 210.82 254) (xy 228.6 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38006459-4108-46f7-8326-f2563b9c6191")
 	)
 	(wire
 		(pts
@@ -11503,6 +11547,16 @@
 			(type default)
 		)
 		(uuid "7640c3e7-2284-4723-ba94-71762d37e95e")
+	)
+	(wire
+		(pts
+			(xy 213.36 177.8) (xy 228.6 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77b1a7a5-e267-43a4-978c-529e575900db")
 	)
 	(wire
 		(pts
@@ -12536,6 +12590,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 203.2) (xy 228.6 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6e528c9-40bf-488a-afa2-8ac1941612d8")
+	)
+	(wire
+		(pts
 			(xy 213.36 83.82) (xy 198.12 83.82)
 		)
 		(stroke
@@ -12653,6 +12717,16 @@
 			(type default)
 		)
 		(uuid "f0b30af0-f96d-48d6-9f35-154868169e06")
+	)
+	(wire
+		(pts
+			(xy 228.6 254) (xy 228.6 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1d3624c-0327-4afa-bd00-52ecc899b735")
 	)
 	(wire
 		(pts
@@ -12944,6 +13018,16 @@
 		)
 		(uuid "2e64314a-fa7c-41c5-bd07-516a4a1faea3")
 	)
+	(label "D_VCAP2"
+		(at 205.74 213.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3152b95e-40b4-4801-8c3a-976ea89a490a")
+	)
 	(label "BGATE"
 		(at 176.53 116.84 0)
 		(effects
@@ -12994,6 +13078,16 @@
 		)
 		(uuid "5277a16b-2c5b-4052-9e48-b7db82b818c7")
 	)
+	(label "D_VCAP1"
+		(at 205.74 238.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5c940d4d-82b1-4d74-9b0c-7acb86b75c36")
+	)
 	(label "SW"
 		(at 175.26 106.68 0)
 		(effects
@@ -13014,6 +13108,16 @@
 		)
 		(uuid "67cd5fa3-18c8-469f-9b40-d778f0d79145")
 	)
+	(label "VCAP_2"
+		(at 228.6 203.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6c1c6a53-549e-4816-82a1-3062f0996d9c")
+	)
 	(label "VCAP"
 		(at 317.5 96.52 0)
 		(effects
@@ -13033,6 +13137,16 @@
 			(justify left bottom)
 		)
 		(uuid "6e4c4242-16e5-4500-aec6-8e19d58641af")
+	)
+	(label "VCAP_3"
+		(at 228.6 177.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "706172c3-c1b8-4bfa-9a8c-92be7ef34350")
 	)
 	(label "OUTFET"
 		(at 175.26 66.04 0)
@@ -13114,6 +13228,16 @@
 		)
 		(uuid "94b6dc75-bbb7-4415-8c9d-4ac4c43d84a4")
 	)
+	(label "D_VCAP"
+		(at 205.74 162.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9b36ab84-cf83-4035-bb44-b29c0d5c8aaf")
+	)
 	(label "CAPRTN"
 		(at 176.53 254 0)
 		(effects
@@ -13174,6 +13298,26 @@
 		)
 		(uuid "b7b164b6-b146-42cf-a7c8-a2fc37cbd9ed")
 	)
+	(label "VCAP_1"
+		(at 228.6 228.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bc9eefb9-1d44-4bc4-ae16-d11639f104b3")
+	)
+	(label "S_ITST"
+		(at 243.84 167.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c02d8340-ab5c-4e34-a55a-77d6f2cf6a54")
+	)
 	(label "PFI"
 		(at 101.6 66.04 180)
 		(effects
@@ -13183,6 +13327,16 @@
 			(justify right bottom)
 		)
 		(uuid "c866b73f-7aa1-4adf-b32f-0e0a493d9ba8")
+	)
+	(label "D_VCAP3"
+		(at 205.74 187.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ccac68c5-a556-4d1f-a137-636319c7f090")
 	)
 	(label "OUTFB"
 		(at 152.4 60.96 90)
@@ -13213,6 +13367,16 @@
 			(justify left bottom)
 		)
 		(uuid "ed2a326f-f8a0-4fb9-ba2a-42218dce5dd1")
+	)
+	(label "VCAP"
+		(at 228.6 152.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f13e1e3b-5c6c-48db-abce-ce3f2acc1883")
 	)
 	(label "VOUTSP"
 		(at 142.24 60.96 90)
@@ -15120,6 +15284,73 @@
 			(project ""
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
 					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 228.6 255.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25d503e4-e6b6-48ac-8b47-c10e64f738b3")
+		(property "Reference" "#PWR018"
+			(at 228.6 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 231.14 256.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 228.6 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a37b695d-8b9c-40de-ab7c-1c41ded192b4")
+		)
+		(instances
+			(project "minimal_ltc3350"
+				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
