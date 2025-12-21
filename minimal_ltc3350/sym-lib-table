@@ -395,4 +395,8 @@
   (lib (name "RESISTORS_SR2512FK-7W_DATA_BASE")(type "KiCad")(uri "${KIPRJMOD}/KiCAD_Symbols_Generator/series_kicad_sym/RESISTORS_SR2512FK-7W_DATA_BASE.kicad_sym")(options "")(descr ""))
   (lib (name "TRANSISTORS_SI2374DS-T1-BE3_DATA_BASE")(type "KiCad")(uri "${KIPRJMOD}/KiCAD_Symbols_Generator/series_kicad_sym/TRANSISTORS_SI2374DS-T1-BE3_DATA_BASE.kicad_sym")(options "")(descr ""))
   (lib (name "TRANSISTORS_SIA436DJ-T1-GE3_DATA_BASE")(type "KiCad")(uri "${KIPRJMOD}/KiCAD_Symbols_Generator/series_kicad_sym/TRANSISTORS_SIA436DJ-T1-GE3_DATA_BASE.kicad_sym")(options "")(descr ""))
+  (lib (name "CAPACITORS_HV08102R7_DATA_BASE")(type "KiCad")(uri "${KIPRJMOD}/KiCAD_Symbols_Generator/series_kicad_sym/CAPACITORS_HV08102R7_DATA_BASE.kicad_sym")(options "")(descr ""))
+  (lib (name "CAPACITORS_HV08102R7105R_DATA_BASE")(type "KiCad")(uri "${KIPRJMOD}/KiCAD_Symbols_Generator/series_kicad_sym/CAPACITORS_HV08102R7105R_DATA_BASE.kicad_sym")(options "")(descr ""))
+  (lib (name "CAPACITORS_HV08202R7305R_DATA_BASE")(type "KiCad")(uri "${KIPRJMOD}/KiCAD_Symbols_Generator/series_kicad_sym/CAPACITORS_HV08202R7305R_DATA_BASE.kicad_sym")(options "")(descr ""))
+  (lib (name "CAPACITORS_HV10302R7106R_DATA_BASE")(type "KiCad")(uri "${KIPRJMOD}/KiCAD_Symbols_Generator/series_kicad_sym/CAPACITORS_HV10302R7106R_DATA_BASE.kicad_sym")(options "")(descr ""))
 )

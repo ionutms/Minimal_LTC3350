@@ -2210,6 +2210,275 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "CAPACITORS_HV08102R7_DATA_BASE:C_HV0810-2R7106-R"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "10 F"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "capacitor_footprints:C_197x394_H31_5_5_0x10Metric"
+				(at 0 -7.62 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-hv-supercapacitors-cylindrical-cells-data-sheet.pdfHV0810-2R7106-R"
+				(at 0 -10.16 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAP SMD 10 F Supercapacitor 10% 197x394_H31_5 2.7V"
+				(at 0 -12.7 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Capacitor Type" "Supercapacitor"
+				(at 0 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Case Code - in" "197x394_H31_5"
+				(at 0 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Case Code - mm" "5_0x10"
+				(at 0 -20.32 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Dielectric" "Supercapacitor"
+				(at 0 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN" "HV0810-2R7106-R"
+				(at 0 -25.4 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Eaton Electronics"
+				(at 0 -27.94 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Series" "HV0810-2R7"
+				(at 0 -30.48 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Symbol Name" "C_HV0810-2R7106-R"
+				(at 0 -33.02 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "10%"
+				(at 0 -35.56 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Trustedparts Search" "https://www.trustedparts.com/en/search/HV0810-2R7106-R"
+				(at 0 -38.1 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Voltage Rating" "2.7V"
+				(at 0 -40.64 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "C_HV0810-2R7106-R_0_1"
+				(polyline
+					(pts
+						(xy -2.54 -1.016) (xy -2.54 -2.032)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -1.524) (xy -3.048 -1.524)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -2.032) (xy -0.762 2.032)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.524 -2.032)
+					(mid 0.9088 0)
+					(end 1.524 2.032)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_HV0810-2R7106-R_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.8)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.8)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "DIODES_1N4448HWT-7_DATA_BASE:D_1N4448HWT-7"
 			(pin_names
 				(offset 0.254)
@@ -10033,10 +10302,10 @@
 		(uuid "3a8ea91b-d889-4461-95ad-26c32761bbf9")
 	)
 	(junction
-		(at 210.82 254)
+		(at 228.6 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3c35ebc4-396b-42a4-bfe3-db110f54590e")
+		(uuid "3c0ac361-23a4-4432-a926-50ec408ee65b")
 	)
 	(junction
 		(at 121.92 22.86)
@@ -10067,6 +10336,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "48e5f59b-28ba-4ec9-98a4-ba760515915f")
+	)
+	(junction
+		(at 228.6 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "529e6450-c02f-4281-9a37-590d70daa4f3")
 	)
 	(junction
 		(at 241.3 106.68)
@@ -10189,6 +10464,12 @@
 		(uuid "a4b7b28f-ca1a-4f56-9155-8711facbd7ab")
 	)
 	(junction
+		(at 228.6 228.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a54dd235-2b3e-49f5-aecf-ba9fd2b83bc3")
+	)
+	(junction
 		(at 337.82 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10199,6 +10480,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a9f2d49c-9886-4e43-8f4d-911427cabc7d")
+	)
+	(junction
+		(at 210.82 254)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0e85bcc-7f2f-4181-926e-3e4c6c2acb20")
 	)
 	(junction
 		(at 48.26 22.86)
@@ -10321,6 +10608,12 @@
 		(uuid "e1a4c576-e9f8-4a3d-817d-2f79ddd0698c")
 	)
 	(junction
+		(at 228.6 203.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e280967a-6d68-44dc-bc51-3a31c8fb1f32")
+	)
+	(junction
 		(at 73.66 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10355,6 +10648,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f6add8f9-5d66-4b02-be0c-98c83af2bd05")
+	)
+	(junction
+		(at 228.6 254)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f87d4711-c1ae-40c3-b4bd-93099f68ad01")
 	)
 	(junction
 		(at 182.88 96.52)
@@ -10690,6 +10989,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 203.2) (xy 228.6 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fa1dcb1-4460-4eb4-b2ac-49a1b5a4ebe7")
+	)
+	(wire
+		(pts
 			(xy 208.28 228.6) (xy 210.82 228.6)
 		)
 		(stroke
@@ -10737,6 +11046,16 @@
 			(type default)
 		)
 		(uuid "255ba50a-7415-4035-82b3-426e76e529e3")
+	)
+	(wire
+		(pts
+			(xy 228.6 152.4) (xy 241.3 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25bdb1c1-9fe9-4e85-a473-04c59f700cdb")
 	)
 	(wire
 		(pts
@@ -10890,13 +11209,13 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 254) (xy 228.6 254)
+			(xy 228.6 254) (xy 228.6 255.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "38006459-4108-46f7-8326-f2563b9c6191")
+		(uuid "37c44ba9-4cf8-4b1f-9384-f5917e661642")
 	)
 	(wire
 		(pts
@@ -11570,6 +11889,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 228.6) (xy 228.6 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b743c47-40ca-4ac2-9f22-a329e2e0c4c8")
+	)
+	(wire
+		(pts
 			(xy 269.24 99.06) (xy 269.24 134.62)
 		)
 		(stroke
@@ -11587,6 +11916,16 @@
 			(type default)
 		)
 		(uuid "7c3ecd23-4645-4180-a870-788a7aacdd4a")
+	)
+	(wire
+		(pts
+			(xy 210.82 254) (xy 228.6 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c9dd180-408f-4388-9c97-9171546c6661")
 	)
 	(wire
 		(pts
@@ -11750,7 +12089,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 152.4) (xy 241.3 152.4)
+			(xy 213.36 152.4) (xy 228.6 152.4)
 		)
 		(stroke
 			(width 0)
@@ -12050,6 +12389,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 219.71) (xy 228.6 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b020a36c-efd9-4c23-84f4-dd461cc47d84")
+	)
+	(wire
+		(pts
 			(xy 241.3 152.4) (xy 251.46 152.4)
 		)
 		(stroke
@@ -12117,6 +12466,26 @@
 			(type default)
 		)
 		(uuid "b45af659-69dc-437c-a90a-9c280632a069")
+	)
+	(wire
+		(pts
+			(xy 228.6 168.91) (xy 228.6 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4a6163f-bebb-414f-b6af-8f02b7e0f0b3")
+	)
+	(wire
+		(pts
+			(xy 228.6 194.31) (xy 228.6 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4d52867-214a-4fbc-8514-9c8ba9cb578f")
 	)
 	(wire
 		(pts
@@ -12530,6 +12899,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 177.8) (xy 228.6 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc25a034-0e4a-41f4-a099-7de2820b955f")
+	)
+	(wire
+		(pts
 			(xy 208.28 152.4) (xy 213.36 152.4)
 		)
 		(stroke
@@ -12557,6 +12936,16 @@
 			(type default)
 		)
 		(uuid "e352402e-53e0-46f9-a769-0068f30b6198")
+	)
+	(wire
+		(pts
+			(xy 228.6 245.11) (xy 228.6 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5375a01-1f20-42d6-b87d-51581e568653")
 	)
 	(wire
 		(pts
@@ -12720,16 +13109,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 254) (xy 228.6 255.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1d3624c-0327-4afa-bd00-52ecc899b735")
-	)
-	(wire
-		(pts
 			(xy 48.26 30.48) (xy 48.26 33.02)
 		)
 		(stroke
@@ -12837,6 +13216,16 @@
 			(type default)
 		)
 		(uuid "f9928aa7-9da4-433f-9c3e-5a6e94637b37")
+	)
+	(wire
+		(pts
+			(xy 228.6 152.4) (xy 228.6 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9ef0e1b-ab61-4b41-b4d1-aa724dfddeae")
 	)
 	(wire
 		(pts
@@ -13109,7 +13498,7 @@
 		(uuid "67cd5fa3-18c8-469f-9b40-d778f0d79145")
 	)
 	(label "VCAP_2"
-		(at 228.6 203.2 180)
+		(at 226.06 203.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13139,7 +13528,7 @@
 		(uuid "6e4c4242-16e5-4500-aec6-8e19d58641af")
 	)
 	(label "VCAP_3"
-		(at 228.6 177.8 180)
+		(at 226.06 177.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13299,7 +13688,7 @@
 		(uuid "b7b164b6-b146-42cf-a7c8-a2fc37cbd9ed")
 	)
 	(label "VCAP_1"
-		(at 228.6 228.6 180)
+		(at 226.06 228.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13369,7 +13758,7 @@
 		(uuid "ed2a326f-f8a0-4fb9-ba2a-42218dce5dd1")
 	)
 	(label "VCAP"
-		(at 228.6 152.4 180)
+		(at 226.06 152.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16884,6 +17273,203 @@
 			(project ""
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CAPACITORS_HV08102R7_DATA_BASE:C_HV0810-2R7106-R")
+		(at 228.6 241.3 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38bff0dc-80e1-4b61-94c9-0ef849b865e4")
+		(property "Reference" "C23"
+			(at 232.41 239.2679 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10 F"
+			(at 232.41 241.8079 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "capacitor_footprints:C_197x394_H31_5_5_0x10Metric"
+			(at 220.98 241.3 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-hv-supercapacitors-cylindrical-cells-data-sheet.pdfHV0810-2R7106-R"
+			(at 218.44 241.3 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP SMD 10 F Supercapacitor 10% 197x394_H31_5 2.7V"
+			(at 215.9 241.3 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Capacitor Type" "Supercapacitor"
+			(at 213.36 241.3 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - in" "197x394_H31_5"
+			(at 210.82 241.3 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - mm" "5_0x10"
+			(at 208.28 241.3 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "Supercapacitor"
+			(at 205.74 241.3 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "HV0810-2R7106-R"
+			(at 203.2 241.3 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Eaton Electronics"
+			(at 200.66 241.3 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "HV0810-2R7"
+			(at 198.12 241.3 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "C_HV0810-2R7106-R"
+			(at 195.58 241.3 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 193.04 241.3 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/HV0810-2R7106-R"
+			(at 190.5 241.3 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "2.7V"
+			(at 187.96 241.3 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "08cf8359-435e-4e2e-b3e8-b9c40f81a6ee")
+		)
+		(pin "1"
+			(uuid "40de8528-197d-4504-a207-c1aa0863dbab")
+		)
+		(instances
+			(project "minimal_ltc3350"
+				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -21796,6 +22382,203 @@
 		)
 	)
 	(symbol
+		(lib_id "CAPACITORS_HV08102R7_DATA_BASE:C_HV0810-2R7106-R")
+		(at 228.6 215.9 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86aa96f2-0822-4d7e-b907-8278268c8c09")
+		(property "Reference" "C22"
+			(at 232.41 213.8679 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10 F"
+			(at 232.41 216.4079 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "capacitor_footprints:C_197x394_H31_5_5_0x10Metric"
+			(at 220.98 215.9 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-hv-supercapacitors-cylindrical-cells-data-sheet.pdfHV0810-2R7106-R"
+			(at 218.44 215.9 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP SMD 10 F Supercapacitor 10% 197x394_H31_5 2.7V"
+			(at 215.9 215.9 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Capacitor Type" "Supercapacitor"
+			(at 213.36 215.9 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - in" "197x394_H31_5"
+			(at 210.82 215.9 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - mm" "5_0x10"
+			(at 208.28 215.9 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "Supercapacitor"
+			(at 205.74 215.9 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "HV0810-2R7106-R"
+			(at 203.2 215.9 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Eaton Electronics"
+			(at 200.66 215.9 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "HV0810-2R7"
+			(at 198.12 215.9 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "C_HV0810-2R7106-R"
+			(at 195.58 215.9 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 193.04 215.9 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/HV0810-2R7106-R"
+			(at 190.5 215.9 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "2.7V"
+			(at 187.96 215.9 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bc4963e0-59f1-4643-83ee-0ae3b569d099")
+		)
+		(pin "1"
+			(uuid "3602b5b0-3bdd-4202-93b9-ef7699eb645b")
+		)
+		(instances
+			(project "minimal_ltc3350"
+				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "UNITED_TRANSISTORS_DATA_BASE:Q_BSZ060NE2LS")
 		(at 240.03 114.3 270)
 		(unit 1)
@@ -23520,6 +24303,203 @@
 			(project "minimal_ltc3350"
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
 					(reference "Q9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CAPACITORS_HV08102R7_DATA_BASE:C_HV0810-2R7106-R")
+		(at 228.6 190.5 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ff77777-7e16-473a-b59e-9b36359c5e4f")
+		(property "Reference" "C21"
+			(at 232.41 188.4679 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10 F"
+			(at 232.41 191.0079 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "capacitor_footprints:C_197x394_H31_5_5_0x10Metric"
+			(at 220.98 190.5 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-hv-supercapacitors-cylindrical-cells-data-sheet.pdfHV0810-2R7106-R"
+			(at 218.44 190.5 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP SMD 10 F Supercapacitor 10% 197x394_H31_5 2.7V"
+			(at 215.9 190.5 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Capacitor Type" "Supercapacitor"
+			(at 213.36 190.5 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - in" "197x394_H31_5"
+			(at 210.82 190.5 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - mm" "5_0x10"
+			(at 208.28 190.5 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "Supercapacitor"
+			(at 205.74 190.5 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "HV0810-2R7106-R"
+			(at 203.2 190.5 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Eaton Electronics"
+			(at 200.66 190.5 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "HV0810-2R7"
+			(at 198.12 190.5 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "C_HV0810-2R7106-R"
+			(at 195.58 190.5 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 193.04 190.5 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/HV0810-2R7106-R"
+			(at 190.5 190.5 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "2.7V"
+			(at 187.96 190.5 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a6c41c58-7a4d-4ee7-b867-3219fe495485")
+		)
+		(pin "1"
+			(uuid "cba341ad-a9bc-432b-9869-2465992a427f")
+		)
+		(instances
+			(project "minimal_ltc3350"
+				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -28174,6 +29154,203 @@
 			(project ""
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CAPACITORS_HV08102R7_DATA_BASE:C_HV0810-2R7106-R")
+		(at 228.6 165.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2e0ebbb-73f3-4aa3-98e7-6fcb0bfc890c")
+		(property "Reference" "C20"
+			(at 232.41 163.0679 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10 F"
+			(at 232.41 165.6079 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "capacitor_footprints:C_197x394_H31_5_5_0x10Metric"
+			(at 220.98 165.1 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-hv-supercapacitors-cylindrical-cells-data-sheet.pdfHV0810-2R7106-R"
+			(at 218.44 165.1 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP SMD 10 F Supercapacitor 10% 197x394_H31_5 2.7V"
+			(at 215.9 165.1 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Capacitor Type" "Supercapacitor"
+			(at 213.36 165.1 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - in" "197x394_H31_5"
+			(at 210.82 165.1 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - mm" "5_0x10"
+			(at 208.28 165.1 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "Supercapacitor"
+			(at 205.74 165.1 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "HV0810-2R7106-R"
+			(at 203.2 165.1 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Eaton Electronics"
+			(at 200.66 165.1 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "HV0810-2R7"
+			(at 198.12 165.1 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "C_HV0810-2R7106-R"
+			(at 195.58 165.1 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 193.04 165.1 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/HV0810-2R7106-R"
+			(at 190.5 165.1 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "2.7V"
+			(at 187.96 165.1 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "265c39b4-b658-46e7-b447-c693d7d6bd07")
+		)
+		(pin "1"
+			(uuid "cd7375d6-af69-4565-8075-7f311a11e2fd")
+		)
+		(instances
+			(project ""
+				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
+					(reference "C20")
 					(unit 1)
 				)
 			)
