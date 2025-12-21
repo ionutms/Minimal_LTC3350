@@ -17280,7 +17280,8 @@
 	)
 	(symbol
 		(lib_id "CAPACITORS_HV08102R7_DATA_BASE:C_HV0810-2R7106-R")
-		(at 228.6 241.3 270)
+		(at 228.6 241.3 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17294,7 +17295,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "10 F"
@@ -17303,11 +17304,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "capacitor_footprints:C_197x394_H31_5_5_0x10Metric"
-			(at 220.98 241.3 0)
+			(at 236.22 241.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -17318,7 +17319,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-hv-supercapacitors-cylindrical-cells-data-sheet.pdfHV0810-2R7106-R"
-			(at 218.44 241.3 0)
+			(at 238.76 241.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -17329,7 +17330,7 @@
 			)
 		)
 		(property "Description" "CAP SMD 10 F Supercapacitor 10% 197x394_H31_5 2.7V"
-			(at 215.9 241.3 0)
+			(at 241.3 241.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -17340,7 +17341,7 @@
 			)
 		)
 		(property "Capacitor Type" "Supercapacitor"
-			(at 213.36 241.3 0)
+			(at 243.84 241.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -17351,7 +17352,7 @@
 			)
 		)
 		(property "Case Code - in" "197x394_H31_5"
-			(at 210.82 241.3 0)
+			(at 246.38 241.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -17362,7 +17363,7 @@
 			)
 		)
 		(property "Case Code - mm" "5_0x10"
-			(at 208.28 241.3 0)
+			(at 248.92 241.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -17373,7 +17374,7 @@
 			)
 		)
 		(property "Dielectric" "Supercapacitor"
-			(at 205.74 241.3 0)
+			(at 251.46 241.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -17384,7 +17385,7 @@
 			)
 		)
 		(property "MPN" "HV0810-2R7106-R"
-			(at 203.2 241.3 0)
+			(at 254 241.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -17395,7 +17396,7 @@
 			)
 		)
 		(property "Manufacturer" "Eaton Electronics"
-			(at 200.66 241.3 0)
+			(at 256.54 241.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -17406,7 +17407,7 @@
 			)
 		)
 		(property "Series" "HV0810-2R7"
-			(at 198.12 241.3 0)
+			(at 259.08 241.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -17417,7 +17418,7 @@
 			)
 		)
 		(property "Symbol Name" "C_HV0810-2R7106-R"
-			(at 195.58 241.3 0)
+			(at 261.62 241.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -17428,7 +17429,7 @@
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 193.04 241.3 0)
+			(at 264.16 241.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -17439,7 +17440,7 @@
 			)
 		)
 		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/HV0810-2R7106-R"
-			(at 190.5 241.3 0)
+			(at 266.7 241.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -17450,7 +17451,7 @@
 			)
 		)
 		(property "Voltage Rating" "2.7V"
-			(at 187.96 241.3 0)
+			(at 269.24 241.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -22383,7 +22384,8 @@
 	)
 	(symbol
 		(lib_id "CAPACITORS_HV08102R7_DATA_BASE:C_HV0810-2R7106-R")
-		(at 228.6 215.9 270)
+		(at 228.6 215.9 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22397,7 +22399,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "10 F"
@@ -22406,11 +22408,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "capacitor_footprints:C_197x394_H31_5_5_0x10Metric"
-			(at 220.98 215.9 0)
+			(at 236.22 215.9 0)
 			(show_name yes)
 			(effects
 				(font
@@ -22421,7 +22423,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-hv-supercapacitors-cylindrical-cells-data-sheet.pdfHV0810-2R7106-R"
-			(at 218.44 215.9 0)
+			(at 238.76 215.9 0)
 			(show_name yes)
 			(effects
 				(font
@@ -22432,7 +22434,7 @@
 			)
 		)
 		(property "Description" "CAP SMD 10 F Supercapacitor 10% 197x394_H31_5 2.7V"
-			(at 215.9 215.9 0)
+			(at 241.3 215.9 0)
 			(show_name yes)
 			(effects
 				(font
@@ -22443,7 +22445,7 @@
 			)
 		)
 		(property "Capacitor Type" "Supercapacitor"
-			(at 213.36 215.9 0)
+			(at 243.84 215.9 0)
 			(show_name yes)
 			(effects
 				(font
@@ -22454,7 +22456,7 @@
 			)
 		)
 		(property "Case Code - in" "197x394_H31_5"
-			(at 210.82 215.9 0)
+			(at 246.38 215.9 0)
 			(show_name yes)
 			(effects
 				(font
@@ -22465,7 +22467,7 @@
 			)
 		)
 		(property "Case Code - mm" "5_0x10"
-			(at 208.28 215.9 0)
+			(at 248.92 215.9 0)
 			(show_name yes)
 			(effects
 				(font
@@ -22476,7 +22478,7 @@
 			)
 		)
 		(property "Dielectric" "Supercapacitor"
-			(at 205.74 215.9 0)
+			(at 251.46 215.9 0)
 			(show_name yes)
 			(effects
 				(font
@@ -22487,7 +22489,7 @@
 			)
 		)
 		(property "MPN" "HV0810-2R7106-R"
-			(at 203.2 215.9 0)
+			(at 254 215.9 0)
 			(show_name yes)
 			(effects
 				(font
@@ -22498,7 +22500,7 @@
 			)
 		)
 		(property "Manufacturer" "Eaton Electronics"
-			(at 200.66 215.9 0)
+			(at 256.54 215.9 0)
 			(show_name yes)
 			(effects
 				(font
@@ -22509,7 +22511,7 @@
 			)
 		)
 		(property "Series" "HV0810-2R7"
-			(at 198.12 215.9 0)
+			(at 259.08 215.9 0)
 			(show_name yes)
 			(effects
 				(font
@@ -22520,7 +22522,7 @@
 			)
 		)
 		(property "Symbol Name" "C_HV0810-2R7106-R"
-			(at 195.58 215.9 0)
+			(at 261.62 215.9 0)
 			(show_name yes)
 			(effects
 				(font
@@ -22531,7 +22533,7 @@
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 193.04 215.9 0)
+			(at 264.16 215.9 0)
 			(show_name yes)
 			(effects
 				(font
@@ -22542,7 +22544,7 @@
 			)
 		)
 		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/HV0810-2R7106-R"
-			(at 190.5 215.9 0)
+			(at 266.7 215.9 0)
 			(show_name yes)
 			(effects
 				(font
@@ -22553,7 +22555,7 @@
 			)
 		)
 		(property "Voltage Rating" "2.7V"
-			(at 187.96 215.9 0)
+			(at 269.24 215.9 0)
 			(show_name yes)
 			(effects
 				(font
@@ -24310,7 +24312,8 @@
 	)
 	(symbol
 		(lib_id "CAPACITORS_HV08102R7_DATA_BASE:C_HV0810-2R7106-R")
-		(at 228.6 190.5 270)
+		(at 228.6 190.5 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24324,7 +24327,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "10 F"
@@ -24333,11 +24336,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "capacitor_footprints:C_197x394_H31_5_5_0x10Metric"
-			(at 220.98 190.5 0)
+			(at 236.22 190.5 0)
 			(show_name yes)
 			(effects
 				(font
@@ -24348,7 +24351,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-hv-supercapacitors-cylindrical-cells-data-sheet.pdfHV0810-2R7106-R"
-			(at 218.44 190.5 0)
+			(at 238.76 190.5 0)
 			(show_name yes)
 			(effects
 				(font
@@ -24359,7 +24362,7 @@
 			)
 		)
 		(property "Description" "CAP SMD 10 F Supercapacitor 10% 197x394_H31_5 2.7V"
-			(at 215.9 190.5 0)
+			(at 241.3 190.5 0)
 			(show_name yes)
 			(effects
 				(font
@@ -24370,7 +24373,7 @@
 			)
 		)
 		(property "Capacitor Type" "Supercapacitor"
-			(at 213.36 190.5 0)
+			(at 243.84 190.5 0)
 			(show_name yes)
 			(effects
 				(font
@@ -24381,7 +24384,7 @@
 			)
 		)
 		(property "Case Code - in" "197x394_H31_5"
-			(at 210.82 190.5 0)
+			(at 246.38 190.5 0)
 			(show_name yes)
 			(effects
 				(font
@@ -24392,7 +24395,7 @@
 			)
 		)
 		(property "Case Code - mm" "5_0x10"
-			(at 208.28 190.5 0)
+			(at 248.92 190.5 0)
 			(show_name yes)
 			(effects
 				(font
@@ -24403,7 +24406,7 @@
 			)
 		)
 		(property "Dielectric" "Supercapacitor"
-			(at 205.74 190.5 0)
+			(at 251.46 190.5 0)
 			(show_name yes)
 			(effects
 				(font
@@ -24414,7 +24417,7 @@
 			)
 		)
 		(property "MPN" "HV0810-2R7106-R"
-			(at 203.2 190.5 0)
+			(at 254 190.5 0)
 			(show_name yes)
 			(effects
 				(font
@@ -24425,7 +24428,7 @@
 			)
 		)
 		(property "Manufacturer" "Eaton Electronics"
-			(at 200.66 190.5 0)
+			(at 256.54 190.5 0)
 			(show_name yes)
 			(effects
 				(font
@@ -24436,7 +24439,7 @@
 			)
 		)
 		(property "Series" "HV0810-2R7"
-			(at 198.12 190.5 0)
+			(at 259.08 190.5 0)
 			(show_name yes)
 			(effects
 				(font
@@ -24447,7 +24450,7 @@
 			)
 		)
 		(property "Symbol Name" "C_HV0810-2R7106-R"
-			(at 195.58 190.5 0)
+			(at 261.62 190.5 0)
 			(show_name yes)
 			(effects
 				(font
@@ -24458,7 +24461,7 @@
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 193.04 190.5 0)
+			(at 264.16 190.5 0)
 			(show_name yes)
 			(effects
 				(font
@@ -24469,7 +24472,7 @@
 			)
 		)
 		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/HV0810-2R7106-R"
-			(at 190.5 190.5 0)
+			(at 266.7 190.5 0)
 			(show_name yes)
 			(effects
 				(font
@@ -24480,7 +24483,7 @@
 			)
 		)
 		(property "Voltage Rating" "2.7V"
-			(at 187.96 190.5 0)
+			(at 269.24 190.5 0)
 			(show_name yes)
 			(effects
 				(font
@@ -29161,7 +29164,8 @@
 	)
 	(symbol
 		(lib_id "CAPACITORS_HV08102R7_DATA_BASE:C_HV0810-2R7106-R")
-		(at 228.6 165.1 270)
+		(at 228.6 165.1 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29175,7 +29179,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "10 F"
@@ -29184,11 +29188,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "capacitor_footprints:C_197x394_H31_5_5_0x10Metric"
-			(at 220.98 165.1 0)
+			(at 236.22 165.1 0)
 			(show_name yes)
 			(effects
 				(font
@@ -29199,7 +29203,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-hv-supercapacitors-cylindrical-cells-data-sheet.pdfHV0810-2R7106-R"
-			(at 218.44 165.1 0)
+			(at 238.76 165.1 0)
 			(show_name yes)
 			(effects
 				(font
@@ -29210,7 +29214,7 @@
 			)
 		)
 		(property "Description" "CAP SMD 10 F Supercapacitor 10% 197x394_H31_5 2.7V"
-			(at 215.9 165.1 0)
+			(at 241.3 165.1 0)
 			(show_name yes)
 			(effects
 				(font
@@ -29221,7 +29225,7 @@
 			)
 		)
 		(property "Capacitor Type" "Supercapacitor"
-			(at 213.36 165.1 0)
+			(at 243.84 165.1 0)
 			(show_name yes)
 			(effects
 				(font
@@ -29232,7 +29236,7 @@
 			)
 		)
 		(property "Case Code - in" "197x394_H31_5"
-			(at 210.82 165.1 0)
+			(at 246.38 165.1 0)
 			(show_name yes)
 			(effects
 				(font
@@ -29243,7 +29247,7 @@
 			)
 		)
 		(property "Case Code - mm" "5_0x10"
-			(at 208.28 165.1 0)
+			(at 248.92 165.1 0)
 			(show_name yes)
 			(effects
 				(font
@@ -29254,7 +29258,7 @@
 			)
 		)
 		(property "Dielectric" "Supercapacitor"
-			(at 205.74 165.1 0)
+			(at 251.46 165.1 0)
 			(show_name yes)
 			(effects
 				(font
@@ -29265,7 +29269,7 @@
 			)
 		)
 		(property "MPN" "HV0810-2R7106-R"
-			(at 203.2 165.1 0)
+			(at 254 165.1 0)
 			(show_name yes)
 			(effects
 				(font
@@ -29276,7 +29280,7 @@
 			)
 		)
 		(property "Manufacturer" "Eaton Electronics"
-			(at 200.66 165.1 0)
+			(at 256.54 165.1 0)
 			(show_name yes)
 			(effects
 				(font
@@ -29287,7 +29291,7 @@
 			)
 		)
 		(property "Series" "HV0810-2R7"
-			(at 198.12 165.1 0)
+			(at 259.08 165.1 0)
 			(show_name yes)
 			(effects
 				(font
@@ -29298,7 +29302,7 @@
 			)
 		)
 		(property "Symbol Name" "C_HV0810-2R7106-R"
-			(at 195.58 165.1 0)
+			(at 261.62 165.1 0)
 			(show_name yes)
 			(effects
 				(font
@@ -29309,7 +29313,7 @@
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 193.04 165.1 0)
+			(at 264.16 165.1 0)
 			(show_name yes)
 			(effects
 				(font
@@ -29320,7 +29324,7 @@
 			)
 		)
 		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/HV0810-2R7106-R"
-			(at 190.5 165.1 0)
+			(at 266.7 165.1 0)
 			(show_name yes)
 			(effects
 				(font
@@ -29331,7 +29335,7 @@
 			)
 		)
 		(property "Voltage Rating" "2.7V"
-			(at 187.96 165.1 0)
+			(at 269.24 165.1 0)
 			(show_name yes)
 			(effects
 				(font
