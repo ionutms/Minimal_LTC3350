@@ -2210,7 +2210,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "CAPACITORS_HV08102R7_DATA_BASE:C_HV0810-2R7106-R"
+		(symbol "CAPACITORS_HV_DATA_BASE:C_HV1030-2R7106-R"
 			(pin_names
 				(offset 0.254)
 			)
@@ -2246,7 +2246,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-hv-supercapacitors-cylindrical-cells-data-sheet.pdfHV0810-2R7106-R"
+			(property "Datasheet" "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-hv-supercapacitors-cylindrical-cells-data-sheet.pdf"
 				(at 0 -10.16 0)
 				(show_name)
 				(effects
@@ -2312,7 +2312,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "HV0810-2R7106-R"
+			(property "MPN" "HV1030-2R7106-R"
 				(at 0 -25.4 0)
 				(show_name)
 				(effects
@@ -2334,7 +2334,7 @@
 					(hide yes)
 				)
 			)
-			(property "Series" "HV0810-2R7"
+			(property "Series" "HV1030-2R7"
 				(at 0 -30.48 0)
 				(show_name)
 				(effects
@@ -2345,7 +2345,7 @@
 					(hide yes)
 				)
 			)
-			(property "Symbol Name" "C_HV0810-2R7106-R"
+			(property "Symbol Name" "C_HV1030-2R7106-R"
 				(at 0 -33.02 0)
 				(show_name)
 				(effects
@@ -2367,7 +2367,7 @@
 					(hide yes)
 				)
 			)
-			(property "Trustedparts Search" "https://www.trustedparts.com/en/search/HV0810-2R7106-R"
+			(property "Trustedparts Search" "https://www.trustedparts.com/en/search/HV1030-2R7106-R"
 				(at 0 -38.1 0)
 				(show_name)
 				(effects
@@ -2389,7 +2389,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_HV0810-2R7106-R_0_1"
+			(symbol "C_HV1030-2R7106-R_0_1"
 				(polyline
 					(pts
 						(xy -2.54 -1.016) (xy -2.54 -2.032)
@@ -2439,7 +2439,7 @@
 					)
 				)
 			)
-			(symbol "C_HV0810-2R7106-R_1_1"
+			(symbol "C_HV1030-2R7106-R_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.8)
@@ -7608,6 +7608,310 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "TRANSISTORS_BSZ060NE2LS_DATA_BASE:Q_BSZ060NE2LS"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "20 V"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "transistor_footprints:TSDSON-8FL"
+				(at 0 -10.16 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/24/49/infineon-bsz060ne2ls-datasheet-en.pdf?fileId=db3a30432ea425a4012ec927cb360e1f"
+				(at 0 -12.7 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Transistor 20 V"
+				(at 0 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Collector Current (A)" "-"
+				(at 0 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Drain Current (A)" "51.0"
+				(at 0 -20.32 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN" "BSZ060NE2LS"
+				(at 0 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Infineon Technologies"
+				(at 0 -25.4 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Series" "BSZ060NE2LS"
+				(at 0 -27.94 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Symbol Name" "Q_BSZ060NE2LS"
+				(at 0 -30.48 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Transistor Type" "N-Channel"
+				(at 0 -33.02 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Trustedparts Search" "https://www.trustedparts.com/en/search/BSZ060NE2LS"
+				(at 0 -35.56 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "Q_BSZ060NE2LS_1_0"
+				(circle
+					(center -2.54 0)
+					(radius 0.0254)
+					(stroke
+						(width 0.381)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -6.35) (xy 0 -2.54) (xy -2.54 -2.54) (xy 2.54 -2.54) (xy 0 -2.54) (xy 0 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.0254)
+					(stroke
+						(width 0.381)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 0)
+					(radius 0.0254)
+					(stroke
+						(width 0.381)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 1.27) (xy 5.08 0) (xy 2.54 0) (xy 2.54 1.27) (xy 0.508 1.27) (xy 0.508 1.778) (xy -0.508 1.27)
+						(xy -0.508 1.778) (xy -0.508 1.27) (xy -2.54 1.27) (xy -2.54 0) (xy -5.08 0) (xy -5.08 1.27) (xy -5.08 0)
+						(xy -2.032 0) (xy -2.032 -2.032) (xy -2.54 -2.032) (xy -1.524 -2.032) (xy -2.032 -2.032) (xy -2.032 0)
+						(xy -2.54 0) (xy -2.54 1.27) (xy -0.508 1.27) (xy -0.508 0.762) (xy -0.508 1.27) (xy 0.508 0.762)
+						(xy 0.508 1.27) (xy 2.54 1.27) (xy 2.54 0) (xy 0 0) (xy 0 -1.016) (xy -0.508 -1.016) (xy 0 -2.032)
+						(xy -0.508 -2.032) (xy 0.508 -2.032) (xy 0 -2.032) (xy 0.508 -1.016) (xy 0 -1.016) (xy 0 0) (xy 2.032 0)
+						(xy 2.032 -2.032) (xy 1.524 -2.032) (xy 2.54 -2.032) (xy 2.032 -2.032) (xy 2.032 0) (xy 5.08 0)
+						(xy 5.08 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -7.62 1.27 0)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -6.35 180)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 1.27 180)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -1.27 180)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -3.81 180)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "TRANSISTORS_SI2374DS-T1-BE3_DATA_BASE:Q_SI2374DS-T1-BE3"
 			(pin_names
 				(offset 0.254)
@@ -8634,60 +8938,6 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at -22.86 38.1 0)
-					(length 2.54)
-					(name "CAP_SLCT1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "36"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -22.86 17.78 0)
-					(length 2.54)
-					(name "CAP_SLCT0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "35"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -22.86 7.62 0)
-					(length 2.54)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin bidirectional line
 					(at -22.86 2.54 0)
 					(length 2.54)
@@ -8724,24 +8974,6 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -22.86 -83.82 0)
-					(length 2.54)
-					(name "CAPGD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -22.86 -91.44 0)
 					(length 2.54)
@@ -8753,24 +8985,6 @@
 						)
 					)
 					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -22.86 -93.98 0)
-					(length 2.54)
-					(name "RT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8807,24 +9021,6 @@
 						)
 					)
 					(number "33"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 99.06 270)
-					(length 2.54)
-					(name "VOUTM5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "32"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8976,24 +9172,6 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 22.86 63.5 180)
-					(length 2.54)
-					(name "DRVCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "28"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 22.86 50.8 180)
 					(length 2.54)
@@ -9005,24 +9183,6 @@
 						)
 					)
 					(number "26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 22.86 40.64 180)
-					(length 2.54)
-					(name "SW"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9084,42 +9244,6 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 22.86 20.32 180)
-					(length 2.54)
-					(name "CFP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 22.86 10.16 180)
-					(length 2.54)
-					(name "CFN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin output line
 					(at 22.86 7.62 180)
 					(length 2.54)
@@ -9138,134 +9262,62 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 22.86 5.08 180)
-					(length 2.54)
-					(name "CAPFB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 22.86 0 180)
-					(length 2.54)
-					(name "ITST"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 22.86 -12.7 180)
-					(length 2.54)
-					(name "CAP4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 22.86 -33.02 180)
-					(length 2.54)
-					(name "CAP3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 22.86 -53.34 180)
-					(length 2.54)
-					(name "CAP2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 22.86 -73.66 180)
-					(length 2.54)
-					(name "CAP1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 22.86 -93.98 180)
-					(length 2.54)
-					(name "CAPRTN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 			(symbol "U_LTC3350EUHF-PBF_1_1"
+				(pin input line
+					(at -22.86 38.1 0)
+					(length 2.54)
+					(name "CAP_SLCT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 17.78 0)
+					(length 2.54)
+					(name "CAP_SLCT0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 7.62 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin output line
 					(at -22.86 -81.28 0)
 					(length 2.54)
@@ -9285,6 +9337,24 @@
 					)
 				)
 				(pin output line
+					(at -22.86 -83.82 0)
+					(length 2.54)
+					(name "CAPGD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
 					(at -22.86 -86.36 0)
 					(length 2.54)
 					(name "~{PFO}"
@@ -9295,6 +9365,240 @@
 						)
 					)
 					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 -93.98 0)
+					(length 2.54)
+					(name "RT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 99.06 270)
+					(length 2.54)
+					(name "VOUTM5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 22.86 63.5 180)
+					(length 2.54)
+					(name "DRVCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 22.86 40.64 180)
+					(length 2.54)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 22.86 20.32 180)
+					(length 2.54)
+					(name "CFP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 22.86 10.16 180)
+					(length 2.54)
+					(name "CFN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 22.86 5.08 180)
+					(length 2.54)
+					(name "CAPFB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 22.86 0 180)
+					(length 2.54)
+					(name "ITST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 22.86 -12.7 180)
+					(length 2.54)
+					(name "CAP4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 22.86 -33.02 180)
+					(length 2.54)
+					(name "CAP3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 22.86 -53.34 180)
+					(length 2.54)
+					(name "CAP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 22.86 -73.66 180)
+					(length 2.54)
+					(name "CAP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 22.86 -93.98 180)
+					(length 2.54)
+					(name "CAPRTN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9482,310 +9786,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "UNITED_TRANSISTORS_DATA_BASE:Q_BSZ060NE2LS"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "20 V"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "transistor_footprints:TSDSON-8FL"
-				(at 0 -10.16 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/24/49/infineon-bsz060ne2ls-datasheet-en.pdf?fileId=db3a30432ea425a4012ec927cb360e1f"
-				(at 0 -12.7 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "Transistor 20 V"
-				(at 0 -15.24 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Collector Current (A)" "-"
-				(at 0 -17.78 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Drain Current (A)" "51.0"
-				(at 0 -20.32 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "MPN" "BSZ060NE2LS"
-				(at 0 -22.86 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Infineon Technologies"
-				(at 0 -25.4 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Series" "BSZ060NE2LS"
-				(at 0 -27.94 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Symbol Name" "Q_BSZ060NE2LS"
-				(at 0 -30.48 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Transistor Type" "N-Channel"
-				(at 0 -33.02 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Trustedparts Search" "https://www.trustedparts.com/en/search/BSZ060NE2LS"
-				(at 0 -35.56 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(symbol "Q_BSZ060NE2LS_1_0"
-				(circle
-					(center -2.54 0)
-					(radius 0.0254)
-					(stroke
-						(width 0.381)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -6.35) (xy 0 -2.54) (xy -2.54 -2.54) (xy 2.54 -2.54) (xy 0 -2.54) (xy 0 -6.35)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.0254)
-					(stroke
-						(width 0.381)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 0)
-					(radius 0.0254)
-					(stroke
-						(width 0.381)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 1.27) (xy 5.08 0) (xy 2.54 0) (xy 2.54 1.27) (xy 0.508 1.27) (xy 0.508 1.778) (xy -0.508 1.27)
-						(xy -0.508 1.778) (xy -0.508 1.27) (xy -2.54 1.27) (xy -2.54 0) (xy -5.08 0) (xy -5.08 1.27) (xy -5.08 0)
-						(xy -2.032 0) (xy -2.032 -2.032) (xy -2.54 -2.032) (xy -1.524 -2.032) (xy -2.032 -2.032) (xy -2.032 0)
-						(xy -2.54 0) (xy -2.54 1.27) (xy -0.508 1.27) (xy -0.508 0.762) (xy -0.508 1.27) (xy 0.508 0.762)
-						(xy 0.508 1.27) (xy 2.54 1.27) (xy 2.54 0) (xy 0 0) (xy 0 -1.016) (xy -0.508 -1.016) (xy 0 -2.032)
-						(xy -0.508 -2.032) (xy 0.508 -2.032) (xy 0 -2.032) (xy 0.508 -1.016) (xy 0 -1.016) (xy 0 0) (xy 2.032 0)
-						(xy 2.032 -2.032) (xy 1.524 -2.032) (xy 2.54 -2.032) (xy 2.032 -2.032) (xy 2.032 0) (xy 5.08 0)
-						(xy 5.08 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at -7.62 1.27 0)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -6.35 180)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 1.27 180)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -1.27 180)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -3.81 180)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -9887,6 +9887,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 210.82 182.88)
@@ -9941,6 +10042,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0e7284c1-1f71-4f02-a924-47a8d2f17758")
+	)
+	(junction
+		(at 210.82 223.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "105cb9fd-3325-4dd6-a488-4c8e5410b657")
 	)
 	(junction
 		(at 231.14 172.72)
@@ -10105,6 +10212,12 @@
 		(uuid "6b63d249-c5c8-4646-8343-f160b48eb8b7")
 	)
 	(junction
+		(at 210.82 226.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6be25d54-83db-465a-912c-4a20d523eb5e")
+	)
+	(junction
 		(at 226.06 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10157,6 +10270,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8772a7b2-7c87-4666-aded-7bac6421dd4d")
+	)
+	(junction
+		(at 210.82 220.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a436698-42ef-4d04-a938-cc49dd679025")
 	)
 	(junction
 		(at 210.82 160.02)
@@ -10453,6 +10572,16 @@
 			(type default)
 		)
 		(uuid "03d528a7-dcaf-405d-8ec7-48e8fb9c74bf")
+	)
+	(wire
+		(pts
+			(xy 210.82 223.52) (xy 210.82 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0483030d-a55d-40ed-b2ab-1aaa1d31827c")
 	)
 	(wire
 		(pts
@@ -10853,6 +10982,16 @@
 			(type default)
 		)
 		(uuid "28408be5-b763-4d65-b1ac-e8fdb6beaaa0")
+	)
+	(wire
+		(pts
+			(xy 124.46 243.84) (xy 124.46 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29256717-8322-4802-9f93-d8b34c98c867")
 	)
 	(wire
 		(pts
@@ -11976,6 +12115,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 243.84) (xy 124.46 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93ded070-ab05-4a24-b221-5e94ee829409")
+	)
+	(wire
+		(pts
 			(xy 111.76 36.83) (xy 111.76 35.56)
 		)
 		(stroke
@@ -12423,6 +12572,16 @@
 			(type default)
 		)
 		(uuid "b80ac0c8-fa2c-4f32-88d0-4633cca4a1ab")
+	)
+	(wire
+		(pts
+			(xy 210.82 218.44) (xy 210.82 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba6f99d5-8952-4b19-abda-ec5179376e06")
 	)
 	(wire
 		(pts
@@ -13263,6 +13422,16 @@
 			(type default)
 		)
 		(uuid "f9ef0e1b-ab61-4b41-b4d1-aa724dfddeae")
+	)
+	(wire
+		(pts
+			(xy 210.82 220.98) (xy 210.82 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9f1985b-cc6e-4cac-993d-e091faec6962")
 	)
 	(wire
 		(pts
@@ -17138,7 +17307,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CAPACITORS_HV08102R7_DATA_BASE:C_HV0810-2R7106-R")
+		(lib_id "CAPACITORS_HV_DATA_BASE:C_HV1030-2R7106-R")
 		(at 246.38 223.52 90)
 		(mirror x)
 		(unit 1)
@@ -17177,7 +17346,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-hv-supercapacitors-cylindrical-cells-data-sheet.pdfHV0810-2R7106-R"
+		(property "Datasheet" "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-hv-supercapacitors-cylindrical-cells-data-sheet.pdf"
 			(at 256.54 223.52 0)
 			(show_name yes)
 			(effects
@@ -17243,7 +17412,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "HV0810-2R7106-R"
+		(property "MPN" "HV1030-2R7106-R"
 			(at 271.78 223.52 0)
 			(show_name yes)
 			(effects
@@ -17265,7 +17434,7 @@
 				(hide yes)
 			)
 		)
-		(property "Series" "HV0810-2R7"
+		(property "Series" "HV1030-2R7"
 			(at 276.86 223.52 0)
 			(show_name yes)
 			(effects
@@ -17276,7 +17445,7 @@
 				(hide yes)
 			)
 		)
-		(property "Symbol Name" "C_HV0810-2R7106-R"
+		(property "Symbol Name" "C_HV1030-2R7106-R"
 			(at 279.4 223.52 0)
 			(show_name yes)
 			(effects
@@ -17298,7 +17467,7 @@
 				(hide yes)
 			)
 		)
-		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/HV0810-2R7106-R"
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/HV1030-2R7106-R"
 			(at 284.48 223.52 0)
 			(show_name yes)
 			(effects
@@ -21046,7 +21215,7 @@
 		)
 	)
 	(symbol
-		(lib_id "UNITED_TRANSISTORS_DATA_BASE:Q_BSZ060NE2LS")
+		(lib_id "TRANSISTORS_BSZ060NE2LS_DATA_BASE:Q_BSZ060NE2LS")
 		(at 227.33 78.74 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21055,7 +21224,7 @@
 		(dnp no)
 		(uuid "7a81d3e4-936b-45ce-8077-2e65fb764542")
 		(property "Reference" "Q4"
-			(at 229.87 77.4699 90)
+			(at 234.95 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21064,7 +21233,7 @@
 			)
 		)
 		(property "Value" "20 V"
-			(at 229.87 80.0099 90)
+			(at 219.71 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22385,7 +22554,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CAPACITORS_HV08102R7_DATA_BASE:C_HV0810-2R7106-R")
+		(lib_id "CAPACITORS_HV_DATA_BASE:C_HV1030-2R7106-R")
 		(at 246.38 203.2 90)
 		(mirror x)
 		(unit 1)
@@ -22424,7 +22593,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-hv-supercapacitors-cylindrical-cells-data-sheet.pdfHV0810-2R7106-R"
+		(property "Datasheet" "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-hv-supercapacitors-cylindrical-cells-data-sheet.pdf"
 			(at 256.54 203.2 0)
 			(show_name yes)
 			(effects
@@ -22490,7 +22659,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "HV0810-2R7106-R"
+		(property "MPN" "HV1030-2R7106-R"
 			(at 271.78 203.2 0)
 			(show_name yes)
 			(effects
@@ -22512,7 +22681,7 @@
 				(hide yes)
 			)
 		)
-		(property "Series" "HV0810-2R7"
+		(property "Series" "HV1030-2R7"
 			(at 276.86 203.2 0)
 			(show_name yes)
 			(effects
@@ -22523,7 +22692,7 @@
 				(hide yes)
 			)
 		)
-		(property "Symbol Name" "C_HV0810-2R7106-R"
+		(property "Symbol Name" "C_HV1030-2R7106-R"
 			(at 279.4 203.2 0)
 			(show_name yes)
 			(effects
@@ -22545,7 +22714,7 @@
 				(hide yes)
 			)
 		)
-		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/HV0810-2R7106-R"
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/HV1030-2R7106-R"
 			(at 284.48 203.2 0)
 			(show_name yes)
 			(effects
@@ -22583,7 +22752,7 @@
 		)
 	)
 	(symbol
-		(lib_id "UNITED_TRANSISTORS_DATA_BASE:Q_BSZ060NE2LS")
+		(lib_id "TRANSISTORS_BSZ060NE2LS_DATA_BASE:Q_BSZ060NE2LS")
 		(at 227.33 96.52 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24112,7 +24281,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CAPACITORS_HV08102R7_DATA_BASE:C_HV0810-2R7106-R")
+		(lib_id "CAPACITORS_HV_DATA_BASE:C_HV1030-2R7106-R")
 		(at 246.38 182.88 90)
 		(mirror x)
 		(unit 1)
@@ -24151,7 +24320,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-hv-supercapacitors-cylindrical-cells-data-sheet.pdfHV0810-2R7106-R"
+		(property "Datasheet" "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-hv-supercapacitors-cylindrical-cells-data-sheet.pdf"
 			(at 256.54 182.88 0)
 			(show_name yes)
 			(effects
@@ -24217,7 +24386,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "HV0810-2R7106-R"
+		(property "MPN" "HV1030-2R7106-R"
 			(at 271.78 182.88 0)
 			(show_name yes)
 			(effects
@@ -24239,7 +24408,7 @@
 				(hide yes)
 			)
 		)
-		(property "Series" "HV0810-2R7"
+		(property "Series" "HV1030-2R7"
 			(at 276.86 182.88 0)
 			(show_name yes)
 			(effects
@@ -24250,7 +24419,7 @@
 				(hide yes)
 			)
 		)
-		(property "Symbol Name" "C_HV0810-2R7106-R"
+		(property "Symbol Name" "C_HV1030-2R7106-R"
 			(at 279.4 182.88 0)
 			(show_name yes)
 			(effects
@@ -24272,7 +24441,7 @@
 				(hide yes)
 			)
 		)
-		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/HV0810-2R7106-R"
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/HV1030-2R7106-R"
 			(at 284.48 182.88 0)
 			(show_name yes)
 			(effects
@@ -24766,6 +24935,73 @@
 			(project "minimal_ltc3350"
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
 					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 121.92 243.84 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7982ff5-b5ee-4c3c-8a69-5ec6ee01cefa")
+		(property "Reference" "#FLG01"
+			(at 120.015 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 118.11 243.8399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 121.92 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2452ced2-9257-48cb-ad2a-58809f47e723")
+		)
+		(instances
+			(project ""
+				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -25670,6 +25906,72 @@
 			(project "minimal_ltc3350"
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
 					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 124.46 246.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b43d06c0-71e8-4828-ae50-3d14f727c521")
+		(property "Reference" "#PWR030"
+			(at 124.46 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 124.46 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 124.46 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5caf932b-1a05-41f4-81b0-09ed22d9dab7")
+		)
+		(instances
+			(project "minimal_ltc3350"
+				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -28958,7 +29260,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CAPACITORS_HV08102R7_DATA_BASE:C_HV0810-2R7106-R")
+		(lib_id "CAPACITORS_HV_DATA_BASE:C_HV1030-2R7106-R")
 		(at 246.38 162.56 90)
 		(mirror x)
 		(unit 1)
@@ -28997,7 +29299,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-hv-supercapacitors-cylindrical-cells-data-sheet.pdfHV0810-2R7106-R"
+		(property "Datasheet" "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-hv-supercapacitors-cylindrical-cells-data-sheet.pdf"
 			(at 256.54 162.56 0)
 			(show_name yes)
 			(effects
@@ -29063,7 +29365,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "HV0810-2R7106-R"
+		(property "MPN" "HV1030-2R7106-R"
 			(at 271.78 162.56 0)
 			(show_name yes)
 			(effects
@@ -29085,7 +29387,7 @@
 				(hide yes)
 			)
 		)
-		(property "Series" "HV0810-2R7"
+		(property "Series" "HV1030-2R7"
 			(at 276.86 162.56 0)
 			(show_name yes)
 			(effects
@@ -29096,7 +29398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Symbol Name" "C_HV0810-2R7106-R"
+		(property "Symbol Name" "C_HV1030-2R7106-R"
 			(at 279.4 162.56 0)
 			(show_name yes)
 			(effects
@@ -29118,7 +29420,7 @@
 				(hide yes)
 			)
 		)
-		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/HV0810-2R7106-R"
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/HV1030-2R7106-R"
 			(at 284.48 162.56 0)
 			(show_name yes)
 			(effects
