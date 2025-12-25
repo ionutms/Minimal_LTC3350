@@ -7,5 +7,6 @@ requires-python = ">=3.13"
 dependencies = [
     "forallpeople>=2.7.1",
     "jupyter>=1.1.1",
+    "numpy>=2.4.0",
     "sympy>=1.14.0",
 ]
