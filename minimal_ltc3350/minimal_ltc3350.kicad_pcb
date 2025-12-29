@@ -14463,7 +14463,7 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "0.016 Ω"
+		(property "Value" "16 mΩ"
 			(at 0 2.54 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14476,7 +14476,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.susumu.co.jp/common/pdf/n_catalog_partition07_en.pdf"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDN0000/AOA0000C325.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14488,7 +14488,7 @@
 				)
 			)
 		)
-		(property "Description" "RES SMD 0.016 Ω 1% 0612"
+		(property "Description" "RES SMD 16 mΩ 1% 0612"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14539,7 +14539,7 @@
 				)
 			)
 		)
-		(property "MPN" "PRL1632-R016-F-T1"
+		(property "MPN" "ERJ-B2CFR016V"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14552,7 +14552,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Susumu"
+		(property "Manufacturer" "Panasonic"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14565,7 +14565,7 @@
 				)
 			)
 		)
-		(property "Series" "PRL1632-"
+		(property "Series" "ERJ-B2CF"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14578,7 +14578,7 @@
 				)
 			)
 		)
-		(property "Symbol Name" "R_PRL1632-R016-F-T1"
+		(property "Symbol Name" "R_ERJ-B2CFR016V"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14617,7 +14617,7 @@
 				)
 			)
 		)
-		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/PRL1632-R016-F-T1"
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/ERJ-B2CFR016V"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
