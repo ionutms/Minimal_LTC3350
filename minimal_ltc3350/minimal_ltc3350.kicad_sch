@@ -2479,6 +2479,307 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "CONNECTORS_CLP-1xx-02-G-D-BE_DATA_BASE:J_CLP-102-02-G-D-BE"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 5.08 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "CLP-102-02-G-D-BE"
+				(at 5.08 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "connector_footprints:CLP-102-02-G-D-BE"
+				(at 5.08 -7.62 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/clp_sm.pdf?_gl=1*1y4jlr9*_gcl_au*MTM0MTYyNTQ5MS4xNzM2MDk5MTUz*_ga*MTYxNDYyMTQ0Mi4xNzM2MDk5MTUz*_ga_3KFNZC07WW*MTczNjY4MDQ4OS4xNS4xLjE3MzY2ODEzNzcuNjAuMC4w"
+				(at 5.08 -10.16 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Samtec CLP-1xx-02-G-D-BE series,  2 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Tin plated"
+				(at 5.08 -12.7 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Color" "Black"
+				(at 5.08 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Contact Plating" "Tin"
+				(at 5.08 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Current Rating (A)" "5.2"
+				(at 5.08 -20.32 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN" "CLP-102-02-G-D-BE"
+				(at 5.08 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Samtec"
+				(at 5.08 -25.4 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mounting Angle" "Vertical"
+				(at 5.08 -27.94 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mounting Style" "Surface Mount"
+				(at 5.08 -30.48 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Number of Rows" "2"
+				(at 5.08 -33.02 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Pin Count" "2"
+				(at 5.08 -35.56 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Pitch (mm)" "1.27"
+				(at 5.08 -38.1 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Series" "CLP-1xx-02-G-D-BE"
+				(at 5.08 -40.64 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Symbol Name" "J_CLP-102-02-G-D-BE"
+				(at 5.08 -43.18 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Trustedparts Search" "https://www.trustedparts.com/en/search/CLP-102-02-G-D-BE"
+				(at 5.08 -45.72 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Voltage Rating (V)" "300"
+				(at 5.08 -48.26 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "J_CLP-102-02-G-D-BE_0_0"
+				(pin passive line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 1.27 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -1.27 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "J_CLP-102-02-G-D-BE_1_0"
+				(rectangle
+					(start -2.54 3.81)
+					(end 2.54 -3.81)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "DIODES_1N4448HWT-7_DATA_BASE:D_1N4448HWT-7"
 			(pin_names
 				(offset 0.254)
@@ -9715,7 +10016,7 @@
 		(uuid "066313df-e9b4-46dd-8be7-6444f20f0824")
 	)
 	(junction
-		(at 238.76 152.4)
+		(at 261.62 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "07ca6de9-23d4-4b52-91af-122934635bc6")
@@ -9805,6 +10106,12 @@
 		(uuid "1d0c776b-a4ef-4a39-8f13-3b978f83cc40")
 	)
 	(junction
+		(at 236.22 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d3a7bf1-8080-4cea-aec4-5211313cf150")
+	)
+	(junction
 		(at 172.72 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9821,6 +10128,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1f881db5-b779-4ac2-938f-afb8d6e1fa8c")
+	)
+	(junction
+		(at 236.22 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "201e1c37-492d-4333-966b-dbcfe0e33627")
+	)
+	(junction
+		(at 251.46 198.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "222e5fa6-2a70-465b-b5b7-0c0615345f66")
 	)
 	(junction
 		(at 218.44 198.12)
@@ -9865,10 +10184,22 @@
 		(uuid "46e2124a-2506-4a47-be25-9b1fc94c4851")
 	)
 	(junction
+		(at 236.22 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "499259c1-8f94-475a-a71b-5a507abc7564")
+	)
+	(junction
 		(at 203.2 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4af4806a-98f3-4141-9da9-afa50eb1a2eb")
+	)
+	(junction
+		(at 236.22 218.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c820d81-be2b-4088-a46b-8710decfa685")
 	)
 	(junction
 		(at 104.14 22.86)
@@ -9881,6 +10212,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "53501255-e2c5-46d9-bff8-9f0e5398c327")
+	)
+	(junction
+		(at 236.22 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "544fd709-a9dd-4aa0-b13f-3849f080058c")
 	)
 	(junction
 		(at 218.44 180.34)
@@ -9901,6 +10238,12 @@
 		(uuid "56b90a3a-a54d-4e2f-8d0d-97d06d48ca5f")
 	)
 	(junction
+		(at 251.46 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "578ee938-794f-45d0-be36-df3868c4edab")
+	)
+	(junction
 		(at 261.62 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9919,7 +10262,7 @@
 		(uuid "60587dee-c48a-4196-9bd3-153c990d8265")
 	)
 	(junction
-		(at 238.76 167.64)
+		(at 261.62 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "62fc7f6f-9f34-4646-8504-4364f840afd4")
@@ -9943,7 +10286,7 @@
 		(uuid "687fc620-87d3-48ee-8a69-7b3088d0f57c")
 	)
 	(junction
-		(at 284.48 152.4)
+		(at 307.34 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6a04d241-5744-46c8-ad5d-88859ae706f4")
@@ -9961,16 +10304,16 @@
 		(uuid "6be25d54-83db-465a-912c-4a20d523eb5e")
 	)
 	(junction
+		(at 251.46 218.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c9bbee9-c828-47db-9d89-5af468f06269")
+	)
+	(junction
 		(at 203.2 190.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "70331e33-9363-4677-90b5-cae975c0238d")
-	)
-	(junction
-		(at 261.62 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "718de6f0-ed10-41a1-b175-d3412a660463")
 	)
 	(junction
 		(at 218.44 165.1)
@@ -10003,7 +10346,13 @@
 		(uuid "79276a53-6baa-470b-baed-b8f77f22c359")
 	)
 	(junction
-		(at 269.24 152.4)
+		(at 236.22 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7cb3cd83-3c0a-4abc-9ea6-264f111c53bb")
+	)
+	(junction
+		(at 292.1 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "802be11f-5186-4145-96d5-f90989084b16")
@@ -10039,10 +10388,22 @@
 		(uuid "92834c6c-f45f-4e7e-9304-dad0948e8304")
 	)
 	(junction
+		(at 251.46 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92bbffe8-a5a2-41bf-8c43-9e98d71af60b")
+	)
+	(junction
 		(at 172.72 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9471a204-f3f4-4e6a-9e73-7af5b85f04a3")
+	)
+	(junction
+		(at 251.46 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9767eaa6-a43b-49b3-9f01-ffc4f0060ec1")
 	)
 	(junction
 		(at 172.72 35.56)
@@ -10063,10 +10424,34 @@
 		(uuid "9cb9ccab-a53d-4bed-8479-04d22816fba7")
 	)
 	(junction
-		(at 238.76 213.36)
+		(at 236.22 198.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e21dc41-79f8-42f7-902d-7fd57ea57392")
+	)
+	(junction
+		(at 236.22 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e3743a9-7e06-4c66-8614-1cb0ce0adb19")
+	)
+	(junction
+		(at 261.62 213.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a09b7f07-b37d-49fa-b25b-225745db8443")
+	)
+	(junction
+		(at 251.46 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0e2ae21-12e0-4d7a-82f4-065fd59f1b0b")
+	)
+	(junction
+		(at 236.22 203.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a40472d6-f4a1-4a1f-9fd9-9c69cc8526e7")
 	)
 	(junction
 		(at 325.12 33.02)
@@ -10085,6 +10470,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae60e57b-2b13-4942-8307-ccb7910a0a6e")
+	)
+	(junction
+		(at 251.46 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0369643-f1d5-46d0-a977-7df329073e9c")
 	)
 	(junction
 		(at 223.52 182.88)
@@ -10171,6 +10562,12 @@
 		(uuid "c81a2bff-c939-441f-80c6-5d1c0d1273b2")
 	)
 	(junction
+		(at 251.46 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca329a8a-fe0b-4378-91ba-0d9486983b50")
+	)
+	(junction
 		(at 187.96 198.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10195,16 +10592,34 @@
 		(uuid "cf044548-abcc-49cf-b452-d07a4ed61ed7")
 	)
 	(junction
-		(at 238.76 198.12)
+		(at 261.62 198.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d21f3836-f5de-4dc1-8ab5-c6656b2d95b6")
+	)
+	(junction
+		(at 236.22 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d61d0d50-f602-4ce5-96ba-38586d8af905")
+	)
+	(junction
+		(at 251.46 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7fd006a-cfdd-47b2-8596-50b20de84349")
 	)
 	(junction
 		(at 203.2 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dfdfc43e-c8bd-4a0e-8c61-3cefaffd5305")
+	)
+	(junction
+		(at 251.46 203.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dfeb4a6e-dab4-42e0-a7bf-8b8506c9d51e")
 	)
 	(junction
 		(at 81.28 157.48)
@@ -10237,13 +10652,13 @@
 		(uuid "f6add8f9-5d66-4b02-be0c-98c83af2bd05")
 	)
 	(junction
-		(at 238.76 182.88)
+		(at 261.62 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f9a98a3e-e198-4194-96fb-261ab9769fb9")
 	)
 	(junction
-		(at 254 152.4)
+		(at 276.86 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa7d05b6-a5cf-4136-b35b-4043db73c182")
@@ -10280,16 +10695,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 213.36) (xy 238.76 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03c38584-e4c6-4617-a524-697a4780c874")
-	)
-	(wire
-		(pts
 			(xy 121.92 25.4) (xy 124.46 25.4)
 		)
 		(stroke
@@ -10297,6 +10702,16 @@
 			(type default)
 		)
 		(uuid "03d528a7-dcaf-405d-8ec7-48e8fb9c74bf")
+	)
+	(wire
+		(pts
+			(xy 236.22 172.72) (xy 238.76 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0404be59-978e-4998-910a-17b89442721f")
 	)
 	(wire
 		(pts
@@ -10310,6 +10725,26 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 182.88) (xy 251.46 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08daa4d7-49cd-4362-a603-a325f4c45322")
+	)
+	(wire
+		(pts
+			(xy 251.46 213.36) (xy 251.46 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "095fd58c-d010-4011-bf25-a6de3548816f")
+	)
+	(wire
+		(pts
 			(xy 133.35 35.56) (xy 132.08 35.56)
 		)
 		(stroke
@@ -10320,7 +10755,7 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 152.4) (xy 299.72 153.67)
+			(xy 322.58 152.4) (xy 322.58 153.67)
 		)
 		(stroke
 			(width 0)
@@ -10420,6 +10855,26 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 218.44) (xy 251.46 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1290177b-c6ac-4ec1-a592-9b234ec93928")
+	)
+	(wire
+		(pts
+			(xy 251.46 167.64) (xy 261.62 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1372ec4e-a046-4873-9d95-5f9c4ac2d1ff")
+	)
+	(wire
+		(pts
 			(xy 223.52 105.41) (xy 226.06 105.41)
 		)
 		(stroke
@@ -10430,7 +10885,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 182.88) (xy 238.76 182.88)
+			(xy 223.52 182.88) (xy 236.22 182.88)
 		)
 		(stroke
 			(width 0)
@@ -10470,16 +10925,6 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 137.16) (xy 261.62 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16d58e11-ec26-463b-bbf9-acd082aa7fea")
-	)
-	(wire
-		(pts
 			(xy 266.7 22.86) (xy 281.94 22.86)
 		)
 		(stroke
@@ -10487,6 +10932,16 @@
 			(type default)
 		)
 		(uuid "1886e345-edc3-4abf-98e0-0e58a6f04039")
+	)
+	(wire
+		(pts
+			(xy 236.22 198.12) (xy 251.46 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "199f554f-37b7-4f11-a871-40afbb4b8f57")
 	)
 	(wire
 		(pts
@@ -10517,6 +10972,16 @@
 			(type default)
 		)
 		(uuid "1df8e41a-1de7-460c-8d1c-ad190b21e939")
+	)
+	(wire
+		(pts
+			(xy 236.22 157.48) (xy 236.22 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dfd5c1a-a79b-4e81-926f-ce769f723cb9")
 	)
 	(wire
 		(pts
@@ -10590,6 +11055,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 220.98) (xy 238.76 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23eaf8e7-94c8-4b0a-bd89-576ee1ba244c")
+	)
+	(wire
+		(pts
 			(xy 187.96 205.74) (xy 187.96 208.28)
 		)
 		(stroke
@@ -10637,6 +11112,16 @@
 			(type default)
 		)
 		(uuid "2718e299-4ab5-4f91-8a7b-b80d2f8004f1")
+	)
+	(wire
+		(pts
+			(xy 236.22 203.2) (xy 236.22 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27971a06-5f66-4f7a-ab8c-bb4cefd57229")
 	)
 	(wire
 		(pts
@@ -10710,6 +11195,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 152.4) (xy 261.62 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c1629f8-c841-41b6-a7c3-a5406d304ecf")
+	)
+	(wire
+		(pts
 			(xy 218.44 152.4) (xy 223.52 152.4)
 		)
 		(stroke
@@ -10717,6 +11212,16 @@
 			(type default)
 		)
 		(uuid "2efe55f2-c4f4-4850-857d-a759bcdf8320")
+	)
+	(wire
+		(pts
+			(xy 236.22 172.72) (xy 236.22 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31bb8982-63d3-44f6-a979-d3a3cd316506")
 	)
 	(wire
 		(pts
@@ -10780,7 +11285,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 213.36) (xy 238.76 214.63)
+			(xy 261.62 213.36) (xy 261.62 214.63)
 		)
 		(stroke
 			(width 0)
@@ -10797,6 +11302,16 @@
 			(type default)
 		)
 		(uuid "3a2ba861-4791-4cd5-9ab1-a0f84361dfb1")
+	)
+	(wire
+		(pts
+			(xy 261.62 152.4) (xy 261.62 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a8678c6-1eff-4458-acfe-445d180b63c3")
 	)
 	(wire
 		(pts
@@ -10870,6 +11385,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 205.74) (xy 251.46 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e40c011-8c64-42ba-80a6-62862a9b5de0")
+	)
+	(wire
+		(pts
 			(xy 223.52 184.15) (xy 223.52 182.88)
 		)
 		(stroke
@@ -10910,6 +11435,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 182.88) (xy 251.46 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43bb97e9-e4ef-4b67-8984-0fc3d7c74868")
+	)
+	(wire
+		(pts
 			(xy 218.44 165.1) (xy 218.44 163.83)
 		)
 		(stroke
@@ -10917,6 +11452,16 @@
 			(type default)
 		)
 		(uuid "446eab66-bfa5-469b-a765-be30434dfbea")
+	)
+	(wire
+		(pts
+			(xy 248.92 203.2) (xy 251.46 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4531bba5-1c69-4270-83a5-555d93e49a73")
 	)
 	(wire
 		(pts
@@ -10937,6 +11482,16 @@
 			(type default)
 		)
 		(uuid "46ddb9a7-f62b-4374-9e6b-b9a28352e652")
+	)
+	(wire
+		(pts
+			(xy 187.96 213.36) (xy 236.22 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47b84069-a136-4620-abdd-ecae163750f3")
 	)
 	(wire
 		(pts
@@ -10967,6 +11522,16 @@
 			(type default)
 		)
 		(uuid "4ab19089-f5f6-436a-a7e7-0a304796a129")
+	)
+	(wire
+		(pts
+			(xy 236.22 167.64) (xy 236.22 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ad7074b-836f-4a7d-86ae-729b20c7c085")
 	)
 	(wire
 		(pts
@@ -11010,6 +11575,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 182.88) (xy 261.62 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ddef6a1-9815-470f-becc-3ff3c2b94292")
+	)
+	(wire
+		(pts
 			(xy 187.96 167.64) (xy 218.44 167.64)
 		)
 		(stroke
@@ -11050,6 +11625,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 203.2) (xy 238.76 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fc0b07a-beb8-4214-bd77-ffa6bce9bef0")
+	)
+	(wire
+		(pts
 			(xy 261.62 88.9) (xy 261.62 121.92)
 		)
 		(stroke
@@ -11057,6 +11642,16 @@
 			(type default)
 		)
 		(uuid "4fd30d50-c9fb-4a3c-ab68-92980c085d75")
+	)
+	(wire
+		(pts
+			(xy 236.22 218.44) (xy 236.22 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "500b2cd5-8558-44a1-bc62-e175b1a1cbda")
 	)
 	(wire
 		(pts
@@ -11077,6 +11672,16 @@
 			(type default)
 		)
 		(uuid "514a8538-5d40-48ab-846d-f96bbefe42d3")
+	)
+	(wire
+		(pts
+			(xy 236.22 213.36) (xy 236.22 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "514b3d82-8e77-4bdf-92ff-37103ecd44fb")
 	)
 	(wire
 		(pts
@@ -11127,6 +11732,16 @@
 			(type default)
 		)
 		(uuid "56edacea-7b4c-4bb2-9c52-997f0b25844e")
+	)
+	(wire
+		(pts
+			(xy 251.46 187.96) (xy 251.46 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "587d830b-0247-4480-925e-08555b3ba11c")
 	)
 	(wire
 		(pts
@@ -11190,7 +11805,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 152.4) (xy 284.48 152.4)
+			(xy 292.1 152.4) (xy 307.34 152.4)
 		)
 		(stroke
 			(width 0)
@@ -11210,6 +11825,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 157.48) (xy 251.46 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60a74141-b6f6-499a-bf8b-2ef594b3c536")
+	)
+	(wire
+		(pts
 			(xy 200.66 134.62) (xy 200.66 121.92)
 		)
 		(stroke
@@ -11217,6 +11842,16 @@
 			(type default)
 		)
 		(uuid "6137cb2f-1720-4361-ba51-2cc4f5582cd9")
+	)
+	(wire
+		(pts
+			(xy 251.46 213.36) (xy 261.62 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "621a48eb-18ca-4622-bf4e-cce04cdb0131")
 	)
 	(wire
 		(pts
@@ -11240,7 +11875,27 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 182.88) (xy 238.76 185.42)
+			(xy 236.22 167.64) (xy 251.46 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64a7850c-2579-483c-99f2-720d49445295")
+	)
+	(wire
+		(pts
+			(xy 248.92 187.96) (xy 251.46 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6520516e-99af-4bf0-b8e2-3a0a6a1d5a87")
+	)
+	(wire
+		(pts
+			(xy 261.62 182.88) (xy 261.62 185.42)
 		)
 		(stroke
 			(width 0)
@@ -11250,7 +11905,17 @@
 	)
 	(wire
 		(pts
-			(xy 254 152.4) (xy 261.62 152.4)
+			(xy 236.22 157.48) (xy 238.76 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65c3082b-1c64-4c81-be09-34e949a94e7e")
+	)
+	(wire
+		(pts
+			(xy 276.86 152.4) (xy 292.1 152.4)
 		)
 		(stroke
 			(width 0)
@@ -11277,6 +11942,16 @@
 			(type default)
 		)
 		(uuid "67126d58-0a74-40a4-bef3-7bd13885033e")
+	)
+	(wire
+		(pts
+			(xy 236.22 152.4) (xy 251.46 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "676edab0-701a-4fec-9889-9f8858e8da1e")
 	)
 	(wire
 		(pts
@@ -11320,7 +11995,7 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 161.29) (xy 284.48 162.56)
+			(xy 307.34 161.29) (xy 307.34 162.56)
 		)
 		(stroke
 			(width 0)
@@ -11340,6 +12015,26 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 218.44) (xy 238.76 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b94b6fd-2cd4-4e41-b462-642782d574e4")
+	)
+	(wire
+		(pts
+			(xy 236.22 205.74) (xy 238.76 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c59d465-3d7f-4f7b-92e5-1a95b932315d")
+	)
+	(wire
+		(pts
 			(xy 261.62 60.96) (xy 261.62 58.42)
 		)
 		(stroke
@@ -11350,7 +12045,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 161.29) (xy 254 162.56)
+			(xy 276.86 161.29) (xy 276.86 162.56)
 		)
 		(stroke
 			(width 0)
@@ -11380,6 +12075,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 198.12) (xy 236.22 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f2f0093-ed91-404b-b7b7-15a02cefeeb9")
+	)
+	(wire
+		(pts
 			(xy 223.52 165.1) (xy 223.52 163.83)
 		)
 		(stroke
@@ -11400,7 +12105,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 152.4) (xy 269.24 153.67)
+			(xy 292.1 152.4) (xy 292.1 153.67)
 		)
 		(stroke
 			(width 0)
@@ -11440,7 +12145,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 198.12) (xy 238.76 198.12)
+			(xy 223.52 198.12) (xy 236.22 198.12)
 		)
 		(stroke
 			(width 0)
@@ -11477,6 +12182,16 @@
 			(type default)
 		)
 		(uuid "75f9d797-f7ec-4439-80b5-62c10e0a5cf2")
+	)
+	(wire
+		(pts
+			(xy 236.22 160.02) (xy 238.76 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7609575e-fb8c-4fe6-a704-76e7618d348f")
 	)
 	(wire
 		(pts
@@ -11520,7 +12235,17 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 198.12) (xy 238.76 200.66)
+			(xy 251.46 203.2) (xy 251.46 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79d7c8e9-79b8-4bf0-9a1d-d22ee5eb4473")
+	)
+	(wire
+		(pts
+			(xy 261.62 198.12) (xy 261.62 200.66)
 		)
 		(stroke
 			(width 0)
@@ -11550,13 +12275,43 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 161.29) (xy 299.72 162.56)
+			(xy 236.22 190.5) (xy 238.76 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e337b2a-1df8-4db3-b3aa-b6eddc4494f3")
+	)
+	(wire
+		(pts
+			(xy 322.58 161.29) (xy 322.58 162.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7f070a63-0f92-45f8-bd2a-bd49f1ad88a4")
+	)
+	(wire
+		(pts
+			(xy 251.46 152.4) (xy 251.46 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f1837bc-6091-4a5c-9114-f520465c2880")
+	)
+	(wire
+		(pts
+			(xy 236.22 213.36) (xy 251.46 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f194d76-9ec9-45dc-9461-671e6cae774c")
 	)
 	(wire
 		(pts
@@ -11580,7 +12335,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 152.4) (xy 238.76 152.4)
+			(xy 223.52 152.4) (xy 236.22 152.4)
 		)
 		(stroke
 			(width 0)
@@ -11627,6 +12382,26 @@
 			(type default)
 		)
 		(uuid "863ef359-a7c6-41eb-9764-a62d738319ed")
+	)
+	(wire
+		(pts
+			(xy 251.46 167.64) (xy 251.46 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8691b076-d96e-4397-abec-3728d57f31da")
+	)
+	(wire
+		(pts
+			(xy 236.22 187.96) (xy 236.22 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87590c37-52a0-4743-986a-8a66f827a3e3")
 	)
 	(wire
 		(pts
@@ -11780,6 +12555,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 172.72) (xy 251.46 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93217fb0-30db-4862-8f48-afc052217a79")
+	)
+	(wire
+		(pts
 			(xy 218.44 132.08) (xy 218.44 139.7)
 		)
 		(stroke
@@ -11880,6 +12665,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 152.4) (xy 236.22 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f4a4b37-6759-4781-8f1e-78f5580d05f4")
+	)
+	(wire
+		(pts
 			(xy 259.08 22.86) (xy 266.7 22.86)
 		)
 		(stroke
@@ -11930,6 +12725,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 198.12) (xy 261.62 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2262789-200e-4373-a97a-d2dd426abeea")
+	)
+	(wire
+		(pts
 			(xy 251.46 91.44) (xy 251.46 114.3)
 		)
 		(stroke
@@ -11977,6 +12782,16 @@
 			(type default)
 		)
 		(uuid "a5229183-59fb-4b47-84e0-e2b2c7636998")
+	)
+	(wire
+		(pts
+			(xy 248.92 190.5) (xy 251.46 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7652c41-1396-47b2-a1ad-b6daf6628641")
 	)
 	(wire
 		(pts
@@ -12080,6 +12895,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 218.44) (xy 251.46 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af8dcef0-4b62-4b6a-8777-5843bf7406de")
+	)
+	(wire
+		(pts
 			(xy 266.7 33.02) (xy 266.7 35.56)
 		)
 		(stroke
@@ -12180,7 +13005,17 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 162.56) (xy 238.76 167.64)
+			(xy 251.46 198.12) (xy 251.46 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4899101-9218-446c-8f48-6e0df2f6610c")
+	)
+	(wire
+		(pts
+			(xy 261.62 162.56) (xy 261.62 167.64)
 		)
 		(stroke
 			(width 0)
@@ -12190,7 +13025,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 177.8) (xy 238.76 182.88)
+			(xy 261.62 177.8) (xy 261.62 182.88)
 		)
 		(stroke
 			(width 0)
@@ -12280,6 +13115,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 157.48) (xy 251.46 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9a68c58-1093-484d-9521-13539ec8406b")
+	)
+	(wire
+		(pts
 			(xy 203.2 203.2) (xy 203.2 205.74)
 		)
 		(stroke
@@ -12310,7 +13155,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 193.04) (xy 238.76 198.12)
+			(xy 261.62 193.04) (xy 261.62 198.12)
 		)
 		(stroke
 			(width 0)
@@ -12320,7 +13165,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 152.4) (xy 254 152.4)
+			(xy 261.62 152.4) (xy 276.86 152.4)
 		)
 		(stroke
 			(width 0)
@@ -12347,6 +13192,16 @@
 			(type default)
 		)
 		(uuid "beed19b9-e887-4e90-b7cd-af6e67b16a4d")
+	)
+	(wire
+		(pts
+			(xy 251.46 172.72) (xy 251.46 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfb47b46-dd6f-45c1-ac5f-2e038a4a12d0")
 	)
 	(wire
 		(pts
@@ -12440,6 +13295,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 182.88) (xy 236.22 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c50fa0d7-1026-4073-a4f5-1aff9d9dde05")
+	)
+	(wire
+		(pts
 			(xy 256.54 91.44) (xy 256.54 116.84)
 		)
 		(stroke
@@ -12470,7 +13335,17 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 152.4) (xy 299.72 152.4)
+			(xy 248.92 175.26) (xy 251.46 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c951f71c-0915-404a-8015-3e0243b53f71")
+	)
+	(wire
+		(pts
+			(xy 307.34 152.4) (xy 322.58 152.4)
 		)
 		(stroke
 			(width 0)
@@ -12510,6 +13385,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 160.02) (xy 251.46 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc15267f-7f58-4e28-8324-bdfffa09b6a2")
+	)
+	(wire
+		(pts
 			(xy 281.94 22.86) (xy 281.94 25.4)
 		)
 		(stroke
@@ -12517,6 +13402,16 @@
 			(type default)
 		)
 		(uuid "cccc1e6c-e16b-4566-8fba-d995a056e528")
+	)
+	(wire
+		(pts
+			(xy 236.22 175.26) (xy 238.76 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cde207d7-de2e-40fd-b918-529e73cac985")
 	)
 	(wire
 		(pts
@@ -12540,7 +13435,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 161.29) (xy 269.24 162.56)
+			(xy 292.1 161.29) (xy 292.1 162.56)
 		)
 		(stroke
 			(width 0)
@@ -12720,7 +13615,17 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 167.64) (xy 238.76 170.18)
+			(xy 248.92 220.98) (xy 251.46 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db573544-2194-49a1-af3d-13eeeb6fe8b8")
+	)
+	(wire
+		(pts
+			(xy 261.62 167.64) (xy 261.62 170.18)
 		)
 		(stroke
 			(width 0)
@@ -12790,7 +13695,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 208.28) (xy 238.76 213.36)
+			(xy 261.62 208.28) (xy 261.62 213.36)
 		)
 		(stroke
 			(width 0)
@@ -12990,6 +13895,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 137.16) (xy 261.62 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f05e8f0d-51d0-4ac4-ac6f-b7b0e831299a")
+	)
+	(wire
+		(pts
 			(xy 297.18 22.86) (xy 312.42 22.86)
 		)
 		(stroke
@@ -12997,6 +13912,16 @@
 			(type default)
 		)
 		(uuid "f0b30af0-f96d-48d6-9f35-154868169e06")
+	)
+	(wire
+		(pts
+			(xy 236.22 187.96) (xy 238.76 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0fca8a0-1257-44d8-9f8e-8f83cfeeba1a")
 	)
 	(wire
 		(pts
@@ -13030,23 +13955,13 @@
 	)
 	(wire
 		(pts
-			(xy 254 152.4) (xy 254 153.67)
+			(xy 276.86 152.4) (xy 276.86 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f322c491-6000-4411-89d4-0f3b374d2181")
-	)
-	(wire
-		(pts
-			(xy 261.62 152.4) (xy 269.24 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f40cd5d5-ba3d-4ada-a189-dd5043f729cf")
 	)
 	(wire
 		(pts
@@ -13090,7 +14005,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 167.64) (xy 238.76 167.64)
+			(xy 223.52 167.64) (xy 236.22 167.64)
 		)
 		(stroke
 			(width 0)
@@ -13150,16 +14065,6 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 152.4) (xy 238.76 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9ef0e1b-ab61-4b41-b4d1-aa724dfddeae")
-	)
-	(wire
-		(pts
 			(xy 203.2 205.74) (xy 203.2 208.28)
 		)
 		(stroke
@@ -13190,7 +14095,7 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 152.4) (xy 284.48 153.67)
+			(xy 307.34 152.4) (xy 307.34 153.67)
 		)
 		(stroke
 			(width 0)
@@ -13449,7 +14354,7 @@
 		(uuid "6c1c6a53-549e-4816-82a1-3062f0996d9c")
 	)
 	(label "VCAP"
-		(at 289.56 152.4 0)
+		(at 312.42 152.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15445,7 +16350,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 238.76 214.63 0)
+		(at 261.62 214.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15454,7 +16359,7 @@
 		(fields_autoplaced yes)
 		(uuid "25d503e4-e6b6-48ac-8b47-c10e64f738b3")
 		(property "Reference" "#PWR018"
-			(at 238.76 220.98 0)
+			(at 261.62 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15463,7 +16368,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 241.3 215.8999 0)
+			(at 264.16 215.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15472,7 +16377,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 214.63 0)
+			(at 261.62 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15481,7 +16386,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 214.63 0)
+			(at 261.62 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15490,7 +16395,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 238.76 214.63 0)
+			(at 261.62 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16736,8 +17641,243 @@
 		)
 	)
 	(symbol
+		(lib_id "CONNECTORS_CLP-1xx-02-G-D-BE_DATA_BASE:J_CLP-102-02-G-D-BE")
+		(at 243.84 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "330c0a7d-2597-46b9-a1a4-6e71de580dff")
+		(property "Reference" "J3"
+			(at 243.84 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLP-102-02-G-D-BE"
+			(at 243.84 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "connector_footprints:CLP-102-02-G-D-BE"
+			(at 248.92 196.85 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/clp_sm.pdf?_gl=1*1y4jlr9*_gcl_au*MTM0MTYyNTQ5MS4xNzM2MDk5MTUz*_ga*MTYxNDYyMTQ0Mi4xNzM2MDk5MTUz*_ga_3KFNZC07WW*MTczNjY4MDQ4OS4xNS4xLjE3MzY2ODEzNzcuNjAuMC4w"
+			(at 248.92 199.39 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Samtec CLP-1xx-02-G-D-BE series,  2 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Tin plated"
+			(at 248.92 201.93 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Color" "Black"
+			(at 248.92 204.47 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Contact Plating" "Tin"
+			(at 248.92 207.01 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Current Rating (A)" "5.2"
+			(at 248.92 209.55 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CLP-102-02-G-D-BE"
+			(at 248.92 212.09 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samtec"
+			(at 248.92 214.63 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounting Angle" "Vertical"
+			(at 248.92 217.17 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounting Style" "Surface Mount"
+			(at 248.92 219.71 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Number of Rows" "2"
+			(at 248.92 222.25 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "2"
+			(at 248.92 224.79 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pitch (mm)" "1.27"
+			(at 248.92 227.33 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "CLP-1xx-02-G-D-BE"
+			(at 248.92 229.87 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "J_CLP-102-02-G-D-BE"
+			(at 248.92 232.41 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/CLP-102-02-G-D-BE"
+			(at 248.92 234.95 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating (V)" "300"
+			(at 248.92 237.49 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "7bdb714d-aede-49a6-a931-5b9f291d29c3")
+		)
+		(pin "2"
+			(uuid "663f0931-4c45-43b2-8b39-367897d6978a")
+		)
+		(pin "4"
+			(uuid "36485ea5-7d75-4fa3-a950-c66abf090190")
+		)
+		(pin "1"
+			(uuid "3b593974-76f9-4e00-b7a8-3bf3b9b9dfc2")
+		)
+		(instances
+			(project "minimal_ltc3350"
+				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 254 162.56 0)
+		(at 276.86 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16746,7 +17886,7 @@
 		(fields_autoplaced yes)
 		(uuid "370543c7-d870-423e-ae09-4216e9220d6d")
 		(property "Reference" "#PWR021"
-			(at 254 168.91 0)
+			(at 276.86 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16755,7 +17895,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 254 167.64 0)
+			(at 276.86 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16763,7 +17903,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 254 162.56 0)
+			(at 276.86 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16772,7 +17912,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 162.56 0)
+			(at 276.86 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16781,7 +17921,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 254 162.56 0)
+			(at 276.86 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17044,7 +18184,7 @@
 	)
 	(symbol
 		(lib_id "CAPACITORS_HV_DATA_BASE:C_HV1030-2R7106-R")
-		(at 238.76 204.47 90)
+		(at 261.62 204.47 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17054,7 +18194,7 @@
 		(fields_autoplaced yes)
 		(uuid "38bff0dc-80e1-4b61-94c9-0ef849b865e4")
 		(property "Reference" "C23"
-			(at 242.57 202.4379 90)
+			(at 265.43 202.4379 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17063,7 +18203,7 @@
 			)
 		)
 		(property "Value" "10 F"
-			(at 242.57 204.9779 90)
+			(at 265.43 204.9779 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17072,105 +18212,6 @@
 			)
 		)
 		(property "Footprint" "capacitor_footprints:C_197x394_H31_5_5_0x10Metric"
-			(at 246.38 204.47 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-hv-supercapacitors-cylindrical-cells-data-sheet.pdf"
-			(at 248.92 204.47 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP SMD 10 F Supercapacitor 10% 197x394_H31_5 2.7V"
-			(at 251.46 204.47 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Capacitor Type" "Supercapacitor"
-			(at 254 204.47 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Case Code - in" "197x394_H31_5"
-			(at 256.54 204.47 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Case Code - mm" "5_0x10"
-			(at 259.08 204.47 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "Supercapacitor"
-			(at 261.62 204.47 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MPN" "HV1030-2R7106-R"
-			(at 264.16 204.47 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Eaton Electronics"
-			(at 266.7 204.47 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Series" "HV1030-2R7"
 			(at 269.24 204.47 0)
 			(show_name yes)
 			(effects
@@ -17181,7 +18222,7 @@
 				(hide yes)
 			)
 		)
-		(property "Symbol Name" "C_HV1030-2R7106-R"
+		(property "Datasheet" "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-hv-supercapacitors-cylindrical-cells-data-sheet.pdf"
 			(at 271.78 204.47 0)
 			(show_name yes)
 			(effects
@@ -17192,7 +18233,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "10%"
+		(property "Description" "CAP SMD 10 F Supercapacitor 10% 197x394_H31_5 2.7V"
 			(at 274.32 204.47 0)
 			(show_name yes)
 			(effects
@@ -17203,7 +18244,7 @@
 				(hide yes)
 			)
 		)
-		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/HV1030-2R7106-R"
+		(property "Capacitor Type" "Supercapacitor"
 			(at 276.86 204.47 0)
 			(show_name yes)
 			(effects
@@ -17214,8 +18255,107 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage Rating" "2.7V"
+		(property "Case Code - in" "197x394_H31_5"
 			(at 279.4 204.47 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - mm" "5_0x10"
+			(at 281.94 204.47 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "Supercapacitor"
+			(at 284.48 204.47 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "HV1030-2R7106-R"
+			(at 287.02 204.47 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Eaton Electronics"
+			(at 289.56 204.47 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "HV1030-2R7"
+			(at 292.1 204.47 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "C_HV1030-2R7106-R"
+			(at 294.64 204.47 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 297.18 204.47 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/HV1030-2R7106-R"
+			(at 299.72 204.47 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "2.7V"
+			(at 302.26 204.47 0)
 			(show_name yes)
 			(effects
 				(font
@@ -19252,7 +20392,7 @@
 	)
 	(symbol
 		(lib_id "CAPACITORS_C2012X5R1C_DATA_BASE:C_C2012X5R1C226M125AC")
-		(at 269.24 157.48 270)
+		(at 292.1 157.48 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19261,7 +20401,7 @@
 		(fields_autoplaced yes)
 		(uuid "5b0886ab-ac7b-443e-9cca-00367cda3675")
 		(property "Reference" "C17"
-			(at 273.05 156.2099 90)
+			(at 295.91 156.2099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19270,7 +20410,7 @@
 			)
 		)
 		(property "Value" "22 µF"
-			(at 273.05 158.7499 90)
+			(at 295.91 158.7499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19279,7 +20419,7 @@
 			)
 		)
 		(property "Footprint" "capacitor_footprints:C_0805_2012Metric"
-			(at 261.62 157.48 0)
+			(at 284.48 157.48 0)
 			(show_name yes)
 			(effects
 				(font
@@ -19290,7 +20430,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C2012X5R1C226M125AC"
-			(at 259.08 157.48 0)
+			(at 281.94 157.48 0)
 			(show_name yes)
 			(effects
 				(font
@@ -19301,7 +20441,7 @@
 			)
 		)
 		(property "Description" "CAP SMD 22 µF X5R 20% 0805 16V"
-			(at 256.54 157.48 0)
+			(at 279.4 157.48 0)
 			(show_name yes)
 			(effects
 				(font
@@ -19312,7 +20452,7 @@
 			)
 		)
 		(property "Capacitor Type" "Ceramic"
-			(at 254 157.48 0)
+			(at 276.86 157.48 0)
 			(show_name yes)
 			(effects
 				(font
@@ -19323,7 +20463,7 @@
 			)
 		)
 		(property "Case Code - in" "0805"
-			(at 251.46 157.48 0)
+			(at 274.32 157.48 0)
 			(show_name yes)
 			(effects
 				(font
@@ -19334,7 +20474,7 @@
 			)
 		)
 		(property "Case Code - mm" "2012"
-			(at 248.92 157.48 0)
+			(at 271.78 157.48 0)
 			(show_name yes)
 			(effects
 				(font
@@ -19345,7 +20485,7 @@
 			)
 		)
 		(property "Dielectric" "X5R"
-			(at 246.38 157.48 0)
+			(at 269.24 157.48 0)
 			(show_name yes)
 			(effects
 				(font
@@ -19356,7 +20496,7 @@
 			)
 		)
 		(property "MPN" "C2012X5R1C226M125AC"
-			(at 243.84 157.48 0)
+			(at 266.7 157.48 0)
 			(show_name yes)
 			(effects
 				(font
@@ -19367,7 +20507,7 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 241.3 157.48 0)
+			(at 264.16 157.48 0)
 			(show_name yes)
 			(effects
 				(font
@@ -19378,7 +20518,7 @@
 			)
 		)
 		(property "Series" "C2012X5R1C"
-			(at 238.76 157.48 0)
+			(at 261.62 157.48 0)
 			(show_name yes)
 			(effects
 				(font
@@ -19389,7 +20529,7 @@
 			)
 		)
 		(property "Symbol Name" "C_C2012X5R1C226M125AC"
-			(at 236.22 157.48 0)
+			(at 259.08 157.48 0)
 			(show_name yes)
 			(effects
 				(font
@@ -19400,7 +20540,7 @@
 			)
 		)
 		(property "Tolerance" "20%"
-			(at 233.68 157.48 0)
+			(at 256.54 157.48 0)
 			(show_name yes)
 			(effects
 				(font
@@ -19411,7 +20551,7 @@
 			)
 		)
 		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/C2012X5R1C226M125AC"
-			(at 231.14 157.48 0)
+			(at 254 157.48 0)
 			(show_name yes)
 			(effects
 				(font
@@ -19422,7 +20562,7 @@
 			)
 		)
 		(property "Voltage Rating" "16V"
-			(at 228.6 157.48 0)
+			(at 251.46 157.48 0)
 			(show_name yes)
 			(effects
 				(font
@@ -20570,6 +21710,241 @@
 			(project "minimal_ltc3350"
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CONNECTORS_CLP-1xx-02-G-D-BE_DATA_BASE:J_CLP-102-02-G-D-BE")
+		(at 243.84 204.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74f9a04a-b389-47d5-af0b-1a38842812ac")
+		(property "Reference" "J4"
+			(at 243.84 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLP-102-02-G-D-BE"
+			(at 243.84 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "connector_footprints:CLP-102-02-G-D-BE"
+			(at 248.92 212.09 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/clp_sm.pdf?_gl=1*1y4jlr9*_gcl_au*MTM0MTYyNTQ5MS4xNzM2MDk5MTUz*_ga*MTYxNDYyMTQ0Mi4xNzM2MDk5MTUz*_ga_3KFNZC07WW*MTczNjY4MDQ4OS4xNS4xLjE3MzY2ODEzNzcuNjAuMC4w"
+			(at 248.92 214.63 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Samtec CLP-1xx-02-G-D-BE series,  2 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Tin plated"
+			(at 248.92 217.17 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Color" "Black"
+			(at 248.92 219.71 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Contact Plating" "Tin"
+			(at 248.92 222.25 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Current Rating (A)" "5.2"
+			(at 248.92 224.79 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CLP-102-02-G-D-BE"
+			(at 248.92 227.33 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samtec"
+			(at 248.92 229.87 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounting Angle" "Vertical"
+			(at 248.92 232.41 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounting Style" "Surface Mount"
+			(at 248.92 234.95 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Number of Rows" "2"
+			(at 248.92 237.49 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "2"
+			(at 248.92 240.03 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pitch (mm)" "1.27"
+			(at 248.92 242.57 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "CLP-1xx-02-G-D-BE"
+			(at 248.92 245.11 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "J_CLP-102-02-G-D-BE"
+			(at 248.92 247.65 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/CLP-102-02-G-D-BE"
+			(at 248.92 250.19 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating (V)" "300"
+			(at 248.92 252.73 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "4080bfbf-5921-4dfa-ba3c-951286cc8cd6")
+		)
+		(pin "2"
+			(uuid "d5a08da4-e3a4-4989-a684-7aa6461e96ab")
+		)
+		(pin "4"
+			(uuid "2531736f-f09d-402f-ada9-c1e1d40f781f")
+		)
+		(pin "1"
+			(uuid "16ae3f08-09cf-481e-bc11-256caf164bd5")
+		)
+		(instances
+			(project "minimal_ltc3350"
+				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -22292,7 +23667,7 @@
 	)
 	(symbol
 		(lib_id "CAPACITORS_HV_DATA_BASE:C_HV1030-2R7106-R")
-		(at 238.76 189.23 90)
+		(at 261.62 189.23 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22302,7 +23677,7 @@
 		(fields_autoplaced yes)
 		(uuid "86aa96f2-0822-4d7e-b907-8278268c8c09")
 		(property "Reference" "C22"
-			(at 242.57 187.1979 90)
+			(at 265.43 187.1979 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22311,7 +23686,7 @@
 			)
 		)
 		(property "Value" "10 F"
-			(at 242.57 189.7379 90)
+			(at 265.43 189.7379 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22320,105 +23695,6 @@
 			)
 		)
 		(property "Footprint" "capacitor_footprints:C_197x394_H31_5_5_0x10Metric"
-			(at 246.38 189.23 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-hv-supercapacitors-cylindrical-cells-data-sheet.pdf"
-			(at 248.92 189.23 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP SMD 10 F Supercapacitor 10% 197x394_H31_5 2.7V"
-			(at 251.46 189.23 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Capacitor Type" "Supercapacitor"
-			(at 254 189.23 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Case Code - in" "197x394_H31_5"
-			(at 256.54 189.23 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Case Code - mm" "5_0x10"
-			(at 259.08 189.23 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "Supercapacitor"
-			(at 261.62 189.23 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MPN" "HV1030-2R7106-R"
-			(at 264.16 189.23 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Eaton Electronics"
-			(at 266.7 189.23 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Series" "HV1030-2R7"
 			(at 269.24 189.23 0)
 			(show_name yes)
 			(effects
@@ -22429,7 +23705,7 @@
 				(hide yes)
 			)
 		)
-		(property "Symbol Name" "C_HV1030-2R7106-R"
+		(property "Datasheet" "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-hv-supercapacitors-cylindrical-cells-data-sheet.pdf"
 			(at 271.78 189.23 0)
 			(show_name yes)
 			(effects
@@ -22440,7 +23716,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "10%"
+		(property "Description" "CAP SMD 10 F Supercapacitor 10% 197x394_H31_5 2.7V"
 			(at 274.32 189.23 0)
 			(show_name yes)
 			(effects
@@ -22451,7 +23727,7 @@
 				(hide yes)
 			)
 		)
-		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/HV1030-2R7106-R"
+		(property "Capacitor Type" "Supercapacitor"
 			(at 276.86 189.23 0)
 			(show_name yes)
 			(effects
@@ -22462,8 +23738,107 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage Rating" "2.7V"
+		(property "Case Code - in" "197x394_H31_5"
 			(at 279.4 189.23 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - mm" "5_0x10"
+			(at 281.94 189.23 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "Supercapacitor"
+			(at 284.48 189.23 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "HV1030-2R7106-R"
+			(at 287.02 189.23 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Eaton Electronics"
+			(at 289.56 189.23 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "HV1030-2R7"
+			(at 292.1 189.23 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "C_HV1030-2R7106-R"
+			(at 294.64 189.23 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 297.18 189.23 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/HV1030-2R7106-R"
+			(at 299.72 189.23 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "2.7V"
+			(at 302.26 189.23 0)
 			(show_name yes)
 			(effects
 				(font
@@ -22860,8 +24235,243 @@
 		)
 	)
 	(symbol
+		(lib_id "CONNECTORS_CLP-1xx-02-G-D-BE_DATA_BASE:J_CLP-102-02-G-D-BE")
+		(at 243.84 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "931491de-db58-4233-be17-2f072e89ed3c")
+		(property "Reference" "J1"
+			(at 243.84 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLP-102-02-G-D-BE"
+			(at 243.84 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "connector_footprints:CLP-102-02-G-D-BE"
+			(at 248.92 166.37 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/clp_sm.pdf?_gl=1*1y4jlr9*_gcl_au*MTM0MTYyNTQ5MS4xNzM2MDk5MTUz*_ga*MTYxNDYyMTQ0Mi4xNzM2MDk5MTUz*_ga_3KFNZC07WW*MTczNjY4MDQ4OS4xNS4xLjE3MzY2ODEzNzcuNjAuMC4w"
+			(at 248.92 168.91 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Samtec CLP-1xx-02-G-D-BE series,  2 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Tin plated"
+			(at 248.92 171.45 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Color" "Black"
+			(at 248.92 173.99 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Contact Plating" "Tin"
+			(at 248.92 176.53 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Current Rating (A)" "5.2"
+			(at 248.92 179.07 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CLP-102-02-G-D-BE"
+			(at 248.92 181.61 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samtec"
+			(at 248.92 184.15 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounting Angle" "Vertical"
+			(at 248.92 186.69 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounting Style" "Surface Mount"
+			(at 248.92 189.23 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Number of Rows" "2"
+			(at 248.92 191.77 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "2"
+			(at 248.92 194.31 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pitch (mm)" "1.27"
+			(at 248.92 196.85 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "CLP-1xx-02-G-D-BE"
+			(at 248.92 199.39 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "J_CLP-102-02-G-D-BE"
+			(at 248.92 201.93 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/CLP-102-02-G-D-BE"
+			(at 248.92 204.47 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating (V)" "300"
+			(at 248.92 207.01 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "33448573-db60-491d-a8d5-ccafb8916709")
+		)
+		(pin "2"
+			(uuid "68440926-d981-4800-8573-f33460f8512a")
+		)
+		(pin "4"
+			(uuid "3190ff0e-b87b-4ec8-b1db-be1c6406afed")
+		)
+		(pin "1"
+			(uuid "865d8d39-98e9-4035-b45a-efe541fa1df3")
+		)
+		(instances
+			(project ""
+				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 299.72 162.56 0)
+		(at 322.58 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22870,7 +24480,7 @@
 		(fields_autoplaced yes)
 		(uuid "93f581e3-2a45-48b6-9bf3-ceca51d81ff7")
 		(property "Reference" "#PWR024"
-			(at 299.72 168.91 0)
+			(at 322.58 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22879,7 +24489,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 299.72 167.64 0)
+			(at 322.58 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22887,7 +24497,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 299.72 162.56 0)
+			(at 322.58 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22896,7 +24506,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 299.72 162.56 0)
+			(at 322.58 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22905,7 +24515,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 299.72 162.56 0)
+			(at 322.58 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23512,7 +25122,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 269.24 162.56 0)
+		(at 292.1 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23521,7 +25131,7 @@
 		(fields_autoplaced yes)
 		(uuid "999da969-6cf0-403f-a986-22d9ee532291")
 		(property "Reference" "#PWR022"
-			(at 269.24 168.91 0)
+			(at 292.1 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23530,7 +25140,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 269.24 167.64 0)
+			(at 292.1 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23538,7 +25148,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 269.24 162.56 0)
+			(at 292.1 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23547,7 +25157,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 269.24 162.56 0)
+			(at 292.1 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23556,7 +25166,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 269.24 162.56 0)
+			(at 292.1 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24020,7 +25630,7 @@
 	)
 	(symbol
 		(lib_id "CAPACITORS_HV_DATA_BASE:C_HV1030-2R7106-R")
-		(at 238.76 173.99 90)
+		(at 261.62 173.99 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24030,7 +25640,7 @@
 		(fields_autoplaced yes)
 		(uuid "9ff77777-7e16-473a-b59e-9b36359c5e4f")
 		(property "Reference" "C21"
-			(at 242.57 171.9579 90)
+			(at 265.43 171.9579 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24039,7 +25649,7 @@
 			)
 		)
 		(property "Value" "10 F"
-			(at 242.57 174.4979 90)
+			(at 265.43 174.4979 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24048,105 +25658,6 @@
 			)
 		)
 		(property "Footprint" "capacitor_footprints:C_197x394_H31_5_5_0x10Metric"
-			(at 246.38 173.99 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-hv-supercapacitors-cylindrical-cells-data-sheet.pdf"
-			(at 248.92 173.99 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP SMD 10 F Supercapacitor 10% 197x394_H31_5 2.7V"
-			(at 251.46 173.99 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Capacitor Type" "Supercapacitor"
-			(at 254 173.99 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Case Code - in" "197x394_H31_5"
-			(at 256.54 173.99 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Case Code - mm" "5_0x10"
-			(at 259.08 173.99 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "Supercapacitor"
-			(at 261.62 173.99 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MPN" "HV1030-2R7106-R"
-			(at 264.16 173.99 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Eaton Electronics"
-			(at 266.7 173.99 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Series" "HV1030-2R7"
 			(at 269.24 173.99 0)
 			(show_name yes)
 			(effects
@@ -24157,7 +25668,7 @@
 				(hide yes)
 			)
 		)
-		(property "Symbol Name" "C_HV1030-2R7106-R"
+		(property "Datasheet" "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-hv-supercapacitors-cylindrical-cells-data-sheet.pdf"
 			(at 271.78 173.99 0)
 			(show_name yes)
 			(effects
@@ -24168,7 +25679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "10%"
+		(property "Description" "CAP SMD 10 F Supercapacitor 10% 197x394_H31_5 2.7V"
 			(at 274.32 173.99 0)
 			(show_name yes)
 			(effects
@@ -24179,7 +25690,7 @@
 				(hide yes)
 			)
 		)
-		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/HV1030-2R7106-R"
+		(property "Capacitor Type" "Supercapacitor"
 			(at 276.86 173.99 0)
 			(show_name yes)
 			(effects
@@ -24190,8 +25701,107 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage Rating" "2.7V"
+		(property "Case Code - in" "197x394_H31_5"
 			(at 279.4 173.99 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - mm" "5_0x10"
+			(at 281.94 173.99 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "Supercapacitor"
+			(at 284.48 173.99 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "HV1030-2R7106-R"
+			(at 287.02 173.99 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Eaton Electronics"
+			(at 289.56 173.99 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "HV1030-2R7"
+			(at 292.1 173.99 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "C_HV1030-2R7106-R"
+			(at 294.64 173.99 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 297.18 173.99 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/HV1030-2R7106-R"
+			(at 299.72 173.99 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "2.7V"
+			(at 302.26 173.99 0)
 			(show_name yes)
 			(effects
 				(font
@@ -24218,7 +25828,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 284.48 162.56 0)
+		(at 307.34 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24227,7 +25837,7 @@
 		(fields_autoplaced yes)
 		(uuid "a27cfcdf-8f07-4ae0-88d5-078f528eed44")
 		(property "Reference" "#PWR023"
-			(at 284.48 168.91 0)
+			(at 307.34 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24236,7 +25846,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 284.48 167.64 0)
+			(at 307.34 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24244,7 +25854,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 284.48 162.56 0)
+			(at 307.34 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24253,7 +25863,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 284.48 162.56 0)
+			(at 307.34 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24262,7 +25872,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 284.48 162.56 0)
+			(at 307.34 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26478,7 +28088,7 @@
 	)
 	(symbol
 		(lib_id "CAPACITORS_C2012X5R1C_DATA_BASE:C_C2012X5R1C226M125AC")
-		(at 254 157.48 270)
+		(at 276.86 157.48 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26486,7 +28096,7 @@
 		(dnp no)
 		(uuid "c37ffa54-0867-44f8-b3b7-cf22dc7c26ac")
 		(property "Reference" "C16"
-			(at 257.81 156.2099 90)
+			(at 280.67 156.2099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26495,7 +28105,7 @@
 			)
 		)
 		(property "Value" "22 µF"
-			(at 257.81 158.7499 90)
+			(at 280.67 158.7499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26504,7 +28114,7 @@
 			)
 		)
 		(property "Footprint" "capacitor_footprints:C_0805_2012Metric"
-			(at 246.38 157.48 0)
+			(at 269.24 157.48 0)
 			(show_name yes)
 			(effects
 				(font
@@ -26515,7 +28125,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C2012X5R1C226M125AC"
-			(at 243.84 157.48 0)
+			(at 266.7 157.48 0)
 			(show_name yes)
 			(effects
 				(font
@@ -26526,7 +28136,7 @@
 			)
 		)
 		(property "Description" "CAP SMD 22 µF X5R 20% 0805 16V"
-			(at 241.3 157.48 0)
+			(at 264.16 157.48 0)
 			(show_name yes)
 			(effects
 				(font
@@ -26537,7 +28147,7 @@
 			)
 		)
 		(property "Capacitor Type" "Ceramic"
-			(at 238.76 157.48 0)
+			(at 261.62 157.48 0)
 			(show_name yes)
 			(effects
 				(font
@@ -26548,7 +28158,7 @@
 			)
 		)
 		(property "Case Code - in" "0805"
-			(at 236.22 157.48 0)
+			(at 259.08 157.48 0)
 			(show_name yes)
 			(effects
 				(font
@@ -26559,7 +28169,7 @@
 			)
 		)
 		(property "Case Code - mm" "2012"
-			(at 233.68 157.48 0)
+			(at 256.54 157.48 0)
 			(show_name yes)
 			(effects
 				(font
@@ -26570,7 +28180,7 @@
 			)
 		)
 		(property "Dielectric" "X5R"
-			(at 231.14 157.48 0)
+			(at 254 157.48 0)
 			(show_name yes)
 			(effects
 				(font
@@ -26581,7 +28191,7 @@
 			)
 		)
 		(property "MPN" "C2012X5R1C226M125AC"
-			(at 228.6 157.48 0)
+			(at 251.46 157.48 0)
 			(show_name yes)
 			(effects
 				(font
@@ -26592,7 +28202,7 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 226.06 157.48 0)
+			(at 248.92 157.48 0)
 			(show_name yes)
 			(effects
 				(font
@@ -26603,7 +28213,7 @@
 			)
 		)
 		(property "Series" "C2012X5R1C"
-			(at 223.52 157.48 0)
+			(at 246.38 157.48 0)
 			(show_name yes)
 			(effects
 				(font
@@ -26614,7 +28224,7 @@
 			)
 		)
 		(property "Symbol Name" "C_C2012X5R1C226M125AC"
-			(at 220.98 157.48 0)
+			(at 243.84 157.48 0)
 			(show_name yes)
 			(effects
 				(font
@@ -26625,7 +28235,7 @@
 			)
 		)
 		(property "Tolerance" "20%"
-			(at 218.44 157.48 0)
+			(at 241.3 157.48 0)
 			(show_name yes)
 			(effects
 				(font
@@ -26636,7 +28246,7 @@
 			)
 		)
 		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/C2012X5R1C226M125AC"
-			(at 215.9 157.48 0)
+			(at 238.76 157.48 0)
 			(show_name yes)
 			(effects
 				(font
@@ -26647,7 +28257,7 @@
 			)
 		)
 		(property "Voltage Rating" "16V"
-			(at 213.36 157.48 0)
+			(at 236.22 157.48 0)
 			(show_name yes)
 			(effects
 				(font
@@ -26667,6 +28277,241 @@
 			(project ""
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
 					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CONNECTORS_CLP-1xx-02-G-D-BE_DATA_BASE:J_CLP-102-02-G-D-BE")
+		(at 243.84 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c4a012f7-3af5-4676-a695-56dade23b060")
+		(property "Reference" "J2"
+			(at 243.84 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLP-102-02-G-D-BE"
+			(at 243.84 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "connector_footprints:CLP-102-02-G-D-BE"
+			(at 248.92 181.61 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/clp_sm.pdf?_gl=1*1y4jlr9*_gcl_au*MTM0MTYyNTQ5MS4xNzM2MDk5MTUz*_ga*MTYxNDYyMTQ0Mi4xNzM2MDk5MTUz*_ga_3KFNZC07WW*MTczNjY4MDQ4OS4xNS4xLjE3MzY2ODEzNzcuNjAuMC4w"
+			(at 248.92 184.15 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Samtec CLP-1xx-02-G-D-BE series,  2 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Tin plated"
+			(at 248.92 186.69 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Color" "Black"
+			(at 248.92 189.23 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Contact Plating" "Tin"
+			(at 248.92 191.77 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Current Rating (A)" "5.2"
+			(at 248.92 194.31 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CLP-102-02-G-D-BE"
+			(at 248.92 196.85 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samtec"
+			(at 248.92 199.39 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounting Angle" "Vertical"
+			(at 248.92 201.93 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounting Style" "Surface Mount"
+			(at 248.92 204.47 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Number of Rows" "2"
+			(at 248.92 207.01 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "2"
+			(at 248.92 209.55 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pitch (mm)" "1.27"
+			(at 248.92 212.09 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "CLP-1xx-02-G-D-BE"
+			(at 248.92 214.63 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "J_CLP-102-02-G-D-BE"
+			(at 248.92 217.17 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/CLP-102-02-G-D-BE"
+			(at 248.92 219.71 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating (V)" "300"
+			(at 248.92 222.25 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0fb13c1c-2891-4cc2-964f-6c57b2554349")
+		)
+		(pin "2"
+			(uuid "f73b73c2-8e69-48de-85b1-e664938341e6")
+		)
+		(pin "4"
+			(uuid "24be0e3d-9584-4552-82f9-2fce5192cb68")
+		)
+		(pin "1"
+			(uuid "da6a2ea3-959b-47bb-96ed-7ea95bfac883")
+		)
+		(instances
+			(project "minimal_ltc3350"
+				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -27135,7 +28980,7 @@
 	)
 	(symbol
 		(lib_id "CAPACITORS_C2012X5R1C_DATA_BASE:C_C2012X5R1C226M125AC")
-		(at 284.48 157.48 270)
+		(at 307.34 157.48 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27144,7 +28989,7 @@
 		(fields_autoplaced yes)
 		(uuid "cc4f6b3d-8899-436f-af5a-78e91f2f3ca1")
 		(property "Reference" "C18"
-			(at 288.29 156.2099 90)
+			(at 311.15 156.2099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27153,7 +28998,7 @@
 			)
 		)
 		(property "Value" "22 µF"
-			(at 288.29 158.7499 90)
+			(at 311.15 158.7499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27162,7 +29007,7 @@
 			)
 		)
 		(property "Footprint" "capacitor_footprints:C_0805_2012Metric"
-			(at 276.86 157.48 0)
+			(at 299.72 157.48 0)
 			(show_name yes)
 			(effects
 				(font
@@ -27173,7 +29018,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C2012X5R1C226M125AC"
-			(at 274.32 157.48 0)
+			(at 297.18 157.48 0)
 			(show_name yes)
 			(effects
 				(font
@@ -27184,7 +29029,7 @@
 			)
 		)
 		(property "Description" "CAP SMD 22 µF X5R 20% 0805 16V"
-			(at 271.78 157.48 0)
+			(at 294.64 157.48 0)
 			(show_name yes)
 			(effects
 				(font
@@ -27195,7 +29040,7 @@
 			)
 		)
 		(property "Capacitor Type" "Ceramic"
-			(at 269.24 157.48 0)
+			(at 292.1 157.48 0)
 			(show_name yes)
 			(effects
 				(font
@@ -27206,7 +29051,7 @@
 			)
 		)
 		(property "Case Code - in" "0805"
-			(at 266.7 157.48 0)
+			(at 289.56 157.48 0)
 			(show_name yes)
 			(effects
 				(font
@@ -27217,7 +29062,7 @@
 			)
 		)
 		(property "Case Code - mm" "2012"
-			(at 264.16 157.48 0)
+			(at 287.02 157.48 0)
 			(show_name yes)
 			(effects
 				(font
@@ -27228,7 +29073,7 @@
 			)
 		)
 		(property "Dielectric" "X5R"
-			(at 261.62 157.48 0)
+			(at 284.48 157.48 0)
 			(show_name yes)
 			(effects
 				(font
@@ -27239,7 +29084,7 @@
 			)
 		)
 		(property "MPN" "C2012X5R1C226M125AC"
-			(at 259.08 157.48 0)
+			(at 281.94 157.48 0)
 			(show_name yes)
 			(effects
 				(font
@@ -27250,7 +29095,7 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 256.54 157.48 0)
+			(at 279.4 157.48 0)
 			(show_name yes)
 			(effects
 				(font
@@ -27261,7 +29106,7 @@
 			)
 		)
 		(property "Series" "C2012X5R1C"
-			(at 254 157.48 0)
+			(at 276.86 157.48 0)
 			(show_name yes)
 			(effects
 				(font
@@ -27272,7 +29117,7 @@
 			)
 		)
 		(property "Symbol Name" "C_C2012X5R1C226M125AC"
-			(at 251.46 157.48 0)
+			(at 274.32 157.48 0)
 			(show_name yes)
 			(effects
 				(font
@@ -27283,7 +29128,7 @@
 			)
 		)
 		(property "Tolerance" "20%"
-			(at 248.92 157.48 0)
+			(at 271.78 157.48 0)
 			(show_name yes)
 			(effects
 				(font
@@ -27294,7 +29139,7 @@
 			)
 		)
 		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/C2012X5R1C226M125AC"
-			(at 246.38 157.48 0)
+			(at 269.24 157.48 0)
 			(show_name yes)
 			(effects
 				(font
@@ -27305,7 +29150,7 @@
 			)
 		)
 		(property "Voltage Rating" "16V"
-			(at 243.84 157.48 0)
+			(at 266.7 157.48 0)
 			(show_name yes)
 			(effects
 				(font
@@ -27723,6 +29568,241 @@
 		)
 	)
 	(symbol
+		(lib_id "CONNECTORS_CLP-1xx-02-G-D-BE_DATA_BASE:J_CLP-102-02-G-D-BE")
+		(at 243.84 219.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d713b3a9-17e8-4700-aafe-2283bee07a6f")
+		(property "Reference" "J5"
+			(at 243.84 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLP-102-02-G-D-BE"
+			(at 243.84 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "connector_footprints:CLP-102-02-G-D-BE"
+			(at 248.92 227.33 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/clp_sm.pdf?_gl=1*1y4jlr9*_gcl_au*MTM0MTYyNTQ5MS4xNzM2MDk5MTUz*_ga*MTYxNDYyMTQ0Mi4xNzM2MDk5MTUz*_ga_3KFNZC07WW*MTczNjY4MDQ4OS4xNS4xLjE3MzY2ODEzNzcuNjAuMC4w"
+			(at 248.92 229.87 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Samtec CLP-1xx-02-G-D-BE series,  2 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Tin plated"
+			(at 248.92 232.41 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Color" "Black"
+			(at 248.92 234.95 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Contact Plating" "Tin"
+			(at 248.92 237.49 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Current Rating (A)" "5.2"
+			(at 248.92 240.03 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CLP-102-02-G-D-BE"
+			(at 248.92 242.57 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samtec"
+			(at 248.92 245.11 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounting Angle" "Vertical"
+			(at 248.92 247.65 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounting Style" "Surface Mount"
+			(at 248.92 250.19 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Number of Rows" "2"
+			(at 248.92 252.73 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "2"
+			(at 248.92 255.27 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pitch (mm)" "1.27"
+			(at 248.92 257.81 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "CLP-1xx-02-G-D-BE"
+			(at 248.92 260.35 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "J_CLP-102-02-G-D-BE"
+			(at 248.92 262.89 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/CLP-102-02-G-D-BE"
+			(at 248.92 265.43 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating (V)" "300"
+			(at 248.92 267.97 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a00f39de-50ff-418e-b9a9-c1feea4bf4f1")
+		)
+		(pin "2"
+			(uuid "af7cc849-031a-48e7-a5e6-7111030aceb8")
+		)
+		(pin "4"
+			(uuid "c3e7ad05-e6a3-4825-b22c-3aafae0da2d0")
+		)
+		(pin "1"
+			(uuid "4acd2951-d0b8-4610-a28a-5c4c47efdd06")
+		)
+		(instances
+			(project "minimal_ltc3350"
+				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 86.36 123.19 0)
 		(unit 1)
@@ -28121,7 +30201,7 @@
 	)
 	(symbol
 		(lib_id "CAPACITORS_C2012X5R1C_DATA_BASE:C_C2012X5R1C226M125AC")
-		(at 299.72 157.48 270)
+		(at 322.58 157.48 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28130,7 +30210,7 @@
 		(fields_autoplaced yes)
 		(uuid "d9cae387-e69a-41eb-8668-52733e2f1aea")
 		(property "Reference" "C19"
-			(at 303.53 156.2099 90)
+			(at 326.39 156.2099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28139,7 +30219,7 @@
 			)
 		)
 		(property "Value" "22 µF"
-			(at 303.53 158.7499 90)
+			(at 326.39 158.7499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28148,7 +30228,7 @@
 			)
 		)
 		(property "Footprint" "capacitor_footprints:C_0805_2012Metric"
-			(at 292.1 157.48 0)
+			(at 314.96 157.48 0)
 			(show_name yes)
 			(effects
 				(font
@@ -28159,7 +30239,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C2012X5R1C226M125AC"
-			(at 289.56 157.48 0)
+			(at 312.42 157.48 0)
 			(show_name yes)
 			(effects
 				(font
@@ -28170,7 +30250,7 @@
 			)
 		)
 		(property "Description" "CAP SMD 22 µF X5R 20% 0805 16V"
-			(at 287.02 157.48 0)
+			(at 309.88 157.48 0)
 			(show_name yes)
 			(effects
 				(font
@@ -28181,7 +30261,7 @@
 			)
 		)
 		(property "Capacitor Type" "Ceramic"
-			(at 284.48 157.48 0)
+			(at 307.34 157.48 0)
 			(show_name yes)
 			(effects
 				(font
@@ -28192,7 +30272,7 @@
 			)
 		)
 		(property "Case Code - in" "0805"
-			(at 281.94 157.48 0)
+			(at 304.8 157.48 0)
 			(show_name yes)
 			(effects
 				(font
@@ -28203,7 +30283,7 @@
 			)
 		)
 		(property "Case Code - mm" "2012"
-			(at 279.4 157.48 0)
+			(at 302.26 157.48 0)
 			(show_name yes)
 			(effects
 				(font
@@ -28214,7 +30294,7 @@
 			)
 		)
 		(property "Dielectric" "X5R"
-			(at 276.86 157.48 0)
+			(at 299.72 157.48 0)
 			(show_name yes)
 			(effects
 				(font
@@ -28225,7 +30305,7 @@
 			)
 		)
 		(property "MPN" "C2012X5R1C226M125AC"
-			(at 274.32 157.48 0)
+			(at 297.18 157.48 0)
 			(show_name yes)
 			(effects
 				(font
@@ -28236,7 +30316,7 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 271.78 157.48 0)
+			(at 294.64 157.48 0)
 			(show_name yes)
 			(effects
 				(font
@@ -28247,7 +30327,7 @@
 			)
 		)
 		(property "Series" "C2012X5R1C"
-			(at 269.24 157.48 0)
+			(at 292.1 157.48 0)
 			(show_name yes)
 			(effects
 				(font
@@ -28258,7 +30338,7 @@
 			)
 		)
 		(property "Symbol Name" "C_C2012X5R1C226M125AC"
-			(at 266.7 157.48 0)
+			(at 289.56 157.48 0)
 			(show_name yes)
 			(effects
 				(font
@@ -28269,7 +30349,7 @@
 			)
 		)
 		(property "Tolerance" "20%"
-			(at 264.16 157.48 0)
+			(at 287.02 157.48 0)
 			(show_name yes)
 			(effects
 				(font
@@ -28280,7 +30360,7 @@
 			)
 		)
 		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/C2012X5R1C226M125AC"
-			(at 261.62 157.48 0)
+			(at 284.48 157.48 0)
 			(show_name yes)
 			(effects
 				(font
@@ -28291,7 +30371,7 @@
 			)
 		)
 		(property "Voltage Rating" "16V"
-			(at 259.08 157.48 0)
+			(at 281.94 157.48 0)
 			(show_name yes)
 			(effects
 				(font
@@ -29003,7 +31083,7 @@
 	)
 	(symbol
 		(lib_id "CAPACITORS_HV_DATA_BASE:C_HV1030-2R7106-R")
-		(at 238.76 158.75 90)
+		(at 261.62 158.75 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -29013,7 +31093,7 @@
 		(fields_autoplaced yes)
 		(uuid "f2e0ebbb-73f3-4aa3-98e7-6fcb0bfc890c")
 		(property "Reference" "C20"
-			(at 242.57 156.7179 90)
+			(at 265.43 156.7179 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29022,7 +31102,7 @@
 			)
 		)
 		(property "Value" "10 F"
-			(at 242.57 159.2579 90)
+			(at 265.43 159.2579 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29031,105 +31111,6 @@
 			)
 		)
 		(property "Footprint" "capacitor_footprints:C_197x394_H31_5_5_0x10Metric"
-			(at 246.38 158.75 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-hv-supercapacitors-cylindrical-cells-data-sheet.pdf"
-			(at 248.92 158.75 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP SMD 10 F Supercapacitor 10% 197x394_H31_5 2.7V"
-			(at 251.46 158.75 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Capacitor Type" "Supercapacitor"
-			(at 254 158.75 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Case Code - in" "197x394_H31_5"
-			(at 256.54 158.75 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Case Code - mm" "5_0x10"
-			(at 259.08 158.75 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "Supercapacitor"
-			(at 261.62 158.75 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MPN" "HV1030-2R7106-R"
-			(at 264.16 158.75 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Eaton Electronics"
-			(at 266.7 158.75 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Series" "HV1030-2R7"
 			(at 269.24 158.75 0)
 			(show_name yes)
 			(effects
@@ -29140,7 +31121,7 @@
 				(hide yes)
 			)
 		)
-		(property "Symbol Name" "C_HV1030-2R7106-R"
+		(property "Datasheet" "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-hv-supercapacitors-cylindrical-cells-data-sheet.pdf"
 			(at 271.78 158.75 0)
 			(show_name yes)
 			(effects
@@ -29151,7 +31132,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "10%"
+		(property "Description" "CAP SMD 10 F Supercapacitor 10% 197x394_H31_5 2.7V"
 			(at 274.32 158.75 0)
 			(show_name yes)
 			(effects
@@ -29162,7 +31143,7 @@
 				(hide yes)
 			)
 		)
-		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/HV1030-2R7106-R"
+		(property "Capacitor Type" "Supercapacitor"
 			(at 276.86 158.75 0)
 			(show_name yes)
 			(effects
@@ -29173,8 +31154,107 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage Rating" "2.7V"
+		(property "Case Code - in" "197x394_H31_5"
 			(at 279.4 158.75 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - mm" "5_0x10"
+			(at 281.94 158.75 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "Supercapacitor"
+			(at 284.48 158.75 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "HV1030-2R7106-R"
+			(at 287.02 158.75 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Eaton Electronics"
+			(at 289.56 158.75 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "HV1030-2R7"
+			(at 292.1 158.75 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "C_HV1030-2R7106-R"
+			(at 294.64 158.75 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 297.18 158.75 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/HV1030-2R7106-R"
+			(at 299.72 158.75 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "2.7V"
+			(at 302.26 158.75 0)
 			(show_name yes)
 			(effects
 				(font
