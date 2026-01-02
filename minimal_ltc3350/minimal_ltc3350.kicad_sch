@@ -9873,7 +9873,7 @@
 		(uuid "2bc55712-514d-4591-a24d-8aac758c6ec5")
 	)
 	(junction
-		(at 350.52 50.8)
+		(at 365.76 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2df1e717-da7a-4e85-8afd-b4ea95907832")
@@ -9883,6 +9883,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2eea13ba-2345-4da0-a549-678bb87510bd")
+	)
+	(junction
+		(at 353.06 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33eb7464-9c78-42a2-a2d3-c1bd4793f7c0")
 	)
 	(junction
 		(at 147.32 50.8)
@@ -10155,7 +10161,7 @@
 		(uuid "a40472d6-f4a1-4a1f-9fd9-9c69cc8526e7")
 	)
 	(junction
-		(at 350.52 60.96)
+		(at 365.76 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a5f608f0-4ee6-4720-9b2b-e90b706aa815")
@@ -10297,6 +10303,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d61d0d50-f602-4ce5-96ba-38586d8af905")
+	)
+	(junction
+		(at 114.3 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d75d73ed-ad61-4bcd-bd6c-1255257382fd")
 	)
 	(junction
 		(at 228.6 203.2)
@@ -10592,6 +10604,16 @@
 	)
 	(wire
 		(pts
+			(xy 353.06 50.8) (xy 365.76 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15c55f1d-99c7-4abe-a33b-b44f57d7fc87")
+	)
+	(wire
+		(pts
 			(xy 292.1 50.8) (xy 307.34 50.8)
 		)
 		(stroke
@@ -10629,6 +10651,16 @@
 			(type default)
 		)
 		(uuid "1b2ce71e-e221-4289-b1f2-03ab384216b6")
+	)
+	(wire
+		(pts
+			(xy 114.3 50.8) (xy 114.3 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cbc96b3-f25b-4472-a82b-c1f0cd894695")
 	)
 	(wire
 		(pts
@@ -10922,6 +10954,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 60.96) (xy 114.3 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "355c3f7c-ea90-4992-a174-df6205c0887e")
+	)
+	(wire
+		(pts
 			(xy 274.32 165.1) (xy 271.78 165.1)
 		)
 		(stroke
@@ -10932,7 +10974,7 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 60.96) (xy 350.52 63.5)
+			(xy 365.76 60.96) (xy 365.76 63.5)
 		)
 		(stroke
 			(width 0)
@@ -10942,7 +10984,7 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 50.8) (xy 350.52 53.34)
+			(xy 365.76 50.8) (xy 365.76 53.34)
 		)
 		(stroke
 			(width 0)
@@ -11192,7 +11234,7 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 50.8) (xy 350.52 50.8)
+			(xy 337.82 50.8) (xy 353.06 50.8)
 		)
 		(stroke
 			(width 0)
@@ -11202,7 +11244,7 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 60.96) (xy 355.6 60.96)
+			(xy 365.76 60.96) (xy 370.84 60.96)
 		)
 		(stroke
 			(width 0)
@@ -11732,7 +11774,7 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 58.42) (xy 355.6 58.42)
+			(xy 365.76 58.42) (xy 370.84 58.42)
 		)
 		(stroke
 			(width 0)
@@ -11762,7 +11804,7 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 53.34) (xy 355.6 53.34)
+			(xy 365.76 53.34) (xy 370.84 53.34)
 		)
 		(stroke
 			(width 0)
@@ -11952,7 +11994,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 50.8) (xy 129.54 50.8)
+			(xy 73.66 50.8) (xy 114.3 50.8)
 		)
 		(stroke
 			(width 0)
@@ -12009,6 +12051,16 @@
 			(type default)
 		)
 		(uuid "87821984-97f8-4dd9-b93e-c05d9959554d")
+	)
+	(wire
+		(pts
+			(xy 353.06 60.96) (xy 353.06 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "886df2d3-848b-443f-b319-33963317fc47")
 	)
 	(wire
 		(pts
@@ -12452,6 +12504,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 50.8) (xy 129.54 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad7e5d3d-8e6f-4fd8-b261-82d4efc0f412")
+	)
+	(wire
+		(pts
 			(xy 93.98 214.63) (xy 93.98 215.9)
 		)
 		(stroke
@@ -12522,7 +12584,7 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 58.42) (xy 350.52 60.96)
+			(xy 365.76 58.42) (xy 365.76 60.96)
 		)
 		(stroke
 			(width 0)
@@ -12919,6 +12981,16 @@
 			(type default)
 		)
 		(uuid "c9e707d3-d3fa-4f18-b5e8-e01f267ad21a")
+	)
+	(wire
+		(pts
+			(xy 353.06 50.8) (xy 353.06 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca4659d3-7506-43dc-afcf-db06c7da7c50")
 	)
 	(wire
 		(pts
@@ -13402,7 +13474,7 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 50.8) (xy 355.6 50.8)
+			(xy 365.76 50.8) (xy 370.84 50.8)
 		)
 		(stroke
 			(width 0)
@@ -13931,7 +14003,7 @@
 		(uuid "72e70659-338a-4ddd-85d6-18b688a97e7a")
 	)
 	(label "VOUT"
-		(at 342.9 50.8 0)
+		(at 355.6 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14190,7 +14262,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "033cc9ad-1195-4f12-b056-d80217cc3bee")
-		(property "Reference" "R6"
+		(property "Reference" "R16"
 			(at 127 81.2799 90)
 			(effects
 				(font
@@ -14371,7 +14443,7 @@
 		(instances
 			(project ""
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "R6")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -14388,7 +14460,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05f44857-e507-41e2-b247-c4fc1b147d27")
-		(property "Reference" "R22"
+		(property "Reference" "R8"
 			(at 205.74 219.71 0)
 			(effects
 				(font
@@ -14567,7 +14639,7 @@
 		(instances
 			(project "minimal_ltc3350"
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "R22")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -14650,7 +14722,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a6fa759-5bc5-49e9-b025-b7451d36b9eb")
-		(property "Reference" "R14"
+		(property "Reference" "R33"
 			(at 241.3 185.4199 90)
 			(effects
 				(font
@@ -14831,7 +14903,7 @@
 		(instances
 			(project ""
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "R14")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -15044,7 +15116,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0fd8201b-661c-45ea-9da9-9e9fb5c6a9b5")
-		(property "Reference" "C8"
+		(property "Reference" "C16"
 			(at 201.93 151.1299 90)
 			(effects
 				(font
@@ -15225,7 +15297,7 @@
 		(instances
 			(project "minimal_ltc3350"
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "C8")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -15242,7 +15314,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13821a68-764c-4510-a441-ddb9b64cfe15")
-		(property "Reference" "R20"
+		(property "Reference" "R30"
 			(at 205.74 189.23 0)
 			(effects
 				(font
@@ -15421,7 +15493,7 @@
 		(instances
 			(project "minimal_ltc3350"
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "R20")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -15437,7 +15509,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "181aedd1-edb4-409c-9cbe-30ede908b501")
-		(property "Reference" "R13"
+		(property "Reference" "R24"
 			(at 106.68 246.3799 90)
 			(effects
 				(font
@@ -15618,7 +15690,7 @@
 		(instances
 			(project ""
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "R13")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -15700,7 +15772,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "22ddcac5-6da0-4168-bfaa-ed7ca4858698")
-		(property "Reference" "R17"
+		(property "Reference" "R19"
 			(at 245.11 156.21 0)
 			(effects
 				(font
@@ -15879,7 +15951,7 @@
 		(instances
 			(project ""
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "R17")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -15894,7 +15966,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "25e43c80-a715-46dd-9d56-b5c5a1322829")
-		(property "Reference" "Q6"
+		(property "Reference" "Q9"
 			(at 220.98 193.04 0)
 			(effects
 				(font
@@ -16057,7 +16129,7 @@
 		(instances
 			(project ""
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "Q6")
+					(reference "Q9")
 					(unit 1)
 				)
 			)
@@ -16073,7 +16145,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "27371c5c-cca3-4e73-a695-ca70b2fe22f5")
-		(property "Reference" "C4"
+		(property "Reference" "C14"
 			(at 125.73 102.8699 90)
 			(effects
 				(font
@@ -16254,7 +16326,7 @@
 		(instances
 			(project ""
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "C4")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -16270,7 +16342,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2b3ee16c-8729-4ec2-9213-535d733dd2fa")
-		(property "Reference" "C14"
+		(property "Reference" "C8"
 			(at 113.03 182.88 0)
 			(effects
 				(font
@@ -16449,7 +16521,7 @@
 		(instances
 			(project ""
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "C14")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -16466,7 +16538,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "307530c0-08b7-455b-9e1f-41f93778d25c")
-		(property "Reference" "C1"
+		(property "Reference" "C9"
 			(at 142.24 55.88 0)
 			(effects
 				(font
@@ -16645,7 +16717,7 @@
 		(instances
 			(project ""
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "C1")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -16728,7 +16800,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31c6ef5a-2245-4704-8721-bf434c8f8f3a")
-		(property "Reference" "R24"
+		(property "Reference" "R10"
 			(at 111.76 219.7099 90)
 			(effects
 				(font
@@ -16909,7 +16981,7 @@
 		(instances
 			(project ""
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "R24")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -16925,7 +16997,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32be78c1-e1e2-4059-ad1c-f496baf378c4")
-		(property "Reference" "R1"
+		(property "Reference" "R13"
 			(at 170.18 44.45 0)
 			(effects
 				(font
@@ -17104,7 +17176,7 @@
 		(instances
 			(project ""
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "R1")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -17413,15 +17485,15 @@
 	)
 	(symbol
 		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated_v2")
-		(at 355.6 60.96 0)
+		(at 370.84 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "376335e1-0e58-49d9-883b-5cfefbc21aac")
-		(property "Reference" "TP8"
-			(at 356.87 60.9599 0)
+		(property "Reference" "TP7"
+			(at 372.11 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17430,7 +17502,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 358.14 58.42 0)
+			(at 373.38 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17440,7 +17512,7 @@
 			)
 		)
 		(property "Footprint" "test_point_footprints:TestPoint_THTPad_Castelated"
-			(at 358.14 66.04 0)
+			(at 373.38 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17450,7 +17522,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 358.14 60.96 0)
+			(at 373.38 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17460,7 +17532,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 358.14 63.5 0)
+			(at 373.38 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17475,7 +17547,7 @@
 		(instances
 			(project "minimal_ltc3350"
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "TP8")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -17491,7 +17563,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "388a89b6-131c-4384-bf71-6ba5b25c156d")
-		(property "Reference" "Q1"
+		(property "Reference" "Q2"
 			(at 157.48 45.72 0)
 			(effects
 				(font
@@ -17646,7 +17718,7 @@
 		(instances
 			(project ""
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "Q1")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -17662,7 +17734,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4015ad95-ec35-46f3-b4ef-ceced06c406d")
-		(property "Reference" "FID2"
+		(property "Reference" "FID1"
 			(at 48.26 270.5099 0)
 			(effects
 				(font
@@ -17713,7 +17785,7 @@
 		(instances
 			(project "minimal_ltc3350"
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "FID2")
+					(reference "FID1")
 					(unit 1)
 				)
 			)
@@ -17730,7 +17802,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "429a2725-5565-49b4-ab38-67291b3a97ed")
-		(property "Reference" "D2"
+		(property "Reference" "D1"
 			(at 104.14 209.9309 90)
 			(effects
 				(font
@@ -17867,7 +17939,7 @@
 		(instances
 			(project ""
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "D2")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -17883,7 +17955,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "42c475ea-31d0-4638-a176-9f4263f3ed9e")
-		(property "Reference" "TP4"
+		(property "Reference" "TP5"
 			(at 67.31 60.9599 0)
 			(effects
 				(font
@@ -17938,7 +18010,7 @@
 		(instances
 			(project "minimal_ltc3350"
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "TP4")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -18021,7 +18093,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "45580c80-37dc-48f1-b6fa-f27352817273")
-		(property "Reference" "TP9"
+		(property "Reference" "TP1"
 			(at 67.31 160.0199 0)
 			(effects
 				(font
@@ -18076,7 +18148,7 @@
 		(instances
 			(project "minimal_ltc3350"
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "TP9")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -18093,7 +18165,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46e24157-5917-49fa-9851-004a23ff5f49")
-		(property "Reference" "R23"
+		(property "Reference" "R1"
 			(at 205.74 245.11 0)
 			(effects
 				(font
@@ -18272,7 +18344,7 @@
 		(instances
 			(project "minimal_ltc3350"
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "R23")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -18288,7 +18360,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "47c5b7c0-daac-4fd3-9ecc-4effaba35d14")
-		(property "Reference" "C15"
+		(property "Reference" "C10"
 			(at 119.38 180.34 0)
 			(effects
 				(font
@@ -18468,7 +18540,7 @@
 		(instances
 			(project "minimal_ltc3350"
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "C15")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -18485,7 +18557,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49836c99-69b1-4756-8b35-e568fdd4e543")
-		(property "Reference" "C2"
+		(property "Reference" "C7"
 			(at 162.56 55.88 0)
 			(effects
 				(font
@@ -18664,7 +18736,7 @@
 		(instances
 			(project ""
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "C2")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -18747,7 +18819,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "518f1ca8-770b-4f6f-89b7-8d1722f29c15")
-		(property "Reference" "R4"
+		(property "Reference" "R20"
 			(at 200.66 81.2799 90)
 			(effects
 				(font
@@ -18928,7 +19000,7 @@
 		(instances
 			(project ""
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "R4")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -18944,7 +19016,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "51f63c2a-31a3-4686-b203-be4ad0e92a85")
-		(property "Reference" "TP1"
+		(property "Reference" "TP3"
 			(at 67.31 50.7999 0)
 			(effects
 				(font
@@ -18999,7 +19071,7 @@
 		(instances
 			(project ""
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "TP1")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -19016,7 +19088,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53978dd4-7f7b-4a22-972f-8f55dab026f2")
-		(property "Reference" "C7"
+		(property "Reference" "C13"
 			(at 201.93 120.6499 90)
 			(effects
 				(font
@@ -19197,7 +19269,7 @@
 		(instances
 			(project "minimal_ltc3350"
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "C7")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -19214,7 +19286,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58503115-f77e-4d35-999f-5b1259ca6263")
-		(property "Reference" "C5"
+		(property "Reference" "C11"
 			(at 217.17 109.2199 90)
 			(effects
 				(font
@@ -19395,7 +19467,7 @@
 		(instances
 			(project "minimal_ltc3350"
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "C5")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -19411,7 +19483,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "593a1faa-4c79-4a29-a63c-102926e766f5")
-		(property "Reference" "R9"
+		(property "Reference" "R28"
 			(at 279.4 110.49 0)
 			(effects
 				(font
@@ -19590,7 +19662,7 @@
 		(instances
 			(project ""
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "R9")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -19672,7 +19744,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b0886ab-ac7b-443e-9cca-00367cda3675")
-		(property "Reference" "C17"
+		(property "Reference" "C19"
 			(at 306.07 184.1499 90)
 			(effects
 				(font
@@ -19853,7 +19925,7 @@
 		(instances
 			(project "minimal_ltc3350"
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "C17")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -20002,7 +20074,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "614b18b0-6d8d-4000-b3dc-4971a081f3f0")
-		(property "Reference" "C3"
+		(property "Reference" "C15"
 			(at 214.63 67.3099 90)
 			(effects
 				(font
@@ -20183,7 +20255,7 @@
 		(instances
 			(project ""
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "C3")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -20199,7 +20271,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "628dd3f2-03a1-4bc8-a508-d5f22faba7b0")
-		(property "Reference" "R31"
+		(property "Reference" "R26"
 			(at 241.3 200.6599 90)
 			(effects
 				(font
@@ -20380,7 +20452,7 @@
 		(instances
 			(project "minimal_ltc3350"
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "R31")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -20396,7 +20468,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "63b06511-700b-4135-b6e0-66c855eac4c7")
-		(property "Reference" "TP3"
+		(property "Reference" "TP6"
 			(at 67.31 58.4199 0)
 			(effects
 				(font
@@ -20451,7 +20523,7 @@
 		(instances
 			(project "minimal_ltc3350"
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "TP3")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -20467,7 +20539,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "67cc39f4-b289-4fa5-8cea-d45b9b95d9fc")
-		(property "Reference" "R35"
+		(property "Reference" "R2"
 			(at 241.3 231.1399 90)
 			(effects
 				(font
@@ -20648,7 +20720,7 @@
 		(instances
 			(project "minimal_ltc3350"
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "R35")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -20664,7 +20736,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b2eecac-0072-4474-bdde-4788d2e2aa78")
-		(property "Reference" "C12"
+		(property "Reference" "C4"
 			(at 326.39 55.8799 90)
 			(effects
 				(font
@@ -20845,7 +20917,7 @@
 		(instances
 			(project ""
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "C12")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -20853,15 +20925,15 @@
 	)
 	(symbol
 		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated_v2")
-		(at 355.6 53.34 0)
+		(at 370.84 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "726fad5b-563b-45ed-92e7-27b4f186ba7f")
-		(property "Reference" "TP6"
-			(at 356.87 53.3399 0)
+		(property "Reference" "TP9"
+			(at 372.11 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20870,7 +20942,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 358.14 50.8 0)
+			(at 373.38 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20880,7 +20952,7 @@
 			)
 		)
 		(property "Footprint" "test_point_footprints:TestPoint_THTPad_Castelated"
-			(at 358.14 58.42 0)
+			(at 373.38 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20890,7 +20962,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 358.14 53.34 0)
+			(at 373.38 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20900,7 +20972,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 358.14 55.88 0)
+			(at 373.38 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20915,7 +20987,7 @@
 		(instances
 			(project "minimal_ltc3350"
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "TP6")
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -20997,7 +21069,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74f9a04a-b389-47d5-af0b-1a38842812ac")
-		(property "Reference" "J4"
+		(property "Reference" "J2"
 			(at 269.24 238.76 0)
 			(effects
 				(font
@@ -21216,7 +21288,7 @@
 		(instances
 			(project "minimal_ltc3350"
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "J4")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -21290,15 +21362,15 @@
 	)
 	(symbol
 		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated_v2")
-		(at 355.6 58.42 0)
+		(at 370.84 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "782d08de-f4a5-4494-8c3f-9c0332130857")
-		(property "Reference" "TP7"
-			(at 356.87 58.4199 0)
+		(property "Reference" "TP8"
+			(at 372.11 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21307,7 +21379,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 358.14 55.88 0)
+			(at 373.38 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21317,7 +21389,7 @@
 			)
 		)
 		(property "Footprint" "test_point_footprints:TestPoint_THTPad_Castelated"
-			(at 358.14 63.5 0)
+			(at 373.38 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21327,7 +21399,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 358.14 58.42 0)
+			(at 373.38 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21337,7 +21409,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 358.14 60.96 0)
+			(at 373.38 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21352,7 +21424,7 @@
 		(instances
 			(project "minimal_ltc3350"
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "TP7")
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -21369,7 +21441,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "787cc548-9e09-4d18-8532-2ca9c4c12531")
-		(property "Reference" "Q2"
+		(property "Reference" "Q8"
 			(at 288.29 95.2499 90)
 			(effects
 				(font
@@ -21526,7 +21598,7 @@
 		(instances
 			(project "minimal_ltc3350"
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "Q2")
+					(reference "Q8")
 					(unit 1)
 				)
 			)
@@ -21780,7 +21852,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b711673-490b-4d0a-9f88-0703762b42f4")
-		(property "Reference" "R3"
+		(property "Reference" "R22"
 			(at 200.66 68.5799 90)
 			(effects
 				(font
@@ -21961,7 +22033,7 @@
 		(instances
 			(project ""
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "R3")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -21978,7 +22050,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d48f6c8-7023-44a0-98eb-09f739176c7d")
-		(property "Reference" "R8"
+		(property "Reference" "R6"
 			(at 127 142.2399 90)
 			(effects
 				(font
@@ -22159,7 +22231,7 @@
 		(instances
 			(project "minimal_ltc3350"
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "R8")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -22175,7 +22247,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "80ee26b1-e5b1-464d-a915-a6337233cee9")
-		(property "Reference" "TP10"
+		(property "Reference" "TP2"
 			(at 67.31 165.0999 0)
 			(effects
 				(font
@@ -22230,7 +22302,7 @@
 		(instances
 			(project "minimal_ltc3350"
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "TP10")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -22246,7 +22318,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8221dbca-1196-4b44-8c06-b5a36f8d3cf3")
-		(property "Reference" "R12"
+		(property "Reference" "R21"
 			(at 121.92 246.3799 90)
 			(effects
 				(font
@@ -22427,7 +22499,7 @@
 		(instances
 			(project ""
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "R12")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -22444,7 +22516,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82e036a3-01a7-4515-9af6-845431e69ed1")
-		(property "Reference" "D4"
+		(property "Reference" "D2"
 			(at 119.38 209.9309 90)
 			(effects
 				(font
@@ -22581,7 +22653,7 @@
 		(instances
 			(project "minimal_ltc3350"
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "D4")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -22597,7 +22669,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "832e9aa8-f56e-4cbc-a883-f5e6f99aaf47")
-		(property "Reference" "C11"
+		(property "Reference" "C1"
 			(at 311.15 55.8799 90)
 			(effects
 				(font
@@ -22778,7 +22850,7 @@
 		(instances
 			(project "minimal_ltc3350"
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "C11")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -22794,7 +22866,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "861e6dd4-f996-476f-b22a-ef5413030890")
-		(property "Reference" "D1"
+		(property "Reference" "D4"
 			(at 201.93 109.2199 90)
 			(effects
 				(font
@@ -22931,7 +23003,7 @@
 		(instances
 			(project ""
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "D1")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -22947,7 +23019,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8cb6c67a-7de1-466b-ab7c-463604ac5885")
-		(property "Reference" "Q3"
+		(property "Reference" "Q5"
 			(at 255.27 123.1899 90)
 			(effects
 				(font
@@ -23104,7 +23176,7 @@
 		(instances
 			(project ""
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "Q3")
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -23121,7 +23193,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8dc9b0b7-1db9-4414-9853-0c7b8445edf6")
-		(property "Reference" "R27"
+		(property "Reference" "R25"
 			(at 251.46 165.0999 90)
 			(effects
 				(font
@@ -23302,7 +23374,204 @@
 		(instances
 			(project ""
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "R27")
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CAPACITORS_C1005X5R1E_DATA_BASE:C_C1005X5R1E105K050BC")
+		(at 353.06 57.15 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91e2a7c4-ee4b-4d9a-a29e-c954872005f5")
+		(property "Reference" "C3"
+			(at 356.87 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1 µF"
+			(at 356.87 58.4199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "capacitor_footprints:C_0402_1005Metric"
+			(at 345.44 57.15 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X5R1E105K050BC"
+			(at 342.9 57.15 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP SMD 1 µF X5R 10% 0402 25V"
+			(at 340.36 57.15 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Capacitor Type" "Ceramic"
+			(at 337.82 57.15 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - in" "0402"
+			(at 335.28 57.15 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - mm" "1005"
+			(at 332.74 57.15 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 330.2 57.15 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C1005X5R1E105K050BC"
+			(at 327.66 57.15 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 325.12 57.15 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "C1005X5R1E"
+			(at 322.58 57.15 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "C_C1005X5R1E105K050BC"
+			(at 320.04 57.15 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 317.5 57.15 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/C1005X5R1E105K050BC"
+			(at 314.96 57.15 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "25V"
+			(at 312.42 57.15 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9c731580-7d8d-43e3-8ac8-2ecd1f66f30a")
+		)
+		(pin "1"
+			(uuid "44999c0c-7b4f-4d79-a0ad-d8a54c0a9cf9")
+		)
+		(instances
+			(project ""
+				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -23318,7 +23587,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "931491de-db58-4233-be17-2f072e89ed3c")
-		(property "Reference" "J1"
+		(property "Reference" "J5"
 			(at 269.24 193.04 0)
 			(effects
 				(font
@@ -23537,7 +23806,7 @@
 		(instances
 			(project ""
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "J1")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -23619,7 +23888,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94ee930b-ba5a-4c27-be16-ce3e0c1d3e03")
-		(property "Reference" "R34"
+		(property "Reference" "R15"
 			(at 251.46 215.8999 90)
 			(effects
 				(font
@@ -23800,7 +24069,7 @@
 		(instances
 			(project "minimal_ltc3350"
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "R34")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -23815,7 +24084,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "95530c57-94bf-4c10-8d3a-408edf01915a")
-		(property "Reference" "R15"
+		(property "Reference" "R17"
 			(at 124.46 181.61 0)
 			(effects
 				(font
@@ -23994,7 +24263,7 @@
 		(instances
 			(project "minimal_ltc3350"
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "R15")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -24009,7 +24278,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "96f0d31d-e9f7-4660-a607-10d2aa1e350f")
-		(property "Reference" "R28"
+		(property "Reference" "R31"
 			(at 279.4 171.45 0)
 			(effects
 				(font
@@ -24188,7 +24457,7 @@
 		(instances
 			(project ""
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "R28")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -24262,7 +24531,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 350.52 63.5 0)
+		(at 365.76 63.5 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24272,7 +24541,7 @@
 		(fields_autoplaced yes)
 		(uuid "99b004c5-a9f3-4257-8bfe-b6cfe1d8fe1b")
 		(property "Reference" "#PWR027"
-			(at 350.52 69.85 0)
+			(at 365.76 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24281,7 +24550,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 350.52 68.58 0)
+			(at 365.76 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24289,7 +24558,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 350.52 63.5 0)
+			(at 365.76 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24298,7 +24567,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 350.52 63.5 0)
+			(at 365.76 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24307,7 +24576,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 350.52 63.5 0)
+			(at 365.76 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24337,7 +24606,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9a8594fe-a140-4b52-b621-d0b28b5ff9b5")
-		(property "Reference" "R33"
+		(property "Reference" "R14"
 			(at 241.3 215.8999 90)
 			(effects
 				(font
@@ -24518,7 +24787,7 @@
 		(instances
 			(project "minimal_ltc3350"
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "R33")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -24533,7 +24802,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9e14f8e2-ec24-437a-9278-c04e926d5d96")
-		(property "Reference" "Q9"
+		(property "Reference" "Q1"
 			(at 220.98 238.76 0)
 			(effects
 				(font
@@ -24696,7 +24965,7 @@
 		(instances
 			(project "minimal_ltc3350"
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "Q9")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -24779,7 +25048,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2d0b6ac-03a6-41e0-af3d-c973dd0d6984")
-		(property "Reference" "R25"
+		(property "Reference" "R12"
 			(at 96.52 219.7099 90)
 			(effects
 				(font
@@ -24960,7 +25229,7 @@
 		(instances
 			(project "minimal_ltc3350"
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "R25")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -24977,7 +25246,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4047a36-6fc7-4d99-8b62-903a81c6c8cf")
-		(property "Reference" "R26"
+		(property "Reference" "R11"
 			(at 127 219.7099 90)
 			(effects
 				(font
@@ -25158,7 +25427,7 @@
 		(instances
 			(project "minimal_ltc3350"
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "R26")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -25232,6 +25501,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 114.3 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa6d875b-0923-44af-aae2-a85a8e39c815")
+		(property "Reference" "#PWR031"
+			(at 114.3 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.3 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 114.3 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9be014da-5e08-4c9b-bcd4-e01fbc927e8b")
+		)
+		(instances
+			(project "minimal_ltc3350"
+				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "TRANSISTORS_SIA436DJ-T1-GE3_DATA_BASE:Q_SIA436DJ-T1-GE3")
 		(at 220.98 219.71 180)
 		(unit 1)
@@ -25240,7 +25575,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aa9a8d71-43dc-4a3b-b4c3-c3d1f304c346")
-		(property "Reference" "Q8"
+		(property "Reference" "Q3"
 			(at 220.98 223.52 0)
 			(effects
 				(font
@@ -25403,7 +25738,7 @@
 		(instances
 			(project "minimal_ltc3350"
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "Q8")
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -25419,7 +25754,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab1b6e4f-ae1e-4aec-b52d-91e0c9b9ff01")
-		(property "Reference" "C6"
+		(property "Reference" "C12"
 			(at 232.41 109.2199 90)
 			(effects
 				(font
@@ -25600,7 +25935,7 @@
 		(instances
 			(project ""
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "C6")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -25616,7 +25951,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aee2ccd6-0492-431e-b51d-156d10c3cd8e")
-		(property "Reference" "C10"
+		(property "Reference" "C2"
 			(at 295.91 55.8799 90)
 			(effects
 				(font
@@ -25797,7 +26132,7 @@
 		(instances
 			(project ""
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "C10")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -25879,7 +26214,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af229a2a-58f4-4279-8250-9b7932e48d8e")
-		(property "Reference" "R30"
+		(property "Reference" "R34"
 			(at 251.46 185.4199 90)
 			(effects
 				(font
@@ -26060,7 +26395,7 @@
 		(instances
 			(project "minimal_ltc3350"
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "R30")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -26068,15 +26403,15 @@
 	)
 	(symbol
 		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated_v2")
-		(at 355.6 50.8 0)
+		(at 370.84 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "b3a9d9d5-5974-4691-ae4b-bf8ca9921e12")
-		(property "Reference" "TP5"
-			(at 356.87 50.7999 0)
+		(property "Reference" "TP10"
+			(at 372.11 50.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26085,7 +26420,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 358.14 48.26 0)
+			(at 373.38 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26095,7 +26430,7 @@
 			)
 		)
 		(property "Footprint" "test_point_footprints:TestPoint_THTPad_Castelated"
-			(at 358.14 55.88 0)
+			(at 373.38 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26105,7 +26440,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 358.14 50.8 0)
+			(at 373.38 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26115,7 +26450,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 358.14 53.34 0)
+			(at 373.38 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26130,7 +26465,7 @@
 		(instances
 			(project "minimal_ltc3350"
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "TP5")
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -26345,7 +26680,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5645675-64ee-4149-8815-730c126a1d23")
-		(property "Reference" "R29"
+		(property "Reference" "R32"
 			(at 279.4 161.29 0)
 			(effects
 				(font
@@ -26524,7 +26859,7 @@
 		(instances
 			(project "minimal_ltc3350"
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "R29")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -26541,7 +26876,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc02538d-f148-49f3-8db6-15ce53d400e5")
-		(property "Reference" "R21"
+		(property "Reference" "R23"
 			(at 205.74 204.47 0)
 			(effects
 				(font
@@ -26720,7 +27055,7 @@
 		(instances
 			(project "minimal_ltc3350"
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "R21")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -26737,7 +27072,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd9c87d8-7c82-4709-9fc1-aa80440561b0")
-		(property "Reference" "Q5"
+		(property "Reference" "Q7"
 			(at 265.43 162.5599 90)
 			(effects
 				(font
@@ -26890,7 +27225,7 @@
 		(instances
 			(project ""
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "Q5")
+					(reference "Q7")
 					(unit 1)
 				)
 			)
@@ -26963,6 +27298,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 353.06 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2e99883-c99d-478b-9c27-659a1346040f")
+		(property "Reference" "#PWR018"
+			(at 353.06 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 353.06 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 353.06 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 353.06 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 353.06 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81b693e5-e8b2-4994-b4e3-d19ac2e08c62")
+		)
+		(instances
+			(project "minimal_ltc3350"
+				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CAPACITORS_C2012X5R1C_DATA_BASE:C_C2012X5R1C226M125AC")
 		(at 287.02 185.42 270)
 		(unit 1)
@@ -26971,7 +27372,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c37ffa54-0867-44f8-b3b7-cf22dc7c26ac")
-		(property "Reference" "C16"
+		(property "Reference" "C18"
 			(at 290.83 184.1499 90)
 			(effects
 				(font
@@ -27152,7 +27553,7 @@
 		(instances
 			(project ""
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "C16")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -27168,7 +27569,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4a012f7-3af5-4676-a695-56dade23b060")
-		(property "Reference" "J2"
+		(property "Reference" "J4"
 			(at 269.24 208.28 0)
 			(effects
 				(font
@@ -27387,7 +27788,7 @@
 		(instances
 			(project "minimal_ltc3350"
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "J2")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -27402,7 +27803,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c4afe619-095e-45e6-9c3a-f0bd726c0669")
-		(property "Reference" "R5"
+		(property "Reference" "R9"
 			(at 127 68.5799 90)
 			(effects
 				(font
@@ -27583,7 +27984,7 @@
 		(instances
 			(project ""
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "R5")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -27600,7 +28001,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c55ca352-237d-4110-bf23-12b1c5cfcc56")
-		(property "Reference" "C9"
+		(property "Reference" "C17"
 			(at 217.17 151.1299 90)
 			(effects
 				(font
@@ -27781,7 +28182,7 @@
 		(instances
 			(project "minimal_ltc3350"
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "C9")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -27864,7 +28265,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc4f6b3d-8899-436f-af5a-78e91f2f3ca1")
-		(property "Reference" "C18"
+		(property "Reference" "C21"
 			(at 321.31 184.1499 90)
 			(effects
 				(font
@@ -28045,7 +28446,7 @@
 		(instances
 			(project "minimal_ltc3350"
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "C18")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -28061,7 +28462,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "cdbf6f2e-8403-47c1-bd00-645bbcd03035")
-		(property "Reference" "R11"
+		(property "Reference" "R7"
 			(at 118.11 143.51 0)
 			(effects
 				(font
@@ -28240,7 +28641,7 @@
 		(instances
 			(project "minimal_ltc3350"
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "R11")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -28256,7 +28657,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cdfed255-94ec-4f51-a7df-17347c27b7d3")
-		(property "Reference" "R36"
+		(property "Reference" "R3"
 			(at 251.46 231.1399 90)
 			(effects
 				(font
@@ -28437,7 +28838,7 @@
 		(instances
 			(project "minimal_ltc3350"
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "R36")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -28453,7 +28854,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d713b3a9-17e8-4700-aafe-2283bee07a6f")
-		(property "Reference" "J5"
+		(property "Reference" "J1"
 			(at 269.24 254 0)
 			(effects
 				(font
@@ -28672,7 +29073,7 @@
 		(instances
 			(project "minimal_ltc3350"
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "J5")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -28755,7 +29156,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8601de2-586d-44ce-b0b5-2330d6a164c3")
-		(property "Reference" "R7"
+		(property "Reference" "R5"
 			(at 127 121.9199 90)
 			(effects
 				(font
@@ -28936,7 +29337,7 @@
 		(instances
 			(project "minimal_ltc3350"
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "R7")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -29085,7 +29486,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9cae387-e69a-41eb-8668-52733e2f1aea")
-		(property "Reference" "C19"
+		(property "Reference" "C20"
 			(at 336.55 184.1499 90)
 			(effects
 				(font
@@ -29266,7 +29667,7 @@
 		(instances
 			(project "minimal_ltc3350"
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "C19")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -29282,7 +29683,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e2ac04ce-3e04-46fb-b537-5d62943ee6bd")
-		(property "Reference" "R10"
+		(property "Reference" "R4"
 			(at 118.11 123.19 0)
 			(effects
 				(font
@@ -29461,7 +29862,7 @@
 		(instances
 			(project ""
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "R10")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -29477,7 +29878,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5a44c4d-d965-400e-93fc-66753b9b378b")
-		(property "Reference" "C13"
+		(property "Reference" "C5"
 			(at 341.63 55.8799 90)
 			(effects
 				(font
@@ -29658,7 +30059,7 @@
 		(instances
 			(project "minimal_ltc3350"
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "C13")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -29791,6 +30192,202 @@
 			(project "minimal_ltc3350"
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CAPACITORS_C1005X5R1E_DATA_BASE:C_C1005X5R1E105K050BC")
+		(at 114.3 57.15 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e8da5307-7f68-4ce5-81a5-df1f7b924d26")
+		(property "Reference" "C6"
+			(at 118.11 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1 µF"
+			(at 118.11 58.4199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "capacitor_footprints:C_0402_1005Metric"
+			(at 106.68 57.15 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X5R1E105K050BC"
+			(at 104.14 57.15 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP SMD 1 µF X5R 10% 0402 25V"
+			(at 101.6 57.15 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Capacitor Type" "Ceramic"
+			(at 99.06 57.15 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - in" "0402"
+			(at 96.52 57.15 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - mm" "1005"
+			(at 93.98 57.15 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 91.44 57.15 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C1005X5R1E105K050BC"
+			(at 88.9 57.15 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 86.36 57.15 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "C1005X5R1E"
+			(at 83.82 57.15 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "C_C1005X5R1E105K050BC"
+			(at 81.28 57.15 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 78.74 57.15 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/C1005X5R1E105K050BC"
+			(at 76.2 57.15 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "25V"
+			(at 73.66 57.15 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "476714d2-36ca-4641-826f-6fad68c581c1")
+		)
+		(pin "1"
+			(uuid "0b727550-2011-4522-b72c-4e0981771aaa")
+		)
+		(instances
+			(project "minimal_ltc3350"
+				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -29967,7 +30564,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4b4ae33-5297-4aed-af34-4586f6b4f56e")
-		(property "Reference" "FID1"
+		(property "Reference" "FID3"
 			(at 35.56 270.5099 0)
 			(effects
 				(font
@@ -30018,7 +30615,7 @@
 		(instances
 			(project ""
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "FID1")
+					(reference "FID3")
 					(unit 1)
 				)
 			)
@@ -30100,7 +30697,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5a49831-a4a2-4f9c-8808-6d4d2ceee41c")
-		(property "Reference" "FID3"
+		(property "Reference" "FID2"
 			(at 60.96 270.5099 0)
 			(effects
 				(font
@@ -30151,7 +30748,7 @@
 		(instances
 			(project "minimal_ltc3350"
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "FID3")
+					(reference "FID2")
 					(unit 1)
 				)
 			)
@@ -30363,7 +30960,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f816a643-8031-4a96-8a58-ae6ca819735e")
-		(property "Reference" "Q7"
+		(property "Reference" "Q6"
 			(at 220.98 208.28 0)
 			(effects
 				(font
@@ -30526,7 +31123,7 @@
 		(instances
 			(project "minimal_ltc3350"
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "Q7")
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -30762,7 +31359,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb3930d2-23dd-4b59-ab5f-31cf6f7ad1f1")
-		(property "Reference" "R32"
+		(property "Reference" "R27"
 			(at 251.46 200.6599 90)
 			(effects
 				(font
@@ -30943,7 +31540,7 @@
 		(instances
 			(project "minimal_ltc3350"
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "R32")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -30960,7 +31557,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fbe0e88d-a834-4818-9410-547ae4738742")
-		(property "Reference" "R19"
+		(property "Reference" "R29"
 			(at 205.74 173.99 0)
 			(effects
 				(font
@@ -31139,7 +31736,7 @@
 		(instances
 			(project ""
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "R19")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -31155,7 +31752,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fcc88b44-b5ee-4058-aaf7-4011b0ea8aa5")
-		(property "Reference" "TP2"
+		(property "Reference" "TP4"
 			(at 67.31 53.3399 0)
 			(effects
 				(font
@@ -31210,7 +31807,7 @@
 		(instances
 			(project "minimal_ltc3350"
 				(path "/7082067f-79ec-4bdc-ac64-cad75a2d3be3"
-					(reference "TP2")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
