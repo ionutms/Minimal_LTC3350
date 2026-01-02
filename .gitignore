@@ -29,6 +29,3 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
-
-# Jupyter notebook checkpoints
-.ipynb_checkpoints/
