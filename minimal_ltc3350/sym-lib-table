@@ -373,4 +373,5 @@
   (lib (name "RESISTORS_ERJ-B2BF_DATA_BASE")(type "KiCad")(uri "${KIPRJMOD}/KiCAD_Symbols_Generator/series_kicad_sym/RESISTORS_ERJ-B2BF_DATA_BASE.kicad_sym")(options "")(descr ""))
   (lib (name "RESISTORS_ERJ-B2CF_DATA_BASE")(type "KiCad")(uri "${KIPRJMOD}/KiCAD_Symbols_Generator/series_kicad_sym/RESISTORS_ERJ-B2CF_DATA_BASE.kicad_sym")(options "")(descr ""))
   (lib (name "RESISTORS_WFCP0612_DATA_BASE")(type "KiCad")(uri "${KIPRJMOD}/KiCAD_Symbols_Generator/series_kicad_sym/RESISTORS_WFCP0612_DATA_BASE.kicad_sym")(options "")(descr ""))
+  (lib (name "UNITED_MODULES_DATA_BASE")(type "KiCad")(uri "${KIPRJMOD}/KiCAD_Symbols_Generator/symbols/UNITED_MODULES_DATA_BASE.kicad_sym")(options "")(descr ""))
 )
