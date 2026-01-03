@@ -2,9 +2,9 @@ views:
   side:
     prefix: '1_'
     suffix: '_side'
-    zoom_factor: 1
+    zoom_factor: 0.8
     rotate: '315,360,405'
-    pan: '0,0,0'
+    pan: '0,-1,0'
     light_elevation: 60
     side: 'top'  # (top, bottom, left, right, front, back)
     
